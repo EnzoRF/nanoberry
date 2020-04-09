@@ -1,0 +1,622 @@
+EESchema Schematic File Version 4
+LIBS:nano-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L custom_components:IMX6UL_BGA289 U1
+U 10 1 5BB88C04
+P 6650 2200
+F 0 "U1" H 6650 2387 60  0000 C CNN
+F 1 "IMX6UL_BGA289" H 6650 2281 60  0000 C CNN
+F 2 "Custom Components:IMX6UL_BGA289" H 7900 500 60  0001 C CNN
+F 3 "" H 7900 500 60  0001 C CNN
+	10   6650 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 2800 0    39   Input ~ 0
+PMIC_STBY_REQ
+Text GLabel 5500 2900 0    39   Input ~ 0
+PMIC_ON_REQ
+Wire Wire Line
+	5500 2900 5650 2900
+Wire Wire Line
+	5650 2800 5500 2800
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J5
+U 1 1 5BAAFE8A
+P 9850 2650
+F 0 "J5" H 9900 3067 50  0000 C CNN
+F 1 "JTAG" H 9900 2976 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x05_P1.00mm_Vertical_SMD" H 9850 2650 50  0001 C CNN
+F 3 "~" H 9850 2650 50  0001 C CNN
+	1    9850 2650
+	1    0    0    -1  
+$EndComp
+Text Label 10150 2450 0    39   ~ 0
+JTAG_TMS
+Text Label 10150 2550 0    39   ~ 0
+JTAG_TCK
+Text Label 10150 2650 0    39   ~ 0
+JTAG_TDO
+Text Label 10150 2750 0    39   ~ 0
+JTAG_TDI
+Text Label 7650 2550 0    39   ~ 0
+JTAG_TMS
+Text Label 7650 2650 0    39   ~ 0
+JTAG_TDO
+Text Label 7650 2750 0    39   ~ 0
+JTAG_TDI
+Text Label 7650 2850 0    39   ~ 0
+JTAG_TCK
+NoConn ~ 5650 3100
+Wire Wire Line
+	5500 3600 5650 3600
+$Comp
+L Device:R R52
+U 1 1 5BAB0928
+P 8050 2950
+F 0 "R52" V 8257 2950 50  0000 C CNN
+F 1 "4.7k" V 8166 2950 50  0000 C CNN
+F 2 "Custom Components:R_0402_narrow" V 7980 2950 50  0001 C CNN
+F 3 "~" H 8050 2950 50  0001 C CNN
+	1    8050 2950
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8300 2950 8200 2950
+Wire Wire Line
+	7650 2950 7900 2950
+$Comp
+L custom_components:XTAL XTAL2
+U 1 1 5BAB4DC4
+P 3250 5300
+F 0 "XTAL2" H 3000 5550 50  0000 L CNN
+F 1 "24MHz 50ppm" H 3500 5050 50  0000 R CNN
+F 2 "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm" H 3250 5330 50  0001 C CNN
+F 3 "" V 3250 5400 50  0000 C CNN
+	1    3250 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L nano-rescue:CP1 C?
+U 1 1 5BAB4DD1
+P 3850 6000
+AR Path="/5BAB4DD1" Ref="C?"  Part="1" 
+AR Path="/5B867D17/5BAB4DD1" Ref="C?"  Part="1" 
+AR Path="/5BB88783/5BAB4DD1" Ref="C99"  Part="1" 
+F 0 "C99" H 4000 6150 50  0000 L CNN
+F 1 "18pF" H 3950 6050 50  0000 L CNN
+F 2 "Custom Components:C_0402_narrow" H 3850 6000 50  0001 C CNN
+F 3 "" H 3850 6000 50  0000 C CNN
+F 4 "0402" H 4050 5950 50  0000 C CNN "SMD Size"
+F 5 "?" H 4100 5850 50  0000 C CNN "Voltage"
+	1    3850 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L nano-rescue:CP1 C?
+U 1 1 5BAB4DD8
+P 2700 5950
+AR Path="/5BAB4DD8" Ref="C?"  Part="1" 
+AR Path="/5B867D17/5BAB4DD8" Ref="C?"  Part="1" 
+AR Path="/5BB88783/5BAB4DD8" Ref="C98"  Part="1" 
+F 0 "C98" H 2850 6050 50  0000 L CNN
+F 1 "18pF" H 2850 5950 50  0000 L CNN
+F 2 "Custom Components:C_0402_narrow" H 2700 5950 50  0001 C CNN
+F 3 "" H 2700 5950 50  0000 C CNN
+F 4 "0402" H 2950 5850 50  0000 C CNN "SMD Size"
+F 5 "?" H 2900 5750 50  0000 C CNN "Voltage"
+	1    2700 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L nano-rescue:R R?
+U 1 1 5BAB4DE5
+P 3250 5750
+AR Path="/5BAB4DE5" Ref="R?"  Part="1" 
+AR Path="/5B867D17/5BAB4DE5" Ref="R?"  Part="1" 
+AR Path="/5BB88783/5BAB4DE5" Ref="R53"  Part="1" 
+F 0 "R53" V 3150 5750 50  0000 C CNN
+F 1 "1M" V 3050 5750 50  0000 C CNN
+F 2 "Custom Components:R_0402_narrow" V 3180 5750 50  0001 C CNN
+F 3 "" H 3250 5750 50  0000 C CNN
+F 4 "0402" V 2950 5750 50  0000 C CNN "SMD Size"
+F 5 "?" V 3250 5750 50  0001 C CNN "Tolerance"
+F 6 "DNP" V 3250 5750 50  0000 C CNN "DNP"
+	1    3250 5750
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2700 5400 2950 5400
+Wire Wire Line
+	3550 5400 3600 5400
+Connection ~ 2700 5400
+Wire Wire Line
+	2700 6100 2700 6250
+Wire Wire Line
+	2700 6250 3200 6250
+Wire Wire Line
+	3200 6300 3200 6250
+Connection ~ 3200 6250
+Wire Wire Line
+	3100 5750 2700 5750
+Connection ~ 2700 5750
+Wire Wire Line
+	2900 5200 2950 5200
+Wire Wire Line
+	3550 5200 3850 5200
+Wire Wire Line
+	3850 5200 3850 5750
+Wire Wire Line
+	3850 6250 3850 6150
+Wire Wire Line
+	3400 5750 3850 5750
+Connection ~ 3850 5750
+Wire Wire Line
+	2700 5400 2700 5750
+Wire Wire Line
+	3200 6250 3850 6250
+Wire Wire Line
+	2700 5750 2700 5800
+Wire Wire Line
+	3850 5750 3850 5850
+$Comp
+L nano-rescue:R R?
+U 1 1 5BAB53BB
+P 4150 6000
+AR Path="/5BAB53BB" Ref="R?"  Part="1" 
+AR Path="/5B867D17/5BAB53BB" Ref="R?"  Part="1" 
+AR Path="/5BB88783/5BAB53BB" Ref="R55"  Part="1" 
+F 0 "R55" H 4000 6050 50  0000 C CNN
+F 1 "2.2M" H 4000 5950 50  0000 C CNN
+F 2 "Custom Components:R_0402_narrow" V 4080 6000 50  0001 C CNN
+F 3 "" H 4150 6000 50  0000 C CNN
+	1    4150 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L nano-rescue:R R?
+U 1 1 5BAB54E9
+P 2150 6000
+AR Path="/5BAB54E9" Ref="R?"  Part="1" 
+AR Path="/5B867D17/5BAB54E9" Ref="R?"  Part="1" 
+AR Path="/5BB88783/5BAB54E9" Ref="R54"  Part="1" 
+F 0 "R54" H 2000 6050 50  0000 C CNN
+F 1 "499" H 2000 5950 50  0000 C CNN
+F 2 "Custom Components:R_0402_narrow" V 2080 6000 50  0001 C CNN
+F 3 "" H 2150 6000 50  0000 C CNN
+	1    2150 6000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5850 2150 5750
+Wire Wire Line
+	2150 5750 2700 5750
+Wire Wire Line
+	3850 5750 4150 5750
+Wire Wire Line
+	4150 5750 4150 5850
+Wire Wire Line
+	4150 6150 4150 6250
+Wire Wire Line
+	4150 6250 3850 6250
+Connection ~ 3850 6250
+Wire Wire Line
+	2700 6250 2150 6250
+Wire Wire Line
+	2150 6250 2150 6150
+Connection ~ 2700 6250
+Wire Wire Line
+	3850 4450 3850 5200
+Connection ~ 3850 5200
+Wire Wire Line
+	2700 4350 2700 5400
+Text Label 5350 4350 0    39   ~ 0
+IMX_XTALO
+Text Label 5350 4450 0    39   ~ 0
+IMX_XTALI
+$Comp
+L Device:Crystal Y1
+U 1 1 5BAB6F84
+P 1550 4300
+F 0 "Y1" H 1550 4568 50  0000 C CNN
+F 1 "32.768 kHz" H 1550 4477 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 1550 4300 50  0001 C CNN
+F 3 "~" H 1550 4300 50  0001 C CNN
+	1    1550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L nano-rescue:CP1 C?
+U 1 1 5BAB703F
+P 1200 4600
+AR Path="/5BAB703F" Ref="C?"  Part="1" 
+AR Path="/5B867D17/5BAB703F" Ref="C?"  Part="1" 
+AR Path="/5BB88783/5BAB703F" Ref="C96"  Part="1" 
+F 0 "C96" H 1225 4700 50  0000 L CNN
+F 1 "18p" H 1225 4500 50  0000 L CNN
+F 2 "Custom Components:C_0402_narrow" H 1200 4600 50  0001 C CNN
+F 3 "" H 1200 4600 50  0000 C CNN
+	1    1200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L nano-rescue:CP1 C?
+U 1 1 5BAB708F
+P 1900 4600
+AR Path="/5BAB708F" Ref="C?"  Part="1" 
+AR Path="/5B867D17/5BAB708F" Ref="C?"  Part="1" 
+AR Path="/5BB88783/5BAB708F" Ref="C97"  Part="1" 
+F 0 "C97" H 1925 4700 50  0000 L CNN
+F 1 "18p" H 1925 4500 50  0000 L CNN
+F 2 "Custom Components:C_0402_narrow" H 1900 4600 50  0001 C CNN
+F 3 "" H 1900 4600 50  0000 C CNN
+	1    1900 4600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4750 1900 4850
+Wire Wire Line
+	1900 4850 1550 4850
+Wire Wire Line
+	1200 4850 1200 4750
+Wire Wire Line
+	1200 4450 1200 4300
+Wire Wire Line
+	1200 4300 1400 4300
+Wire Wire Line
+	1700 4300 1900 4300
+Wire Wire Line
+	1900 4300 1900 4450
+Wire Wire Line
+	1550 4950 1550 4850
+Connection ~ 1550 4850
+Wire Wire Line
+	1550 4850 1200 4850
+Text Label 5350 3900 0    39   ~ 0
+RTC_XTALO
+Text Label 5350 4000 0    39   ~ 0
+RTC_XTALI
+Wire Wire Line
+	5650 3000 5500 3000
+Text GLabel 5500 3000 0    39   Input ~ 0
+POR_B
+Text Label 10150 2850 0    39   ~ 0
+POR_B
+Text Label 7650 2950 0    39   ~ 0
+JTAG_MOD
+Text Label 7650 2450 0    39   ~ 0
+JTAG_TRST_B
+Text Notes 3850 3250 0    39   ~ 0
+ONOFF - Not connected (controlled by PMIC)\nIMX6ULLRM Fig.51-2
+Text Notes 3850 3050 0    39   ~ 0
+POR_B - Open drain input controlled by PMIC
+NoConn ~ 5650 3400
+Text Label 7650 3850 0    50   ~ 0
+SNVS2
+Text Label 7650 3350 0    50   ~ 0
+SNVS7
+Text Label 7650 3250 0    50   ~ 0
+SNVS8
+Text Label 5650 2450 2    50   ~ 0
+BOOT1
+Text Label 5650 2550 2    50   ~ 0
+BOOT0
+$Comp
+L custom_components:SR SR1
+U 1 1 5C220E96
+P 4400 2000
+F 0 "SR1" V 4035 2000 50  0000 C CNN
+F 1 "4.7k" V 4126 2000 50  0000 C CNN
+F 2 "Custom Components:SR_0402" V 4127 2000 50  0001 C CNN
+F 3 "" H 4500 2000 50  0000 C CNN
+	1    4400 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L custom_components:SR SR2
+U 1 1 5C22100D
+P 4400 2650
+F 0 "SR2" V 4035 2650 50  0000 C CNN
+F 1 "4.7k" V 4126 2650 50  0000 C CNN
+F 2 "Custom Components:SR_0402" V 4127 2650 50  0001 C CNN
+F 3 "" H 4500 2650 50  0000 C CNN
+	1    4400 2650
+	0    1    1    0   
+$EndComp
+Text GLabel 3500 1900 0    39   Input ~ 0
+VDD_SNVS_IN
+Wire Wire Line
+	4100 2100 3950 2100
+Wire Wire Line
+	4100 2750 3950 2750
+Wire Wire Line
+	5650 2550 5100 2550
+Wire Wire Line
+	5100 2550 5100 2650
+Wire Wire Line
+	5100 2650 4700 2650
+Wire Wire Line
+	4700 2000 5100 2000
+Wire Wire Line
+	5100 2000 5100 2450
+Wire Wire Line
+	5100 2450 5650 2450
+Wire Wire Line
+	5650 4700 5550 4700
+Wire Wire Line
+	5550 4700 5550 4800
+Wire Wire Line
+	5550 4800 5650 4800
+Wire Wire Line
+	5550 5250 5550 5450
+Wire Wire Line
+	5550 5750 5550 5900
+Wire Wire Line
+	6050 5750 6050 5900
+Wire Wire Line
+	6050 5250 6050 5450
+$Comp
+L Device:CP1 C?
+U 1 1 5C51C11B
+P 6050 5600
+AR Path="/5B50612C/5C51C11B" Ref="C?"  Part="1" 
+AR Path="/5B5052A9/5C51C11B" Ref="C?"  Part="1" 
+AR Path="/5BB88783/5C51C11B" Ref="C100"  Part="1" 
+F 0 "C100" H 6165 5737 50  0000 L CNN
+F 1 "0.1uF" H 6165 5646 50  0000 L CNN
+F 2 "Custom Components:C_0402_narrow" H 6050 5600 50  0001 C CNN
+F 3 "~" H 6050 5600 50  0001 C CNN
+F 4 "25V" H 6165 5555 50  0000 L CNN "Voltage"
+F 5 "0402" H 6165 5464 50  0000 L CNN "SMD size"
+	1    6050 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5C51C124
+P 5550 5600
+AR Path="/5B50612C/5C51C124" Ref="C?"  Part="1" 
+AR Path="/5B5052A9/5C51C124" Ref="C?"  Part="1" 
+AR Path="/5BB88783/5C51C124" Ref="C101"  Part="1" 
+F 0 "C101" H 5665 5737 50  0000 L CNN
+F 1 "1.0uF" H 5665 5646 50  0000 L CNN
+F 2 "Custom Components:C_0402_narrow" H 5550 5600 50  0001 C CNN
+F 3 "~" H 5550 5600 50  0001 C CNN
+F 4 "10V" H 5665 5555 50  0000 L CNN "Voltage"
+F 5 "0402" H 5665 5464 50  0000 L CNN "SMD size"
+	1    5550 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 5250 5550 5250
+Wire Wire Line
+	6050 5900 5550 5900
+Wire Wire Line
+	6050 5900 6050 6050
+Connection ~ 6050 5900
+Text GLabel 4700 5250 0    39   Input ~ 0
+VDD_HIGH_IN
+$Comp
+L power:GND #PWR099
+U 1 1 5C38C1C5
+P 6050 6050
+F 0 "#PWR099" H 6050 5800 50  0001 C CNN
+F 1 "GND" H 6055 5877 50  0000 C CNN
+F 2 "" H 6050 6050 50  0001 C CNN
+F 3 "" H 6050 6050 50  0001 C CNN
+	1    6050 6050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0100
+U 1 1 5C38C1F7
+P 3200 6300
+F 0 "#PWR0100" H 3200 6050 50  0001 C CNN
+F 1 "GND" H 3205 6127 50  0000 C CNN
+F 2 "" H 3200 6300 50  0001 C CNN
+F 3 "" H 3200 6300 50  0001 C CNN
+	1    3200 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR098
+U 1 1 5C38C222
+P 1550 4950
+F 0 "#PWR098" H 1550 4700 50  0001 C CNN
+F 1 "GND" H 1555 4777 50  0000 C CNN
+F 2 "" H 1550 4950 50  0001 C CNN
+F 3 "" H 1550 4950 50  0001 C CNN
+	1    1550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR093
+U 1 1 5C38C42D
+P 8300 2950
+F 0 "#PWR093" H 8300 2700 50  0001 C CNN
+F 1 "GND" V 8305 2822 50  0000 R CNN
+F 2 "" H 8300 2950 50  0001 C CNN
+F 3 "" H 8300 2950 50  0001 C CNN
+	1    8300 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9650 2550 9100 2550
+Wire Wire Line
+	9100 2550 9100 2650
+Wire Wire Line
+	9100 2850 9650 2850
+Connection ~ 9100 2850
+Wire Wire Line
+	9100 2850 9100 3000
+Wire Wire Line
+	9650 2650 9100 2650
+Connection ~ 9100 2650
+Wire Wire Line
+	9100 2650 9100 2850
+$Comp
+L power:GND #PWR094
+U 1 1 5C391B1B
+P 9100 3000
+F 0 "#PWR094" H 9100 2750 50  0001 C CNN
+F 1 "GND" H 9105 2827 50  0000 C CNN
+F 2 "" H 9100 3000 50  0001 C CNN
+F 3 "" H 9100 3000 50  0001 C CNN
+	1    9100 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 9400 2450 0    39   Input ~ 0
+DCDC_3V3
+Wire Wire Line
+	9400 2450 9650 2450
+$Comp
+L power:GND #PWR091
+U 1 1 5C396537
+P 3950 2100
+F 0 "#PWR091" H 3950 1850 50  0001 C CNN
+F 1 "GND" V 3955 1972 50  0000 R CNN
+F 2 "" H 3950 2100 50  0001 C CNN
+F 3 "" H 3950 2100 50  0001 C CNN
+	1    3950 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR092
+U 1 1 5C3965B9
+P 3950 2750
+F 0 "#PWR092" H 3950 2500 50  0001 C CNN
+F 1 "GND" V 3955 2622 50  0000 R CNN
+F 2 "" H 3950 2750 50  0001 C CNN
+F 3 "" H 3950 2750 50  0001 C CNN
+	1    3950 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR095
+U 1 1 5C3965E4
+P 5500 3600
+F 0 "#PWR095" H 5500 3350 50  0001 C CNN
+F 1 "GND" V 5505 3472 50  0000 R CNN
+F 2 "" H 5500 3600 50  0001 C CNN
+F 3 "" H 5500 3600 50  0001 C CNN
+	1    5500 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR096
+U 1 1 5C3968B1
+P 2900 5200
+F 0 "#PWR096" H 2900 4950 50  0001 C CNN
+F 1 "GND" V 3000 5200 50  0000 R CNN
+F 2 "" H 2900 5200 50  0001 C CNN
+F 3 "" H 2900 5200 50  0001 C CNN
+	1    2900 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR097
+U 1 1 5C3968DC
+P 3600 5400
+F 0 "#PWR097" H 3600 5150 50  0001 C CNN
+F 1 "GND" V 3500 5400 50  0000 R CNN
+F 2 "" H 3600 5400 50  0001 C CNN
+F 3 "" H 3600 5400 50  0001 C CNN
+	1    3600 5400
+	0    -1   -1   0   
+$EndComp
+Text Label 9650 2750 2    39   ~ 0
+JTAG_TRST_B
+Text Notes 9300 3100 0    39   ~ 0
+TRST is not used in std JTAG conn\nStandard use is key (missing pin)
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5CA1712B
+P 4950 5250
+AR Path="/5B50612C/5CA1712B" Ref="FB?"  Part="1" 
+AR Path="/5BB88783/5CA1712B" Ref="FB1"  Part="1" 
+F 0 "FB1" V 5100 5250 50  0000 C CNN
+F 1 "Bead" V 5200 5250 50  0000 C CNN
+F 2 "Custom Components:R_0402_narrow" V 4880 5250 50  0001 C CNN
+F 3 "~" H 4950 5250 50  0001 C CNN
+F 4 "0402" V 5300 5250 50  0000 C CNN "SMD Footprint"
+	1    4950 5250
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1200 3900 1200 4300
+Connection ~ 1200 4300
+Wire Wire Line
+	1900 4000 1900 4300
+Connection ~ 1900 4300
+Wire Wire Line
+	2700 4350 5650 4350
+Wire Wire Line
+	3850 4450 5650 4450
+Wire Wire Line
+	4700 5250 4850 5250
+Wire Wire Line
+	5050 5250 5550 5250
+Connection ~ 5550 5250
+Wire Wire Line
+	5550 5250 5550 4800
+Connection ~ 5550 4800
+Text Label 5650 5250 0    39   ~ 0
+VDDA_ADC
+Wire Wire Line
+	1200 3900 5650 3900
+Wire Wire Line
+	1900 4000 5650 4000
+Text GLabel 8000 3550 2    39   Input ~ 0
+A71_NRST
+Text GLabel 8000 3450 2    39   Input ~ 0
+HUB_RESET
+NoConn ~ 7650 3150
+Text Notes 7700 3150 0    39   ~ 0
+No place on PCB
+Text GLabel 8000 3750 2    39   Input ~ 0
+SNVS3
+Text GLabel 8000 3950 2    39   Input ~ 0
+SNVS1
+Text GLabel 8000 4050 2    39   Input ~ 0
+SNVS0
+Wire Wire Line
+	8000 3750 7650 3750
+Wire Wire Line
+	7650 3850 8000 3850
+Wire Wire Line
+	8000 3950 7650 3950
+Wire Wire Line
+	7650 4050 8000 4050
+Text Notes 5000 1250 0    39   ~ 0
+BOOT1 BOOT0\n------------\n 0      0     \n 0      1     \n 1      0     \n 1      1     
+Text GLabel 8000 3650 2    39   Input ~ 0
+SNVS4
+Wire Wire Line
+	7650 3650 8000 3650
+Wire Wire Line
+	8000 3450 7650 3450
+Wire Wire Line
+	7650 3550 8000 3550
+Wire Wire Line
+	3500 1900 3600 1900
+Wire Wire Line
+	3600 1900 3600 2550
+Wire Wire Line
+	3600 2550 4100 2550
+Connection ~ 3600 1900
+Wire Wire Line
+	3600 1900 4100 1900
+$EndSCHEMATC

@@ -1,0 +1,31 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC2506
+D Dual USB Power switch with protection. AP2156
+$ENDCMP
+#
+$CMP MIC2877
+D 6A Boost converter
+$ENDCMP
+#
+$CMP OSC
+D Quartz oscillator
+K QUARTZ OSC OSCILLATOR XTAL
+$ENDCMP
+#
+$CMP SR
+D Resistor strap
+K R STRAP
+$ENDCMP
+#
+$CMP W25M512JV
+D QSPI flash memory
+K QSPI FLASH
+$ENDCMP
+#
+$CMP XTAL
+D Quartz crystal
+K QUARTZ CRYSTAL XTAL
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name nano-rescue)(type Legacy)(uri ${KIPRJMOD}/nano-rescue.lib)(options "")(descr ""))
+  (lib (name custom_components)(type Legacy)(uri ${KIPRJMOD}/custom_components.lib)(options "")(descr ""))
+)

@@ -1,0 +1,674 @@
+EESchema Schematic File Version 4
+LIBS:nano-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 11
+Title "i.MX6 ULL Peripherals 2"
+Date ""
+Rev ""
+Comp "hello"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L custom_components:IMX6UL_BGA289 U1
+U 6 1 5B4DD72E
+P 2600 1200
+F 0 "U1" H 2600 1400 60  0000 C CNN
+F 1 "IMX6UL_BGA289" H 2600 1300 60  0000 C CNN
+F 2 "Custom Components:IMX6UL_BGA289" H 3850 -500 60  0001 C CNN
+F 3 "" H 3850 -500 60  0001 C CNN
+	6    2600 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1450 3950 1450
+Wire Wire Line
+	3950 1550 3450 1550
+Wire Wire Line
+	3450 1650 3950 1650
+Wire Wire Line
+	3950 1750 3450 1750
+Wire Wire Line
+	3450 1850 3950 1850
+Wire Wire Line
+	3950 1950 3450 1950
+Wire Wire Line
+	3450 2050 3950 2050
+Wire Wire Line
+	3950 2150 3450 2150
+Wire Wire Line
+	1000 2050 1750 2050
+Wire Wire Line
+	1750 1950 1000 1950
+Wire Wire Line
+	1000 1850 1750 1850
+Wire Wire Line
+	1750 1750 1000 1750
+Wire Wire Line
+	1000 1650 1750 1650
+Wire Wire Line
+	1000 2250 1750 2250
+Wire Wire Line
+	1750 2350 1000 2350
+Wire Wire Line
+	1000 2450 1750 2450
+Wire Wire Line
+	1750 2550 1000 2550
+Wire Wire Line
+	1000 2650 1750 2650
+Wire Wire Line
+	1750 2750 1000 2750
+Wire Wire Line
+	1000 2850 1750 2850
+Wire Wire Line
+	1750 2950 1000 2950
+Text Label 3500 1450 0    60   ~ 0
+LCD_D23
+Text Label 3500 1550 0    60   ~ 0
+LCD_D22
+Text Label 3500 1650 0    60   ~ 0
+LCD_D21
+Text Label 3500 1750 0    60   ~ 0
+LCD_D20
+Text Label 3500 1850 0    60   ~ 0
+LCD_D19
+Text Label 3500 1950 0    60   ~ 0
+LCD_D18
+Text Label 3500 2050 0    60   ~ 0
+LCD_D17
+Text Label 3500 2150 0    60   ~ 0
+LCD_D16
+Text Label 3500 2250 0    60   ~ 0
+LCD_D15
+Text Label 3500 2350 0    60   ~ 0
+LCD_D14
+Text Label 3500 2450 0    60   ~ 0
+LCD_D13
+Text Label 3500 2550 0    60   ~ 0
+LCD_D12
+Text Label 3500 2650 0    60   ~ 0
+LCD_D11
+Text Label 3500 2750 0    60   ~ 0
+LCD_D10
+Text Label 3500 2850 0    60   ~ 0
+LCD_D9
+Text Label 3500 2950 0    60   ~ 0
+LCD_D8
+Text Label 1300 1650 0    60   ~ 0
+LCD_CLK
+Text Label 1300 1750 0    60   ~ 0
+LCD_RST
+Text Label 1300 1850 0    60   ~ 0
+LCD_EN
+Text Label 1300 1950 0    60   ~ 0
+LCD_VSYNC
+Text Label 1300 2050 0    60   ~ 0
+LCD_HSYNC
+Text Label 1300 2250 0    60   ~ 0
+LCD_D7
+Text Label 1300 2350 0    60   ~ 0
+LCD_D6
+Text Label 1300 2450 0    60   ~ 0
+LCD_D5
+Text Label 1300 2550 0    60   ~ 0
+LCD_D4
+Text Label 1300 2650 0    60   ~ 0
+LCD_D3
+Text Label 1300 2750 0    60   ~ 0
+LCD_D2
+Text Label 1300 2850 0    60   ~ 0
+LCD_D1
+Text Label 1300 2950 0    60   ~ 0
+LCD_D0
+$Comp
+L nano-rescue:CONN_02X20 P2
+U 1 1 5B78BF6B
+P 6000 2150
+F 0 "P2" H 6000 3200 50  0000 C CNN
+F 1 "CONN_02X20" V 6000 2150 50  0000 C CNN
+F 2 "Custom Components:PINHD_2X20_X" H 6000 1200 50  0001 C CNN
+F 3 "" H 6000 1200 50  0000 C CNN
+	1    6000 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2250 3950 2250
+Wire Wire Line
+	3450 2350 3950 2350
+Wire Wire Line
+	3450 2450 3950 2450
+Wire Wire Line
+	3450 2550 3950 2550
+Wire Wire Line
+	3450 2650 3950 2650
+Wire Wire Line
+	3450 2750 3950 2750
+Wire Wire Line
+	3450 2850 3950 2850
+Wire Wire Line
+	3450 2950 3950 2950
+Wire Wire Line
+	5200 1200 5750 1200
+Wire Wire Line
+	4900 1300 5750 1300
+Wire Wire Line
+	4900 1400 5750 1400
+Wire Wire Line
+	5750 1500 5200 1500
+Wire Wire Line
+	4900 1600 5750 1600
+Wire Wire Line
+	4900 1700 5750 1700
+Wire Wire Line
+	4900 1800 5750 1800
+Wire Wire Line
+	5750 1900 5200 1900
+Wire Wire Line
+	4900 2000 5750 2000
+Wire Wire Line
+	4900 2100 5750 2100
+Wire Wire Line
+	4900 2200 5750 2200
+Wire Wire Line
+	5750 2300 5200 2300
+Wire Wire Line
+	4900 2400 5750 2400
+Wire Wire Line
+	4900 2500 5750 2500
+Wire Wire Line
+	4900 2600 5750 2600
+Wire Wire Line
+	5750 2700 5200 2700
+Wire Wire Line
+	4900 2800 5750 2800
+Wire Wire Line
+	4900 2900 5750 2900
+Wire Wire Line
+	4900 3000 5750 3000
+Wire Wire Line
+	5200 3100 5750 3100
+Wire Wire Line
+	6800 1300 6250 1300
+Wire Wire Line
+	6250 1400 7100 1400
+Wire Wire Line
+	6250 1500 7100 1500
+Wire Wire Line
+	6250 1600 7100 1600
+Wire Wire Line
+	6800 1700 6250 1700
+Wire Wire Line
+	6250 1800 7100 1800
+Wire Wire Line
+	6250 1900 7100 1900
+Wire Wire Line
+	6250 2000 7100 2000
+Wire Wire Line
+	6800 2100 6250 2100
+Wire Wire Line
+	6250 2200 7100 2200
+Wire Wire Line
+	6250 2300 7100 2300
+Wire Wire Line
+	6250 2400 7100 2400
+Wire Wire Line
+	6800 2500 6250 2500
+Wire Wire Line
+	6250 2600 7100 2600
+Wire Wire Line
+	6250 2700 7100 2700
+Wire Wire Line
+	6250 2800 7100 2800
+Wire Wire Line
+	6250 2900 6800 2900
+Wire Wire Line
+	6250 3000 7100 3000
+Wire Wire Line
+	6250 3100 7100 3100
+Wire Wire Line
+	6250 1200 7100 1200
+Text Label 5200 1300 0    60   ~ 0
+LCD_CLK
+Text Label 5200 1400 0    60   ~ 0
+LCD_EN
+Text Label 6350 1200 0    60   ~ 0
+LCD_RST
+Text Label 6350 1400 0    60   ~ 0
+LCD_HSYNC
+Text Label 6350 1500 0    60   ~ 0
+LCD_VSYNC
+Text Label 6350 1600 0    60   ~ 0
+LCD_D0
+Text Label 5200 1600 0    60   ~ 0
+LCD_D1
+Text Label 5200 1700 0    60   ~ 0
+LCD_D2
+Text Label 5200 1800 0    60   ~ 0
+LCD_D3
+Text Label 6350 1800 0    60   ~ 0
+LCD_D4
+Text Label 6350 1900 0    60   ~ 0
+LCD_D5
+Text Label 6350 2000 0    60   ~ 0
+LCD_D6
+Text Label 5200 2000 0    60   ~ 0
+LCD_D7
+Text Label 5200 2100 0    60   ~ 0
+LCD_D8
+Text Label 5200 2200 0    60   ~ 0
+LCD_D9
+Text Label 6350 2200 0    60   ~ 0
+LCD_D10
+Text Label 6350 2300 0    60   ~ 0
+LCD_D11
+Text Label 6350 2400 0    60   ~ 0
+LCD_D12
+Text Label 5200 2400 0    60   ~ 0
+LCD_D13
+Text Label 5200 2500 0    60   ~ 0
+LCD_D14
+Text Label 5200 2600 0    60   ~ 0
+LCD_D15
+Text Label 6350 2600 0    60   ~ 0
+LCD_D16
+Text Label 6350 2700 0    60   ~ 0
+LCD_D17
+Text Label 6350 2800 0    60   ~ 0
+LCD_D18
+Text Label 5200 2800 0    60   ~ 0
+LCD_D19
+Text Label 5200 2900 0    60   ~ 0
+LCD_D20
+Text Label 5200 3000 0    60   ~ 0
+LCD_D21
+Text Label 6350 3000 0    60   ~ 0
+LCD_D22
+Text Label 6350 3100 0    60   ~ 0
+LCD_D23
+Entry Wire Line
+	7100 1200 7200 1300
+Entry Wire Line
+	7100 1400 7200 1500
+Entry Wire Line
+	7100 1500 7200 1600
+Entry Wire Line
+	7100 1600 7200 1700
+Entry Wire Line
+	7100 1800 7200 1900
+Entry Wire Line
+	7100 1900 7200 2000
+Entry Wire Line
+	7100 2000 7200 2100
+Entry Wire Line
+	7100 2200 7200 2300
+Entry Wire Line
+	7100 2300 7200 2400
+Entry Wire Line
+	7100 2400 7200 2500
+Entry Wire Line
+	7100 2600 7200 2700
+Entry Wire Line
+	7100 2700 7200 2800
+Entry Wire Line
+	7100 2800 7200 2900
+Entry Wire Line
+	7100 3000 7200 3100
+Entry Wire Line
+	7100 3100 7200 3200
+Entry Wire Line
+	4800 1400 4900 1300
+Entry Wire Line
+	4800 1500 4900 1400
+Entry Wire Line
+	4800 1700 4900 1600
+Entry Wire Line
+	4800 1800 4900 1700
+Entry Wire Line
+	4800 1900 4900 1800
+Entry Wire Line
+	4800 2100 4900 2000
+Entry Wire Line
+	4800 2200 4900 2100
+Entry Wire Line
+	4800 2300 4900 2200
+Entry Wire Line
+	4800 2500 4900 2400
+Entry Wire Line
+	4800 2600 4900 2500
+Entry Wire Line
+	4800 2700 4900 2600
+Entry Wire Line
+	4800 2900 4900 2800
+Entry Wire Line
+	4800 3000 4900 2900
+Entry Wire Line
+	4800 3100 4900 3000
+Entry Bus Bus
+	4700 3450 4800 3350
+Entry Wire Line
+	3950 1450 4050 1550
+Entry Wire Line
+	3950 1550 4050 1650
+Entry Wire Line
+	3950 1650 4050 1750
+Entry Wire Line
+	3950 1750 4050 1850
+Entry Wire Line
+	3950 1850 4050 1950
+Entry Wire Line
+	3950 1950 4050 2050
+Entry Wire Line
+	3950 2050 4050 2150
+Entry Wire Line
+	3950 2150 4050 2250
+Entry Wire Line
+	3950 2250 4050 2350
+Entry Wire Line
+	3950 2350 4050 2450
+Entry Wire Line
+	3950 2450 4050 2550
+Entry Wire Line
+	3950 2550 4050 2650
+Entry Wire Line
+	3950 2650 4050 2750
+Entry Wire Line
+	3950 2750 4050 2850
+Entry Wire Line
+	3950 2850 4050 2950
+Entry Wire Line
+	3950 2950 4050 3050
+Entry Wire Line
+	900  1750 1000 1650
+Entry Wire Line
+	900  1850 1000 1750
+Entry Wire Line
+	900  1950 1000 1850
+Entry Wire Line
+	900  2050 1000 1950
+Entry Wire Line
+	900  2150 1000 2050
+Entry Wire Line
+	900  2350 1000 2250
+Entry Wire Line
+	900  2450 1000 2350
+Entry Wire Line
+	900  2550 1000 2450
+Entry Wire Line
+	900  2650 1000 2550
+Entry Wire Line
+	900  2750 1000 2650
+Entry Wire Line
+	900  2850 1000 2750
+Entry Wire Line
+	900  2950 1000 2850
+Entry Wire Line
+	900  3050 1000 2950
+Entry Bus Bus
+	3950 3450 4050 3350
+$Comp
+L power:VSS #PWR027
+U 1 1 5B78DFB1
+P 6800 1700
+F 0 "#PWR027" H 6800 1550 50  0001 C CNN
+F 1 "VSS" V 6800 1900 50  0000 C CNN
+F 2 "" H 6800 1700 50  0000 C CNN
+F 3 "" H 6800 1700 50  0000 C CNN
+	1    6800 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VSS #PWR025
+U 1 1 5B78DFE0
+P 6800 1300
+F 0 "#PWR025" H 6800 1150 50  0001 C CNN
+F 1 "VSS" V 6800 1500 50  0000 C CNN
+F 2 "" H 6800 1300 50  0000 C CNN
+F 3 "" H 6800 1300 50  0000 C CNN
+	1    6800 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VSS #PWR029
+U 1 1 5B78E001
+P 6800 2100
+F 0 "#PWR029" H 6800 1950 50  0001 C CNN
+F 1 "VSS" V 6800 2300 50  0000 C CNN
+F 2 "" H 6800 2100 50  0000 C CNN
+F 3 "" H 6800 2100 50  0000 C CNN
+	1    6800 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VSS #PWR031
+U 1 1 5B78E012
+P 6800 2500
+F 0 "#PWR031" H 6800 2350 50  0001 C CNN
+F 1 "VSS" V 6800 2700 50  0000 C CNN
+F 2 "" H 6800 2500 50  0000 C CNN
+F 3 "" H 6800 2500 50  0000 C CNN
+	1    6800 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VSS #PWR033
+U 1 1 5B78E023
+P 6800 2900
+F 0 "#PWR033" H 6800 2750 50  0001 C CNN
+F 1 "VSS" V 6800 3100 50  0000 C CNN
+F 2 "" H 6800 2900 50  0000 C CNN
+F 3 "" H 6800 2900 50  0000 C CNN
+	1    6800 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VSS #PWR028
+U 1 1 5B78E034
+P 5200 1900
+F 0 "#PWR028" H 5200 1750 50  0001 C CNN
+F 1 "VSS" V 5200 2100 50  0000 C CNN
+F 2 "" H 5200 1900 50  0000 C CNN
+F 3 "" H 5200 1900 50  0000 C CNN
+	1    5200 1900
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:VSS #PWR026
+U 1 1 5B78E04D
+P 5200 1500
+F 0 "#PWR026" H 5200 1350 50  0001 C CNN
+F 1 "VSS" V 5200 1700 50  0000 C CNN
+F 2 "" H 5200 1500 50  0000 C CNN
+F 3 "" H 5200 1500 50  0000 C CNN
+	1    5200 1500
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:VSS #PWR030
+U 1 1 5B78E06E
+P 5200 2300
+F 0 "#PWR030" H 5200 2150 50  0001 C CNN
+F 1 "VSS" V 5200 2500 50  0000 C CNN
+F 2 "" H 5200 2300 50  0000 C CNN
+F 3 "" H 5200 2300 50  0000 C CNN
+	1    5200 2300
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:VSS #PWR032
+U 1 1 5B78E07F
+P 5200 2700
+F 0 "#PWR032" H 5200 2550 50  0001 C CNN
+F 1 "VSS" V 5200 2900 50  0000 C CNN
+F 2 "" H 5200 2700 50  0000 C CNN
+F 3 "" H 5200 2700 50  0000 C CNN
+	1    5200 2700
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:VSS #PWR034
+U 1 1 5B78E090
+P 5200 3100
+F 0 "#PWR034" H 5200 2950 50  0001 C CNN
+F 1 "VSS" V 5200 3300 50  0000 C CNN
+F 2 "" H 5200 3100 50  0000 C CNN
+F 3 "" H 5200 3100 50  0000 C CNN
+	1    5200 3100
+	0    -1   1    0   
+$EndComp
+Text GLabel 1650 1450 0    50   Input ~ 0
+DCDC_3V3
+Wire Wire Line
+	1650 1450 1750 1450
+Text GLabel 5200 1200 0    50   Input ~ 0
+5V
+$Comp
+L custom_components:IMX6UL_BGA289 U?
+U 3 1 5C551731
+P 2150 4550
+F 0 "U?" H 2150 4750 60  0000 C CNN
+F 1 "IMX6UL_BGA289" H 2150 4650 60  0000 C CNN
+F 2 "Custom Components:IMX6UL_BGA289" H 3400 2850 60  0001 C CNN
+F 3 "" H 3400 2850 60  0001 C CNN
+	3    2150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_components:W25M512JV U?
+U 1 1 5C551738
+P 4350 4850
+F 0 "U?" H 4350 4900 60  0000 C CNN
+F 1 "W25M512JV" H 4350 4800 60  0000 C CNN
+F 2 "Custom Components:WSON8_8x6mm" H 4350 4850 60  0001 C CNN
+F 3 "" H 4350 4850 60  0000 C CNN
+	1    4350 4850
+	1    0    0    -1  
+$EndComp
+Text Notes 1500 6900 0    60   ~ 0
+NAND_DQS\nNAND_CLE\nNAND_CE1\nNAND_CE0\nNAND_READY\nNAND_WP\nNAND_ALE
+Text Notes 2850 6900 0    60   ~ 0
+SS0_B\nD3\nD2\nD1\nD0\nSCLK\nDQS
+Text Notes 1500 6200 0    60   ~ 12
+Pin name A
+Text Notes 2850 6200 0    60   ~ 12
+QSPI fcn ALT2
+Text Notes 1050 4250 0    118  Italic 24
+QSPI FLASH
+Text Notes 2100 6200 0    60   ~ 12
+Pin name B
+Text Notes 2100 6900 0    60   ~ 0
+NAND_WE_B\nNAND_DATA05\nNAND_DATA04\nNAND_DATA03\nNAND_DATA02\nNAND_RE_B\nNAND_DATA01
+$Comp
+L custom_components:W25M512JV U?
+U 1 1 5C551746
+P 4350 5550
+F 0 "U?" H 4350 5600 60  0000 C CNN
+F 1 "W25M512JV" H 4350 5500 60  0000 C CNN
+F 2 "Custom Components:WSON8_8x6mm" H 4350 5550 60  0001 C CNN
+F 3 "" H 4350 5550 60  0000 C CNN
+	1    4350 5550
+	1    0    0    -1  
+$EndComp
+Text Label 3550 4700 2    39   ~ 0
+QA_CS
+Text Label 3550 4800 2    39   ~ 0
+QA_D1
+Text Label 3550 4900 2    39   ~ 0
+QA_D2
+Text Label 3550 5000 2    39   ~ 0
+VSS
+Text Label 5150 4800 0    39   ~ 0
+QA_D3
+Text Label 5150 4900 0    39   ~ 0
+QA_CLK
+Text Label 5150 5000 0    39   ~ 0
+QA_D0
+Text Label 5150 5500 0    39   ~ 0
+QB_D3
+Text Label 5150 5600 0    39   ~ 0
+QB_CLK
+Text Label 5150 5700 0    39   ~ 0
+QB_D0
+Text Label 3550 5400 2    39   ~ 0
+QB_CS
+Text Label 3550 5500 2    39   ~ 0
+QB_D1
+Text Label 3550 5600 2    39   ~ 0
+QB_D2
+Text Label 3550 5700 2    39   ~ 0
+VSS
+Text GLabel 4850 4450 0    50   Input ~ 0
+DCDC_3V3
+Wire Wire Line
+	4850 4450 5400 4450
+Wire Wire Line
+	5400 4450 5400 4700
+Wire Wire Line
+	5400 4700 5150 4700
+Wire Wire Line
+	5150 5400 5400 5400
+Wire Wire Line
+	5400 5400 5400 4700
+Connection ~ 5400 4700
+Text Label 1300 5400 2    39   ~ 0
+QA_CS
+Text Label 1300 5200 2    39   ~ 0
+QA_D0
+Text Label 1300 5600 2    39   ~ 0
+QA_D2
+Text Label 1300 5500 2    39   ~ 0
+QA_D3
+Text Label 1300 5000 2    39   ~ 0
+QA_CLK
+Text Label 1300 5700 2    39   ~ 0
+QA_D1
+Text Label 1300 5100 2    39   ~ 0
+QB_CS
+Text Label 3000 5400 0    39   ~ 0
+QB_D1
+Text Label 3000 5300 0    39   ~ 0
+QB_D2
+Text Label 3000 5200 0    39   ~ 0
+QB_D3
+Text Label 3000 5500 0    39   ~ 0
+QB_D0
+Text Label 1300 5300 2    39   ~ 0
+QB_CLK
+Wire Notes Line
+	-3050 7100 5550 7100
+Text GLabel 1200 4400 2    50   Input ~ 0
+DCDC_3V3
+Wire Wire Line
+	1200 4400 1150 4400
+Wire Wire Line
+	1150 4400 1150 4800
+Wire Wire Line
+	1150 4800 1300 4800
+Text GLabel 3700 6300 2    50   Input ~ 0
+DBG_GPIO0
+Text GLabel 3700 6400 2    50   Input ~ 0
+DBG_GPIO1
+Text GLabel 3700 6100 2    50   Input ~ 0
+DBG_WKUP
+Text GLabel 3700 6200 2    50   Input ~ 0
+DBG_SUSPEND
+NoConn ~ 3000 5000
+NoConn ~ 3000 5100
+NoConn ~ 3000 5600
+NoConn ~ 3000 5700
+NoConn ~ 1300 5800
+Wire Bus Line
+	900  3450 7200 3450
+Wire Bus Line
+	7200 1300 7200 3450
+Wire Bus Line
+	4800 1400 4800 3350
+Wire Bus Line
+	900  1750 900  3450
+Wire Bus Line
+	4050 1550 4050 3350
+$EndSCHEMATC

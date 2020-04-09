@@ -41,6 +41,7 @@ You can modify this project and manufacture it, sell it for money, but you have 
  - System-on-chip NXP i.MX 6 ULL:
 	 - ARM Cortex A7 CPU at 900 MHz
 	 - Yocto Linux Operating System
+ - 4 layer PCB project made in KiCAD
  - Flash memory for program & data storage:
 	 - Micro-SD card slot
 	 - Onboard QSPI Flash (2 packages) for Bootloader and small OS

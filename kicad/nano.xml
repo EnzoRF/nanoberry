@@ -1,0 +1,4805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/peca/nanoberry/kicad/nano.sch</source>
+    <date>lun 07 ene 2019 23:12:51 CET</date>
+    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nano.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/DDR/" tstamps="/5B5052A9/">
+      <title_block>
+        <title>DDR3</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nano_ddr.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/POWER/" tstamps="/5B50612C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nano_power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/periph1/" tstamps="/5B4B8A5A/">
+      <title_block>
+        <title>i.MX6ULL Peripherals 1</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>periph1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/periph2/" tstamps="/5B4DD725/">
+      <title_block>
+        <title>i.MX6 ULL Peripherals 2</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>periph2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/PMIC PF1550/" tstamps="/5B657534/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nano_pmic1550.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/ETHERNET/" tstamps="/5B8331C7/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nano_eth.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/USB HUB/" tstamps="/5B867D17/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nano_usb.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/USB DEBUG &amp; OTG/" tstamps="/5BBA2625/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nano_dbg.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/POWER TREE/" tstamps="/5B9F6CF1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power_tree.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="11" name="/Clock_Control/" tstamps="/5BB88783/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nano_clkctl.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>IMX6UL_BGA289</value>
+      <footprint>Custom Components:IMX6UL_BGA289</footprint>
+      <libsource lib="custom_components" part="IMX6UL_BGA289" description=""/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5B506141</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>240 1%</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5B4B9B94</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>240 1%</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5B4BAA41</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5B4BACAC</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>2.2p 50V</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5B4BB0CD</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2.2p 50V DNP</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5B4BB203</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>2.2p 50V</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5B4BB270</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>2.2p 50V DNP</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5B4BB276</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5B4BBA4C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5B4BBB16</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5B4C0B56</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>DDR3_BGA96</value>
+      <footprint>Custom Components:DDR3_BGA96</footprint>
+      <libsource lib="custom_components" part="DDR3_BGA96" description=""/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5B4C61A2</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>240 1%</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5B71EB7D</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5C4BBC1D</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5C55EB34</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5C6092A3</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5C609500</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5C6095C4</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5C60963A</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5C6096B0</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5C609724</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5C60979C</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>22uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5BF9F350</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5BF9F40D</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5BF9F4D3</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5BF9F54D</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5BF9F6B7</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5BF9F6C0</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5BF9F6C9</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5BFBB906</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5BFBB90F</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5BFBB918</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5BFBB921</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5BFBB92A</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5C41F465</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/DDR/" tstamps="/5B5052A9/"/>
+      <tstamp>5C41F5B3</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>22uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5BED0C6C</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>4.7uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5BED0D3D</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5BED0D6D</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5BED0F16</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>4.7uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5BF775F9</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5BF77647</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>22uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5BFAF85F</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5BFAF8EF</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5BFAF981</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5C03563A</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5C03569A</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5C0356DE</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>22uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5C03574C</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5C1D93BE</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>10uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5C1D941C</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5C25093C</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>10uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5C250944</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5C2C0F9F</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky_ALT</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky_ALT" description="Schottky diode, filled shape"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5C318A68</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_Schottky_ALT</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky_ALT" description="Schottky diode, filled shape"/>
+      <sheetpath names="/POWER/" tstamps="/5B50612C/"/>
+      <tstamp>5C318B1E</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_02X20</value>
+      <footprint>Custom Components:PINHD_2X20_X</footprint>
+      <libsource lib="nano-rescue" part="CONN_02X20" description=""/>
+      <sheetpath names="/periph1/" tstamps="/5B4B8A5A/"/>
+      <tstamp>5B4B8A65</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>A7101CH</value>
+      <footprint>Custom Components:SOT909-1</footprint>
+      <libsource lib="custom_components" part="A7101CH" description=""/>
+      <sheetpath names="/periph1/" tstamps="/5B4B8A5A/"/>
+      <tstamp>5BE0FC32</tstamp>
+    </comp>
+    <comp ref="C95">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/periph1/" tstamps="/5B4B8A5A/"/>
+      <tstamp>5C532E67</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/periph1/" tstamps="/5B4B8A5A/"/>
+      <tstamp>5C532FB9</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/periph1/" tstamps="/5B4B8A5A/"/>
+      <tstamp>5C546B48</tstamp>
+    </comp>
+    <comp ref="C94">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/periph1/" tstamps="/5B4B8A5A/"/>
+      <tstamp>5C5AC03D</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>0.22uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/periph1/" tstamps="/5B4B8A5A/"/>
+      <tstamp>5C5BAC5B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>SD-104031</value>
+      <footprint>Custom Components:uSD_104031</footprint>
+      <libsource lib="custom_components" part="SD-104031" description=""/>
+      <sheetpath names="/periph1/" tstamps="/5B4B8A5A/"/>
+      <tstamp>5C5E71EA</tstamp>
+    </comp>
+    <comp ref="C92">
+      <value>22uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/periph1/" tstamps="/5B4B8A5A/"/>
+      <tstamp>5C66799B</tstamp>
+    </comp>
+    <comp ref="C93">
+      <value>0.1uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/periph1/" tstamps="/5B4B8A5A/"/>
+      <tstamp>5C6679A4</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/periph1/" tstamps="/5B4B8A5A/"/>
+      <tstamp>5C33BB0C</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_02X20</value>
+      <footprint>Custom Components:PINHD_2X20_X</footprint>
+      <libsource lib="nano-rescue" part="CONN_02X20" description=""/>
+      <sheetpath names="/periph2/" tstamps="/5B4DD725/"/>
+      <tstamp>5B78BF6B</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>W25M512JV</value>
+      <footprint>Custom Components:WSON8_8x6mm</footprint>
+      <libsource lib="custom_components" part="W25M512JV" description="QSPI flash memory"/>
+      <sheetpath names="/periph2/" tstamps="/5B4DD725/"/>
+      <tstamp>5C551738</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>W25M512JV</value>
+      <footprint>Custom Components:WSON8_8x6mm</footprint>
+      <libsource lib="custom_components" part="W25M512JV" description="QSPI flash memory"/>
+      <sheetpath names="/periph2/" tstamps="/5B4DD725/"/>
+      <tstamp>5C551746</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>0.1uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/periph2/" tstamps="/5B4DD725/"/>
+      <tstamp>5C55BD9C</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>10uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/periph2/" tstamps="/5B4DD725/"/>
+      <tstamp>5C55BDA5</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>PF1550</value>
+      <footprint>Package_DFN_QFN:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm</footprint>
+      <libsource lib="custom_components" part="PF1550" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B657FD9</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>4.7uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <fields>
+        <field name="SMD Size">0603</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B658592</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>1uH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <fields>
+        <field name="SMD size">0805</field>
+      </fields>
+      <libsource lib="nano-rescue" part="INDUCTOR" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B65A65F</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>4.7u 6.3v</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B659A29</tstamp>
+    </comp>
+    <comp ref="C60">
+      <value>4.7u 6.3v</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B659AFE</tstamp>
+    </comp>
+    <comp ref="C62">
+      <value>4.7u 6.3v</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B659B40</tstamp>
+    </comp>
+    <comp ref="C64">
+      <value>1.0u</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B659D8F</tstamp>
+    </comp>
+    <comp ref="C66">
+      <value>0.47u</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B659DE7</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <libsource lib="nano-rescue" part="LED-RESCUE-nano" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B65A14F</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>47</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B65A220</tstamp>
+    </comp>
+    <comp ref="C69">
+      <value>4.7u</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B65B5C0</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>0.02</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B65C5C4</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>0.02</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B65C7BC</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>0.02</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B65C831</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B65E988</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>4.7K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B65EA6F</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>4.7K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B65EAEF</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>100K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B660495</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>100K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B660563</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5B660863</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>0R</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5BA9C5DC</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>PMIC_I2C</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_2x03_P1.00mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5BAB1F55</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>4.7K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5BAE4540</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>DNP</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5BCA3960</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>DNP</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5BD18925</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>1uH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <fields>
+        <field name="SMD size">0805</field>
+      </fields>
+      <libsource lib="nano-rescue" part="INDUCTOR" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C99835C</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>1uH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <fields>
+        <field name="SMD size">0805</field>
+      </fields>
+      <libsource lib="nano-rescue" part="INDUCTOR" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C9983D0</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2SK3018</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C0DF90E</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>100K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C0DFAD6</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>100K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C0E00EB</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>100K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C11DEC1</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>DNP</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C19AF1F</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>4.7uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <fields>
+        <field name="SMD Size">0603</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C6B018E</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>4.7uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <fields>
+        <field name="SMD Size">0603</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C6B020E</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>1.0uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <fields>
+        <field name="SMD Size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C6B04D6</tstamp>
+    </comp>
+    <comp ref="C59">
+      <value>1.0uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <fields>
+        <field name="SMD Size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C6B0870</tstamp>
+    </comp>
+    <comp ref="C61">
+      <value>1.0uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <fields>
+        <field name="SMD Size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C6B0912</tstamp>
+    </comp>
+    <comp ref="C63">
+      <value>1.0uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <fields>
+        <field name="SMD Size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C6E1BC7</tstamp>
+    </comp>
+    <comp ref="C65">
+      <value>0.1uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <fields>
+        <field name="SMD Size">0402</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C6E1CED</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>10uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">? V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C386C10</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>10uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">? V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C386C9E</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>10uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">? V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C409678</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>10uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">? V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C409681</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>10uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">? V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C44B0C0</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>10uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">? V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C44B0C9</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>CR2032</value>
+      <footprint>Battery:BatteryHolder_Keystone_1058_1x2032</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C3DB986</tstamp>
+    </comp>
+    <comp ref="C71">
+      <value>1uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">? V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C38AF4B</tstamp>
+    </comp>
+    <comp ref="C72">
+      <value>1uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">? V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C38B10A</tstamp>
+    </comp>
+    <comp ref="C67">
+      <value>100uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">? V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C3C9FE1</tstamp>
+    </comp>
+    <comp ref="C68">
+      <value>100uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">? V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C3CA17E</tstamp>
+    </comp>
+    <comp ref="C70">
+      <value>4.7uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PMIC PF1550/" tstamps="/5B657534/"/>
+      <tstamp>5C3CA20C</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>12.1K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B83525C</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>49.9 1%</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B8352E9</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>J0011D01BNL</value>
+      <footprint>Custom Components:MTJ-88TX1-FSD-D1LH-M4Y</footprint>
+      <libsource lib="custom_components" part="J0011D01BNL" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B842DC9</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>0</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B84321D</tstamp>
+    </comp>
+    <comp ref="C85">
+      <value>CP1</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B843376</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>49.9 1%</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B843A67</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>49.9 1%</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B843AA4</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>49.9 1%</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B843AE4</tstamp>
+    </comp>
+    <comp ref="C76">
+      <value>470p</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B84574C</tstamp>
+    </comp>
+    <comp ref="C77">
+      <value>1u</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B8457FC</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B85E052</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>2.0A/0.050 DCR</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="nano-rescue" part="INDUCTOR_SMALL" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B85E766</tstamp>
+    </comp>
+    <comp ref="C79">
+      <value>0.1u</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B85F53D</tstamp>
+    </comp>
+    <comp ref="C80">
+      <value>0.1u</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B85F64A</tstamp>
+    </comp>
+    <comp ref="C78">
+      <value>4.7u</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B85F6CC</tstamp>
+    </comp>
+    <comp ref="C74">
+      <value>0.1u</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B86105B</tstamp>
+    </comp>
+    <comp ref="C75">
+      <value>0.1u</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B861061</tstamp>
+    </comp>
+    <comp ref="C73">
+      <value>4.7u</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B861067</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>4.7K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5BA64AE7</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>4.7K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5BA6D58F</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>4.7K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5BA6D5F9</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>4.7K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5BA6D665</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>150R</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5BA95E7E</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>150R</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5BAA48D6</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>4.7K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5BB1DBFA</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>LAN8720A</value>
+      <footprint>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias</footprint>
+      <libsource lib="custom_components" part="LAN8720A" description=""/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5B834D5B</tstamp>
+    </comp>
+    <comp ref="C81">
+      <value>10pF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">?V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5C549251</tstamp>
+    </comp>
+    <comp ref="C82">
+      <value>10pF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">?V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5C54E67E</tstamp>
+    </comp>
+    <comp ref="C83">
+      <value>10pF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">?V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5C54E6E0</tstamp>
+    </comp>
+    <comp ref="C84">
+      <value>10pF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">?V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/ETHERNET/" tstamps="/5B8331C7/"/>
+      <tstamp>5C54E744</tstamp>
+    </comp>
+    <comp ref="XTAL1">
+      <value>24MHz 50ppm</value>
+      <footprint>Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm</footprint>
+      <libsource lib="custom_components" part="XTAL" description="Quartz crystal"/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5B86A297</tstamp>
+    </comp>
+    <comp ref="C89">
+      <value>18p</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5B86BD09</tstamp>
+    </comp>
+    <comp ref="C88">
+      <value>18p</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5B86BD71</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>1M</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5B86BF98</tstamp>
+    </comp>
+    <comp ref="C87">
+      <value>0.1u</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5B8C2FDF</tstamp>
+    </comp>
+    <comp ref="C86">
+      <value>0.1u</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5B8C318E</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>USB2514B</value>
+      <footprint>Package_DFN_QFN:QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm</footprint>
+      <libsource lib="custom_components" part="USB2514B" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5B8C3257</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>R</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <fields>
+        <field name="SMD Size">0402</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5B8C3B7A</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>USB-A-D-RA-30</value>
+      <footprint>Custom Components:USB-A-D-RA-30</footprint>
+      <libsource lib="custom_components" part="USB-A-D-RA-30" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5C3B9774</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>USB-A-D-RA-30</value>
+      <footprint>Custom Components:USB-A-D-RA-30</footprint>
+      <libsource lib="custom_components" part="USB-A-D-RA-30" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5C3B977B</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>FB</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="nano-rescue" part="INDUCTOR_SMALL" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5C3B9794</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>FB</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="nano-rescue" part="INDUCTOR_SMALL" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5C3B979B</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>FB</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="nano-rescue" part="INDUCTOR_SMALL" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5C3B97A2</tstamp>
+    </comp>
+    <comp ref="L8">
+      <value>FB</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="nano-rescue" part="INDUCTOR_SMALL" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5C3B97A9</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>0.1u</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5C3C0F73</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>0.1u</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5C3C0F7A</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>0.1u</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5C3C0F81</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>0.1u</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5C3C0F88</tstamp>
+    </comp>
+    <comp ref="L9">
+      <value>FB</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="nano-rescue" part="INDUCTOR_SMALL" description=""/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5C510C47</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>R</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <fields>
+        <field name="SMD Size">0402</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5C54425E</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>12K</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <fields>
+        <field name="SMD Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB HUB/" tstamps="/5B867D17/"/>
+      <tstamp>5C54475B</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>CP2102N-QFN20</value>
+      <footprint>Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_ThermalVias</footprint>
+      <libsource lib="custom_components" part="CP2102N-QFN20" description=""/>
+      <sheetpath names="/USB DEBUG &amp; OTG/" tstamps="/5BBA2625/"/>
+      <tstamp>5BBA642D</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>R</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB DEBUG &amp; OTG/" tstamps="/5BBA2625/"/>
+      <tstamp>5BBA6C65</tstamp>
+    </comp>
+    <comp ref="C90">
+      <value>CP1</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/USB DEBUG &amp; OTG/" tstamps="/5BBA2625/"/>
+      <tstamp>5BBA8919</tstamp>
+    </comp>
+    <comp ref="C91">
+      <value>CP1</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/USB DEBUG &amp; OTG/" tstamps="/5BBA2625/"/>
+      <tstamp>5BBA8945</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>R</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB DEBUG &amp; OTG/" tstamps="/5BBA2625/"/>
+      <tstamp>5B96FE29</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>R</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB DEBUG &amp; OTG/" tstamps="/5BBA2625/"/>
+      <tstamp>5B971620</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>R</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB DEBUG &amp; OTG/" tstamps="/5BBA2625/"/>
+      <tstamp>5B97164C</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>TX_LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/USB DEBUG &amp; OTG/" tstamps="/5BBA2625/"/>
+      <tstamp>5B971746</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>RX_LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/USB DEBUG &amp; OTG/" tstamps="/5BBA2625/"/>
+      <tstamp>5B9717FA</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>R</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB DEBUG &amp; OTG/" tstamps="/5BBA2625/"/>
+      <tstamp>5BBA6BC6</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>USB_OTG</value>
+      <footprint>Custom Components:MCR-B-S-RA-SMT-CS5</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_OTG" description="USB mini/micro connector"/>
+      <sheetpath names="/POWER TREE/" tstamps="/5B9F6CF1/"/>
+      <tstamp>5BA053C0</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>USB_Micro</value>
+      <footprint>Custom Components:MCR-B-S-RA-SMT-CS5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/POWER TREE/" tstamps="/5B9F6CF1/"/>
+      <tstamp>5BA053C7</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>Polyfuse</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/POWER TREE/" tstamps="/5B9F6CF1/"/>
+      <tstamp>5BA05935</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Polyfuse</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/POWER TREE/" tstamps="/5B9F6CF1/"/>
+      <tstamp>5BA059B1</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/POWER TREE/" tstamps="/5B9F6CF1/"/>
+      <tstamp>5BA0C3C5</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/POWER TREE/" tstamps="/5B9F6CF1/"/>
+      <tstamp>5BB0BD27</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>JTAG</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_2x05_P1.00mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Clock_Control/" tstamps="/5BB88783/"/>
+      <tstamp>5BAAFE8A</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>4.7k</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Clock_Control/" tstamps="/5BB88783/"/>
+      <tstamp>5BAB0928</tstamp>
+    </comp>
+    <comp ref="XTAL2">
+      <value>24MHz 50ppm</value>
+      <footprint>Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm</footprint>
+      <libsource lib="custom_components" part="XTAL" description="Quartz crystal"/>
+      <sheetpath names="/Clock_Control/" tstamps="/5BB88783/"/>
+      <tstamp>5BAB4DC4</tstamp>
+    </comp>
+    <comp ref="C99">
+      <value>18p</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/Clock_Control/" tstamps="/5BB88783/"/>
+      <tstamp>5BAB4DD1</tstamp>
+    </comp>
+    <comp ref="C98">
+      <value>18p</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/Clock_Control/" tstamps="/5BB88783/"/>
+      <tstamp>5BAB4DD8</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>1M DNP</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/Clock_Control/" tstamps="/5BB88783/"/>
+      <tstamp>5BAB4DE5</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>2.2M</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/Clock_Control/" tstamps="/5BB88783/"/>
+      <tstamp>5BAB53BB</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>499</value>
+      <footprint>Custom Components:R_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="R" description=""/>
+      <sheetpath names="/Clock_Control/" tstamps="/5BB88783/"/>
+      <tstamp>5BAB54E9</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768 kHz</value>
+      <footprint>Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/Clock_Control/" tstamps="/5BB88783/"/>
+      <tstamp>5BAB6F84</tstamp>
+    </comp>
+    <comp ref="C96">
+      <value>18p</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/Clock_Control/" tstamps="/5BB88783/"/>
+      <tstamp>5BAB703F</tstamp>
+    </comp>
+    <comp ref="C97">
+      <value>18p</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <libsource lib="nano-rescue" part="CP1" description=""/>
+      <sheetpath names="/Clock_Control/" tstamps="/5BB88783/"/>
+      <tstamp>5BAB708F</tstamp>
+    </comp>
+    <comp ref="SR1">
+      <value>4.7k</value>
+      <footprint>Custom Components:SR_0402</footprint>
+      <libsource lib="custom_components" part="SR" description="Resistor strap"/>
+      <sheetpath names="/Clock_Control/" tstamps="/5BB88783/"/>
+      <tstamp>5C220E96</tstamp>
+    </comp>
+    <comp ref="SR2">
+      <value>4.7k</value>
+      <footprint>Custom Components:SR_0402</footprint>
+      <libsource lib="custom_components" part="SR" description="Resistor strap"/>
+      <sheetpath names="/Clock_Control/" tstamps="/5BB88783/"/>
+      <tstamp>5C22100D</tstamp>
+    </comp>
+    <comp ref="C100">
+      <value>0.1uF</value>
+      <footprint>Custom Components:C_0402_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0402</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Clock_Control/" tstamps="/5BB88783/"/>
+      <tstamp>5C51C11B</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>1.0uF</value>
+      <footprint>Custom Components:C_0603_narrow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SMD size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Clock_Control/" tstamps="/5BB88783/"/>
+      <tstamp>5C51C124</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_OTG">
+      <description>USB mini/micro connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_OTG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky_ALT">
+      <description>Schottky diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_components" part="A7101CH">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">A7101CH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="BiDi"/>
+        <pin num="2" name="VSS" type="BiDi"/>
+        <pin num="3" name="IF0" type="BiDi"/>
+        <pin num="4" name="NC" type="BiDi"/>
+        <pin num="5" name="IF1" type="BiDi"/>
+        <pin num="6" name="RST_N" type="BiDi"/>
+        <pin num="7" name="VDD" type="BiDi"/>
+        <pin num="8" name="SDA" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_components" part="CP2102N-QFN20">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP2102N-QFN20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO1/RS485" type="BiDi"/>
+        <pin num="2" name="GPIO0/CLK" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="D_P" type="BiDi"/>
+        <pin num="5" name="D_N" type="BiDi"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="VREGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="power_in"/>
+        <pin num="9" name="RSTb" type="input"/>
+        <pin num="10" name="NC" type="input"/>
+        <pin num="11" name="SUSPENDb" type="output"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="WKUP" type="input"/>
+        <pin num="14" name="SUSPEND" type="output"/>
+        <pin num="15" name="CTS" type="input"/>
+        <pin num="16" name="RTS" type="output"/>
+        <pin num="17" name="RXD" type="input"/>
+        <pin num="18" name="TXD" type="output"/>
+        <pin num="19" name="GPIO3/RXT" type="output"/>
+        <pin num="20" name="GPIO2/TXT" type="output"/>
+        <pin num="21" name="EPAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_components" part="DDR3_BGA96">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DDR3_BGA96</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="VDDQ" type="power_in"/>
+        <pin num="A2" name="DQU5" type="input"/>
+        <pin num="A3" name="DQU7" type="input"/>
+        <pin num="A7" name="DQU4" type="input"/>
+        <pin num="A8" name="VDDQ" type="power_in"/>
+        <pin num="A9" name="VSS" type="power_in"/>
+        <pin num="B1" name="VSSQ" type="power_in"/>
+        <pin num="B2" name="VDD" type="power_in"/>
+        <pin num="B3" name="VSS" type="power_in"/>
+        <pin num="B7" name="DQSU#" type="input"/>
+        <pin num="B8" name="DQU6" type="input"/>
+        <pin num="B9" name="VSSQ" type="power_in"/>
+        <pin num="C1" name="VDDQ" type="power_in"/>
+        <pin num="C2" name="DQU3" type="input"/>
+        <pin num="C3" name="DQU1" type="input"/>
+        <pin num="C7" name="DQSU" type="input"/>
+        <pin num="C8" name="DQU2" type="input"/>
+        <pin num="C9" name="VDDQ" type="power_in"/>
+        <pin num="D1" name="VSSQ" type="power_in"/>
+        <pin num="D2" name="VDDQ" type="power_in"/>
+        <pin num="D3" name="DMU" type="input"/>
+        <pin num="D7" name="DQU0" type="input"/>
+        <pin num="D8" name="VSSQ" type="power_in"/>
+        <pin num="D9" name="VDD" type="power_in"/>
+        <pin num="E1" name="VSS" type="power_in"/>
+        <pin num="E2" name="VSSQ" type="power_in"/>
+        <pin num="E3" name="DQL0" type="input"/>
+        <pin num="E7" name="DML" type="input"/>
+        <pin num="E8" name="VSSQ" type="power_in"/>
+        <pin num="E9" name="VDDQ" type="power_in"/>
+        <pin num="F1" name="VDDQ" type="power_in"/>
+        <pin num="F2" name="DQL2" type="input"/>
+        <pin num="F3" name="DQSL" type="input"/>
+        <pin num="F7" name="DQL1" type="input"/>
+        <pin num="F8" name="DQL3" type="input"/>
+        <pin num="F9" name="VSSQ" type="power_in"/>
+        <pin num="G1" name="VSSQ" type="power_in"/>
+        <pin num="G2" name="DQL6" type="input"/>
+        <pin num="G3" name="DQSL#" type="input"/>
+        <pin num="G7" name="VDD" type="power_in"/>
+        <pin num="G8" name="VSS" type="power_in"/>
+        <pin num="G9" name="VSSQ" type="power_in"/>
+        <pin num="H1" name="VREFDQ" type="input"/>
+        <pin num="H2" name="VDDQ" type="power_in"/>
+        <pin num="H3" name="DQL4" type="input"/>
+        <pin num="H7" name="DQL7" type="input"/>
+        <pin num="H8" name="DQL5" type="input"/>
+        <pin num="H9" name="VDDQ" type="power_in"/>
+        <pin num="J1" name="ODT1" type="input"/>
+        <pin num="J2" name="VSS" type="power_in"/>
+        <pin num="J3" name="RAS#" type="input"/>
+        <pin num="J7" name="CK" type="input"/>
+        <pin num="J8" name="VSS" type="power_in"/>
+        <pin num="J9" name="CKE1" type="input"/>
+        <pin num="K1" name="ODT" type="input"/>
+        <pin num="K2" name="VDD" type="power_in"/>
+        <pin num="K3" name="CAS#" type="input"/>
+        <pin num="K7" name="CK#" type="input"/>
+        <pin num="K8" name="VDD" type="power_in"/>
+        <pin num="K9" name="CKE" type="input"/>
+        <pin num="L1" name="CS1" type="input"/>
+        <pin num="L2" name="CS#" type="input"/>
+        <pin num="L3" name="WE#" type="input"/>
+        <pin num="L7" name="A10_AP" type="input"/>
+        <pin num="L8" name="ZQ" type="input"/>
+        <pin num="L9" name="ZQ1" type="input"/>
+        <pin num="M1" name="VSS" type="power_in"/>
+        <pin num="M2" name="BA0" type="input"/>
+        <pin num="M3" name="BA2" type="input"/>
+        <pin num="M7" name="A15" type="input"/>
+        <pin num="M8" name="VREFCA" type="input"/>
+        <pin num="M9" name="VSS" type="power_in"/>
+        <pin num="N1" name="VDD" type="power_in"/>
+        <pin num="N2" name="A3" type="input"/>
+        <pin num="N3" name="A0" type="input"/>
+        <pin num="N7" name="A12_BC#" type="input"/>
+        <pin num="N8" name="BA1" type="input"/>
+        <pin num="N9" name="VDD" type="power_in"/>
+        <pin num="P1" name="VSS" type="power_in"/>
+        <pin num="P2" name="A5" type="input"/>
+        <pin num="P3" name="A2" type="input"/>
+        <pin num="P7" name="A1" type="input"/>
+        <pin num="P8" name="A4" type="input"/>
+        <pin num="P9" name="VSS" type="power_in"/>
+        <pin num="R1" name="VDD" type="power_in"/>
+        <pin num="R2" name="A7" type="input"/>
+        <pin num="R3" name="A9" type="input"/>
+        <pin num="R7" name="A11" type="input"/>
+        <pin num="R8" name="A6" type="input"/>
+        <pin num="R9" name="VDD" type="power_in"/>
+        <pin num="T1" name="VSS" type="power_in"/>
+        <pin num="T2" name="RESET#" type="input"/>
+        <pin num="T3" name="A13" type="input"/>
+        <pin num="T7" name="A14" type="input"/>
+        <pin num="T8" name="A8" type="input"/>
+        <pin num="T9" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_components" part="IMX6UL_BGA289">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IMX6UL_BGA289</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="VSS" type="power_in"/>
+        <pin num="A2" name="SD1_DATA3" type="input"/>
+        <pin num="A3" name="NAND_READY_B" type="input"/>
+        <pin num="A4" name="NAND_CLE" type="input"/>
+        <pin num="A5" name="NAND_DATA07" type="input"/>
+        <pin num="A6" name="NAND_DATA06" type="input"/>
+        <pin num="A7" name="NAND_DATA02" type="input"/>
+        <pin num="A8" name="LCD_CLK" type="input"/>
+        <pin num="A9" name="LCD_DATA01" type="input"/>
+        <pin num="A10" name="LCD_DATA06" type="input"/>
+        <pin num="A11" name="LCD_DATA09" type="input"/>
+        <pin num="A12" name="LCD_DATA14" type="input"/>
+        <pin num="A13" name="LCD_DATA18" type="input"/>
+        <pin num="A14" name="LCD_DATA22" type="input"/>
+        <pin num="A15" name="ENET2_TX_DATA0" type="input"/>
+        <pin num="A16" name="ENET2_TX_DATA1" type="input"/>
+        <pin num="A17" name="VSS" type="power_in"/>
+        <pin num="B1" name="SD1_DATA2" type="input"/>
+        <pin num="B2" name="SD1_DATA1" type="input"/>
+        <pin num="B3" name="SD1_DATA0" type="input"/>
+        <pin num="B4" name="NAND_ALE" type="input"/>
+        <pin num="B5" name="NAND_CE1_B" type="input"/>
+        <pin num="B6" name="NAND_DATA05" type="input"/>
+        <pin num="B7" name="NAND_DATA01" type="input"/>
+        <pin num="B8" name="LCD_ENABLE" type="input"/>
+        <pin num="B9" name="LCD_DATA00" type="input"/>
+        <pin num="B10" name="LCD_DATA05" type="input"/>
+        <pin num="B11" name="LCD_DATA08" type="input"/>
+        <pin num="B12" name="LCD_DATA13" type="input"/>
+        <pin num="B13" name="LCD_DATA17" type="input"/>
+        <pin num="B14" name="LCD_DATA21" type="input"/>
+        <pin num="B15" name="ENET2_TX_EN" type="input"/>
+        <pin num="B16" name="LCD_DATA23" type="input"/>
+        <pin num="B17" name="ENET2_RX_EN" type="input"/>
+        <pin num="C1" name="SD1_CLK" type="input"/>
+        <pin num="C2" name="SD1_CMD" type="input"/>
+        <pin num="C3" name="VSS" type="power_in"/>
+        <pin num="C4" name="NVCC_SD1" type="power_in"/>
+        <pin num="C5" name="NAND_CE0_B" type="input"/>
+        <pin num="C6" name="NAND_DATA04" type="input"/>
+        <pin num="C7" name="VSS" type="power_in"/>
+        <pin num="C8" name="NAND_WE_B" type="input"/>
+        <pin num="C9" name="LCD_VSYNC" type="input"/>
+        <pin num="C10" name="LCD_DATA04" type="input"/>
+        <pin num="C11" name="VSS" type="power_in"/>
+        <pin num="C12" name="LCD_DATA12" type="input"/>
+        <pin num="C13" name="LCD_DATA16" type="input"/>
+        <pin num="C14" name="LCD_DATA20" type="input"/>
+        <pin num="C15" name="VSS" type="power_in"/>
+        <pin num="C16" name="ENET2_RX_DATA1" type="input"/>
+        <pin num="C17" name="ENET2_RX_DATA0" type="input"/>
+        <pin num="D1" name="CSI_DATA07" type="input"/>
+        <pin num="D2" name="CSI_DATA06" type="input"/>
+        <pin num="D3" name="CSI_DATA05" type="input"/>
+        <pin num="D4" name="CSI_DATA04" type="input"/>
+        <pin num="D5" name="NAND_WP_B" type="input"/>
+        <pin num="D6" name="NAND_DATA03" type="input"/>
+        <pin num="D7" name="NAND_DATA00" type="input"/>
+        <pin num="D8" name="NAND_RE_B" type="input"/>
+        <pin num="D9" name="LCD_HSYNC" type="input"/>
+        <pin num="D10" name="LCD_DATA03" type="input"/>
+        <pin num="D11" name="LCD_DATA07" type="input"/>
+        <pin num="D12" name="LCD_DATA11" type="input"/>
+        <pin num="D13" name="LCD_DATA15" type="input"/>
+        <pin num="D14" name="LCD_DATA19" type="input"/>
+        <pin num="D15" name="ENET1_RX_ER" type="input"/>
+        <pin num="D16" name="ENET2_RX_ER" type="input"/>
+        <pin num="D17" name="ENET2_TX_CLK" type="input"/>
+        <pin num="E1" name="CSI_DATA03" type="input"/>
+        <pin num="E2" name="CSI_DATA02" type="input"/>
+        <pin num="E3" name="CSI_DATA01" type="input"/>
+        <pin num="E4" name="CSI_DATA00" type="input"/>
+        <pin num="E5" name="CSI_PIXCLK" type="input"/>
+        <pin num="E6" name="NAND_DQS" type="input"/>
+        <pin num="E7" name="NVCC_NAND" type="power_in"/>
+        <pin num="E8" name="VSS" type="power_in"/>
+        <pin num="E9" name="LCD_RESET" type="input"/>
+        <pin num="E10" name="LCD_DATA02" type="input"/>
+        <pin num="E11" name="VSS" type="power_in"/>
+        <pin num="E12" name="LCD_DATA10" type="input"/>
+        <pin num="E13" name="NVCC_LCD" type="power_in"/>
+        <pin num="E14" name="ENET1_TX_DATA1" type="input"/>
+        <pin num="E15" name="ENET1_TX_DATA0" type="input"/>
+        <pin num="E16" name="ENET1_RX_EN" type="input"/>
+        <pin num="E17" name="ENET1_RX_DATA1" type="input"/>
+        <pin num="F1" name="DRAM_ODT1" type="input"/>
+        <pin num="F2" name="CSI_VSYNC" type="input"/>
+        <pin num="F3" name="CSI_HSYNC" type="input"/>
+        <pin num="F4" name="NVCC_CSI" type="power_in"/>
+        <pin num="F5" name="CSI_MCLK" type="input"/>
+        <pin num="F6" name="VSS" type="power_in"/>
+        <pin num="F7" name="VSS" type="power_in"/>
+        <pin num="F8" name="VSS" type="power_in"/>
+        <pin num="F9" name="VSS" type="power_in"/>
+        <pin num="F10" name="VSS" type="power_in"/>
+        <pin num="F11" name="VSS" type="power_in"/>
+        <pin num="F12" name="VSS" type="power_in"/>
+        <pin num="F13" name="NVCC_ENET" type="power_in"/>
+        <pin num="F14" name="ENET1_TX_CLK" type="input"/>
+        <pin num="F15" name="ENET1_TX_EN" type="input"/>
+        <pin num="F16" name="ENET1_RX_DATA0" type="input"/>
+        <pin num="F17" name="UART5_TX_DATA" type="input"/>
+        <pin num="G1" name="DRAM_ADDR14" type="input"/>
+        <pin num="G2" name="DRAM_ADDR06" type="input"/>
+        <pin num="G3" name="VSS" type="power_in"/>
+        <pin num="G4" name="DRAM_RESET" type="input"/>
+        <pin num="G5" name="VSS" type="power_in"/>
+        <pin num="G6" name="NVCC_DRAM" type="power_in"/>
+        <pin num="G7" name="VSS" type="power_in"/>
+        <pin num="G8" name="VDD_SOC_CAP" type="power_out"/>
+        <pin num="G9" name="VDD_ARM_CAP" type="power_out"/>
+        <pin num="G10" name="VDD_ARM_CAP" type="power_out"/>
+        <pin num="G11" name="VDD_ARM_CAP" type="power_out"/>
+        <pin num="G12" name="VSS" type="power_in"/>
+        <pin num="G13" name="UART5_RX_DATA" type="input"/>
+        <pin num="G14" name="UART3_RTS_B" type="input"/>
+        <pin num="G15" name="VSS" type="power_in"/>
+        <pin num="G16" name="UART4_RX_DATA" type="input"/>
+        <pin num="G17" name="UART4_TX_DATA" type="input"/>
+        <pin num="H1" name="DRAM_SDBA1" type="input"/>
+        <pin num="H2" name="DRAM_ADDR01" type="input"/>
+        <pin num="H3" name="DRAM_ADDR13" type="input"/>
+        <pin num="H4" name="DRAM_ADDR07" type="input"/>
+        <pin num="H5" name="DRAM_CS1_B" type="input"/>
+        <pin num="H6" name="NVCC_DRAM" type="power_in"/>
+        <pin num="H7" name="VSS" type="power_in"/>
+        <pin num="H8" name="VDD_SOC_CAP" type="power_out"/>
+        <pin num="H9" name="VDD_SOC_IN" type="power_in"/>
+        <pin num="H10" name="VDD_SOC_IN" type="power_in"/>
+        <pin num="H11" name="VDD_ARM_CAP" type="power_out"/>
+        <pin num="H12" name="VSS" type="power_in"/>
+        <pin num="H13" name="NVCC_UART" type="power_in"/>
+        <pin num="H14" name="UART2_RTS_B" type="input"/>
+        <pin num="H15" name="UART3_CTS_B" type="input"/>
+        <pin num="H16" name="UART3_RX_DATA" type="input"/>
+        <pin num="H17" name="UART3_TX_DATA" type="input"/>
+        <pin num="J1" name="DRAM_SDWE_B" type="input"/>
+        <pin num="J2" name="DRAM_CAS_B" type="input"/>
+        <pin num="J3" name="DRAM_SDCKE1" type="input"/>
+        <pin num="J4" name="DRAM_ADDR08" type="input"/>
+        <pin num="J5" name="VSS" type="power_in"/>
+        <pin num="J6" name="NVCC_DRAM" type="power_in"/>
+        <pin num="J7" name="VSS" type="power_in"/>
+        <pin num="J8" name="VDD_SOC_CAP" type="power_out"/>
+        <pin num="J9" name="VDD_SOC_IN" type="power_in"/>
+        <pin num="J10" name="VDD_SOC_IN" type="power_in"/>
+        <pin num="J11" name="VDD_SOC_CAP" type="power_out"/>
+        <pin num="J12" name="VSS" type="power_in"/>
+        <pin num="J13" name="NVCC_GPIO" type="power_in"/>
+        <pin num="J14" name="UART1_RTS_B" type="input"/>
+        <pin num="J15" name="UART2_CTS_B" type="input"/>
+        <pin num="J16" name="UART2_RX_DATA" type="input"/>
+        <pin num="J17" name="UART2_TX_DATA" type="input"/>
+        <pin num="K1" name="DRAM_ADDR02" type="input"/>
+        <pin num="K2" name="DRAM_SDBA2" type="input"/>
+        <pin num="K3" name="DRAM_ADDR11" type="input"/>
+        <pin num="K4" name="DRAM_ADDR04" type="input"/>
+        <pin num="K5" name="DRAM_ADDR15" type="input"/>
+        <pin num="K6" name="NVCC_DRAM" type="power_in"/>
+        <pin num="K7" name="VSS" type="power_in"/>
+        <pin num="K8" name="VDD_SOC_CAP" type="power_out"/>
+        <pin num="K9" name="VDD_SOC_IN" type="power_in"/>
+        <pin num="K10" name="VDD_SOC_IN" type="power_in"/>
+        <pin num="K11" name="VDD_SOC_CAP" type="power_out"/>
+        <pin num="K12" name="VSS" type="power_in"/>
+        <pin num="K13" name="GPIO1_IO00" type="input"/>
+        <pin num="K14" name="UART1_TX_DATA" type="input"/>
+        <pin num="K15" name="UART1_CTS_B" type="input"/>
+        <pin num="K16" name="UART1_RX_DATA" type="input"/>
+        <pin num="K17" name="GPIO1_IO06" type="input"/>
+        <pin num="L1" name="DRAM_ADDR05" type="input"/>
+        <pin num="L2" name="DRAM_ADDR09" type="input"/>
+        <pin num="L3" name="VSS" type="power_in"/>
+        <pin num="L4" name="DRAM_ADDR12" type="input"/>
+        <pin num="L5" name="DRAM_ADDR00" type="input"/>
+        <pin num="L6" name="NVCC_DRAM" type="power_in"/>
+        <pin num="L7" name="VSS" type="power_in"/>
+        <pin num="L8" name="VDD_SOC_CAP" type="power_out"/>
+        <pin num="L9" name="VDD_SOC_CAP" type="power_out"/>
+        <pin num="L10" name="VDD_SOC_CAP" type="power_out"/>
+        <pin num="L11" name="VDD_SOC_CAP" type="power_out"/>
+        <pin num="L12" name="VSS" type="power_in"/>
+        <pin num="L13" name="VDDA_ADC_3P3" type="power_in"/>
+        <pin num="L14" name="GPIO1_IO02" type="input"/>
+        <pin num="L15" name="GPIO1_IO01" type="input"/>
+        <pin num="L16" name="GPIO1_IO07" type="input"/>
+        <pin num="L17" name="GPIO1_IO03" type="input"/>
+        <pin num="M1" name="DRAM_SDBA0" type="input"/>
+        <pin num="M2" name="DRAM_ADDR03" type="input"/>
+        <pin num="M3" name="DRAM_SDCKE0" type="input"/>
+        <pin num="M4" name="DRAM_ADDR10" type="input"/>
+        <pin num="M5" name="DRAM_RAS_B" type="input"/>
+        <pin num="M6" name="NVCC_DRAM" type="power_in"/>
+        <pin num="M7" name="VSS" type="power_in"/>
+        <pin num="M8" name="VSS" type="power_in"/>
+        <pin num="M9" name="VSS" type="power_in"/>
+        <pin num="M10" name="VSS" type="power_in"/>
+        <pin num="M11" name="VSS" type="power_in"/>
+        <pin num="M12" name="NGND_KEL0" type="power_in"/>
+        <pin num="M13" name="ADC_VREFH" type="power_in"/>
+        <pin num="M14" name="JTAG_TCK" type="input"/>
+        <pin num="M15" name="GPIO1_IO09" type="input"/>
+        <pin num="M16" name="GPIO1_IO04" type="input"/>
+        <pin num="M17" name="GPIO1_IO05" type="input"/>
+        <pin num="N1" name="DRAM_ODT0" type="input"/>
+        <pin num="N2" name="DRAM_CS0_B" type="input"/>
+        <pin num="N3" name="VSS" type="power_in"/>
+        <pin num="N4" name="DRAM_ZQPAD" type="input"/>
+        <pin num="N5" name="VSS" type="power_in"/>
+        <pin num="N6" name="NVCC_DRAM_2P5" type="power_in"/>
+        <pin num="N7" name="TEST_MODE" type="input"/>
+        <pin num="N8" name="SNVS_TAMPER5" type="input"/>
+        <pin num="N9" name="SNVS_TAMPER8" type="input"/>
+        <pin num="N10" name="SNVS_TAMPER7" type="input"/>
+        <pin num="N11" name="SNVS_TAMPER6" type="input"/>
+        <pin num="N12" name="VDD_SNVS_CAP" type="power_out"/>
+        <pin num="N13" name="VDD_HIGH_IN" type="power_in"/>
+        <pin num="N14" name="JTAG_TRST_B" type="input"/>
+        <pin num="N15" name="JTAG_TDO" type="input"/>
+        <pin num="N16" name="JTAG_TDI" type="input"/>
+        <pin num="N17" name="GPIO1_IO08" type="input"/>
+        <pin num="P1" name="DRAM_SDCLK0_P" type="input"/>
+        <pin num="P2" name="DRAM_SDCLK0_N" type="input"/>
+        <pin num="P3" name="DRAM_DATA13" type="input"/>
+        <pin num="P4" name="DRAM_VREF" type="input"/>
+        <pin num="P5" name="DRAM_DATA12" type="input"/>
+        <pin num="P6" name="DRAM_SDQS0_P" type="input"/>
+        <pin num="P7" name="DRAM_SDQS0_N" type="input"/>
+        <pin num="P8" name="POR_B" type="input"/>
+        <pin num="P9" name="SNVS_TAMPER4" type="input"/>
+        <pin num="P10" name="SNVS_TAMPER3" type="input"/>
+        <pin num="P11" name="SNVS_TAMPER2" type="input"/>
+        <pin num="P12" name="VDD_SNVS_IN" type="power_in"/>
+        <pin num="P13" name="NVCC_PLL" type="power_out"/>
+        <pin num="P14" name="JTAG_TMS" type="input"/>
+        <pin num="P15" name="JTAG_MOD" type="input"/>
+        <pin num="P16" name="CCM_CLK1_N" type="BiDi"/>
+        <pin num="P17" name="CCM_CLK1_P" type="BiDi"/>
+        <pin num="R1" name="DRAM_DATA15" type="input"/>
+        <pin num="R2" name="DRAM_DATA14" type="input"/>
+        <pin num="R3" name="VSS" type="power_in"/>
+        <pin num="R4" name="DRAM_DATA11" type="input"/>
+        <pin num="R5" name="VSS" type="power_in"/>
+        <pin num="R6" name="SNVS_TAMPER9" type="input"/>
+        <pin num="R7" name="VSS" type="power_in"/>
+        <pin num="R8" name="ONOFF" type="input"/>
+        <pin num="R9" name="SNVS_TAMPER1" type="input"/>
+        <pin num="R10" name="SNVS_TAMPER0" type="input"/>
+        <pin num="R11" name="VSS" type="power_in"/>
+        <pin num="R12" name="VDD_USB_CAP" type="power_out"/>
+        <pin num="R13" name="GPANIO" type="input"/>
+        <pin num="R14" name="VDD_HIGH_CAP" type="power_out"/>
+        <pin num="R15" name="VDD_HIGH_CAP" type="power_out"/>
+        <pin num="R16" name="VSS" type="power_in"/>
+        <pin num="R17" name="VSS" type="power_in"/>
+        <pin num="T1" name="DRAM_SDQS1_P" type="input"/>
+        <pin num="T2" name="DRAM_SDQS1_N" type="input"/>
+        <pin num="T3" name="DRAM_DQM1" type="input"/>
+        <pin num="T4" name="DRAM_DATA00" type="input"/>
+        <pin num="T5" name="DRAM_DATA06" type="input"/>
+        <pin num="T6" name="DRAM_DATA02" type="input"/>
+        <pin num="T7" name="DRAM_DQM0" type="input"/>
+        <pin num="T8" name="DRAM_DATA05" type="input"/>
+        <pin num="T9" name="SNVS_PMIC_ON_REQ" type="input"/>
+        <pin num="T10" name="BOOT_MODE0" type="input"/>
+        <pin num="T11" name="RTC_XTALI" type="input"/>
+        <pin num="T12" name="USB_OTG1_VBUS" type="power_in"/>
+        <pin num="T13" name="USB_OTG2_DN" type="input"/>
+        <pin num="T14" name="VSS" type="power_in"/>
+        <pin num="T15" name="USB_OTG1_DN" type="input"/>
+        <pin num="T16" name="XTALI" type="input"/>
+        <pin num="T17" name="XTALO" type="input"/>
+        <pin num="U1" name="VSS" type="power_in"/>
+        <pin num="U2" name="DRAM_DATA08" type="input"/>
+        <pin num="U3" name="DRAM_DATA09" type="input"/>
+        <pin num="U4" name="DRAM_DATA07" type="input"/>
+        <pin num="U5" name="DRAM_DATA10" type="input"/>
+        <pin num="U6" name="DRAM_DATA01" type="input"/>
+        <pin num="U7" name="DRAM_DATA03" type="input"/>
+        <pin num="U8" name="DRAM_DATA04" type="input"/>
+        <pin num="U9" name="CCM_PMIC_STBY_REQ" type="input"/>
+        <pin num="U10" name="BOOT_MODE1" type="input"/>
+        <pin num="U11" name="RTC_XTALO" type="input"/>
+        <pin num="U12" name="USB_OTG2_VBUS" type="power_in"/>
+        <pin num="U13" name="USB_OTG2_DP" type="input"/>
+        <pin num="U14" name="VSS" type="power_in"/>
+        <pin num="U15" name="USB_OTG1_DP" type="input"/>
+        <pin num="U16" name="USB_OTG1_CHD_B" type="input"/>
+        <pin num="U17" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_components" part="J0011D01BNL">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">J0011D01BNL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TD+" type="input"/>
+        <pin num="2" name="TD-" type="input"/>
+        <pin num="3" name="RD+" type="input"/>
+        <pin num="4" name="TCT" type="input"/>
+        <pin num="5" name="RCT" type="input"/>
+        <pin num="6" name="RD-" type="input"/>
+        <pin num="7" name="NC" type="input"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="9" name="LED1+" type="input"/>
+        <pin num="10" name="LED1-" type="input"/>
+        <pin num="11" name="LED2-" type="input"/>
+        <pin num="12" name="LED2+" type="input"/>
+        <pin num="13" name="SHIELD1" type="input"/>
+        <pin num="14" name="SHIELD2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_components" part="LAN8720A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LAN8720A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD2A" type="input"/>
+        <pin num="2" name="LED2/nINTSEL" type="input"/>
+        <pin num="3" name="LED1/REGOFF" type="input"/>
+        <pin num="4" name="XTAL2" type="input"/>
+        <pin num="5" name="XTAL1/CLKIN" type="input"/>
+        <pin num="6" name="VDDCR" type="input"/>
+        <pin num="7" name="RXD1/MODE1" type="input"/>
+        <pin num="8" name="RXD0/MODE0" type="input"/>
+        <pin num="9" name="VDDIO" type="input"/>
+        <pin num="10" name="RXER/PHYAD0" type="input"/>
+        <pin num="11" name="CRS_DV/MODE2" type="input"/>
+        <pin num="12" name="MDIO" type="input"/>
+        <pin num="13" name="MDC" type="input"/>
+        <pin num="14" name="nINT/REFCLKO" type="input"/>
+        <pin num="15" name="nRST" type="input"/>
+        <pin num="16" name="TXEN" type="input"/>
+        <pin num="17" name="TXD0" type="input"/>
+        <pin num="18" name="TXD1" type="input"/>
+        <pin num="19" name="VDD1A" type="input"/>
+        <pin num="20" name="TXN" type="output"/>
+        <pin num="21" name="TXP" type="output"/>
+        <pin num="22" name="RXN" type="input"/>
+        <pin num="23" name="RXP" type="input"/>
+        <pin num="24" name="RBIAS" type="input"/>
+        <pin num="25" name="VSS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_components" part="PF1550">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PF1550</field>
+      </fields>
+      <pins>
+        <pin num="1" name="WDI" type="input"/>
+        <pin num="2" name="SDA" type="3state"/>
+        <pin num="3" name="SCL" type="3state"/>
+        <pin num="4" name="VDDIO" type="power_in"/>
+        <pin num="5" name="VDDOTP" type="power_in"/>
+        <pin num="6" name="POWERON" type="input"/>
+        <pin num="7" name="STANDBY" type="input"/>
+        <pin num="8" name="ONKEY" type="input"/>
+        <pin num="9" name="INTB" type="openCol"/>
+        <pin num="10" name="RESETBMCU" type="openCol"/>
+        <pin num="11" name="VLDO3IN" type="power_in"/>
+        <pin num="12" name="VLDO3" type="power_out"/>
+        <pin num="13" name="SW3LX" type="power_out"/>
+        <pin num="14" name="SW3IN" type="power_in"/>
+        <pin num="15" name="SW3FB" type="input"/>
+        <pin num="16" name="SW2FB" type="input"/>
+        <pin num="17" name="SW2IN" type="power_in"/>
+        <pin num="18" name="SW2LX" type="power_out"/>
+        <pin num="19" name="VLDO2" type="power_out"/>
+        <pin num="20" name="VLDO2IN" type="power_in"/>
+        <pin num="21" name="VREFDDR" type="power_out"/>
+        <pin num="22" name="VINREFDDR" type="power_in"/>
+        <pin num="23" name="VDIG" type="power_in"/>
+        <pin num="24" name="VCORE" type="power_in"/>
+        <pin num="25" name="SW1LX" type="power_out"/>
+        <pin num="26" name="SW1IN" type="power_in"/>
+        <pin num="27" name="SW1FB" type="input"/>
+        <pin num="28" name="VLDO1IN" type="power_in"/>
+        <pin num="29" name="VLDO1" type="power_out"/>
+        <pin num="30" name="VSNVS" type="power_out"/>
+        <pin num="31" name="LICELL" type="passive"/>
+        <pin num="32" name="THM-(GND)" type="input"/>
+        <pin num="33" name="(NC)-VBATT1" type="input"/>
+        <pin num="34" name="(NC)-VBATT2" type="input"/>
+        <pin num="35" name="VSYS1" type="power_out"/>
+        <pin num="36" name="VSYS2" type="power_out"/>
+        <pin num="37" name="VBUSIN-(VIN)" type="power_in"/>
+        <pin num="38" name="INT2P7-(LDO2P7)" type="power_out"/>
+        <pin num="39" name="USBPHY" type="power_out"/>
+        <pin num="40" name="(GND)-CHGB" type="input"/>
+        <pin num="41" name="EP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_components" part="SD-104031">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SD-104031</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D2" type="BiDi"/>
+        <pin num="2" name="D3" type="BiDi"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="D0" type="BiDi"/>
+        <pin num="8" name="D1" type="BiDi"/>
+        <pin num="9" name="SW1" type="passive"/>
+        <pin num="10" name="SW2" type="passive"/>
+        <pin num="11" name="Shield1" type="passive"/>
+        <pin num="12" name="Shield2" type="passive"/>
+        <pin num="13" name="Shield3" type="passive"/>
+        <pin num="14" name="Shield4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_components" part="SR">
+      <description>Resistor strap</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SR</field>
+        <field name="Value">SR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_components" part="USB-A-D-RA-30">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB-A-D-RA-30</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="VCC" type="passive"/>
+        <pin num="6" name="D-" type="passive"/>
+        <pin num="7" name="D+" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+        <pin num="10" name="SHIELD" type="passive"/>
+        <pin num="11" name="SHIELD" type="passive"/>
+        <pin num="12" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_components" part="USB2514B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USB2514B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PORT1_N" type="passive"/>
+        <pin num="2" name="PORT1_P" type="passive"/>
+        <pin num="3" name="PORT2_M" type="passive"/>
+        <pin num="4" name="PORT2_P" type="passive"/>
+        <pin num="5" name="VDDA33" type="passive"/>
+        <pin num="6" name="PORT3_N" type="passive"/>
+        <pin num="7" name="PORT3_P" type="passive"/>
+        <pin num="8" name="PORT4_N" type="passive"/>
+        <pin num="9" name="PORT4_P" type="passive"/>
+        <pin num="10" name="VDDA33" type="passive"/>
+        <pin num="11" name="TEST" type="passive"/>
+        <pin num="12" name="PRTPWR1/BC_EN1" type="passive"/>
+        <pin num="13" name="OCS_N1" type="passive"/>
+        <pin num="14" name="CRFILT" type="passive"/>
+        <pin num="15" name="VDD33" type="passive"/>
+        <pin num="16" name="PRTPWR2/BC_EN2" type="passive"/>
+        <pin num="17" name="OCS_N2" type="passive"/>
+        <pin num="18" name="PRTPWR3/BC_EN3" type="passive"/>
+        <pin num="19" name="OCS_N3" type="passive"/>
+        <pin num="20" name="PRTPWR4/BC_EN4" type="passive"/>
+        <pin num="21" name="OCS_N4" type="passive"/>
+        <pin num="22" name="SDA" type="passive"/>
+        <pin num="23" name="VDD33" type="passive"/>
+        <pin num="24" name="SCL/CFG_SEL0" type="passive"/>
+        <pin num="25" name="HS_IND/CFG_SEL1" type="passive"/>
+        <pin num="26" name="RESET_N" type="passive"/>
+        <pin num="27" name="VBUS_DET" type="passive"/>
+        <pin num="28" name="SUSP_IND/NON_REM1" type="passive"/>
+        <pin num="29" name="VDDA33" type="passive"/>
+        <pin num="30" name="USB_M" type="passive"/>
+        <pin num="31" name="USB_P" type="passive"/>
+        <pin num="32" name="XTALOUT" type="passive"/>
+        <pin num="33" name="XTALIN/CLKIN" type="passive"/>
+        <pin num="34" name="PLLFILT" type="passive"/>
+        <pin num="35" name="RBIAS" type="passive"/>
+        <pin num="36" name="VDDA33" type="passive"/>
+        <pin num="37" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_components" part="W25M512JV">
+      <description>QSPI flash memory</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25M512JV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="#CS" type="input"/>
+        <pin num="2" name="DO/IO1" type="BiDi"/>
+        <pin num="3" name="IO2" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI/IO0" type="input"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_components" part="XTAL">
+      <description>Quartz crystal</description>
+      <footprints>
+        <fp>XTAL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">XTAL</field>
+        <field name="Value">XTAL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nano-rescue" part="CONN_02X20">
+      <footprints>
+        <fp>Pin_Header_Straight_2X20</fp>
+        <fp>Pin_Header_Angled_2X20</fp>
+        <fp>Socket_Strip_Straight_2X20</fp>
+        <fp>Socket_Strip_Angled_2X20</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+        <pin num="26" name="P26" type="passive"/>
+        <pin num="27" name="P27" type="passive"/>
+        <pin num="28" name="P28" type="passive"/>
+        <pin num="29" name="P29" type="passive"/>
+        <pin num="30" name="P30" type="passive"/>
+        <pin num="31" name="P31" type="passive"/>
+        <pin num="32" name="P32" type="passive"/>
+        <pin num="33" name="P33" type="passive"/>
+        <pin num="34" name="P34" type="passive"/>
+        <pin num="35" name="P35" type="passive"/>
+        <pin num="36" name="P36" type="passive"/>
+        <pin num="37" name="P37" type="passive"/>
+        <pin num="38" name="P38" type="passive"/>
+        <pin num="39" name="P39" type="passive"/>
+        <pin num="40" name="P40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nano-rescue" part="CP1">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nano-rescue" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nano-rescue" part="INDUCTOR_SMALL">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="nano-rescue" part="LED-RESCUE-nano">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-nano</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nano-rescue" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="custom_components">
+      <uri>/home/peca/nanoberry/kicad/custom_components.lib</uri>
+    </library>
+    <library logical="nano-rescue">
+      <uri>/home/peca/nanoberry/kicad/nano-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="SD1_D0">
+      <node ref="J1" pin="7"/>
+      <node ref="U1" pin="B3"/>
+    </net>
+    <net code="2" name="SD1_CD_B">
+      <node ref="J1" pin="9"/>
+      <node ref="U1" pin="L17"/>
+    </net>
+    <net code="3" name="SD1_D1">
+      <node ref="J1" pin="8"/>
+      <node ref="U1" pin="B2"/>
+    </net>
+    <net code="4" name="SD1_CLK">
+      <node ref="U1" pin="C1"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="5" name="SD1_CMD">
+      <node ref="U1" pin="C2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="6" name="SD1_D3">
+      <node ref="U1" pin="A2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C32" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="U1" pin="G12"/>
+      <node ref="C38" pin="2"/>
+      <node ref="U1" pin="K12"/>
+      <node ref="U1" pin="J7"/>
+      <node ref="U1" pin="J5"/>
+      <node ref="U1" pin="J12"/>
+      <node ref="U1" pin="H7"/>
+      <node ref="U1" pin="H12"/>
+      <node ref="U1" pin="G7"/>
+      <node ref="U1" pin="G5"/>
+      <node ref="U1" pin="G3"/>
+      <node ref="U1" pin="G15"/>
+      <node ref="C37" pin="2"/>
+      <node ref="U1" pin="F9"/>
+      <node ref="U1" pin="F8"/>
+      <node ref="U1" pin="F6"/>
+      <node ref="U1" pin="F12"/>
+      <node ref="U1" pin="F11"/>
+      <node ref="U1" pin="F10"/>
+      <node ref="U1" pin="E8"/>
+      <node ref="U1" pin="E11"/>
+      <node ref="U1" pin="C7"/>
+      <node ref="U1" pin="C3"/>
+      <node ref="U1" pin="C15"/>
+      <node ref="U1" pin="C11"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R25" pin="1"/>
+      <node ref="C49" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="U1" pin="A17"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="U1" pin="R3"/>
+      <node ref="C45" pin="2"/>
+      <node ref="U1" pin="L12"/>
+      <node ref="U1" pin="R17"/>
+      <node ref="U1" pin="A1"/>
+      <node ref="U1" pin="F7"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="U1" pin="U17"/>
+      <node ref="U1" pin="U14"/>
+      <node ref="U1" pin="U1"/>
+      <node ref="U1" pin="T14"/>
+      <node ref="U1" pin="R7"/>
+      <node ref="U1" pin="R5"/>
+      <node ref="U1" pin="K7"/>
+      <node ref="U1" pin="R16"/>
+      <node ref="U1" pin="R11"/>
+      <node ref="U1" pin="N5"/>
+      <node ref="U1" pin="N3"/>
+      <node ref="U1" pin="M9"/>
+      <node ref="U1" pin="M8"/>
+      <node ref="U1" pin="M7"/>
+      <node ref="U1" pin="M12"/>
+      <node ref="U1" pin="M11"/>
+      <node ref="U1" pin="M10"/>
+      <node ref="U1" pin="L7"/>
+      <node ref="U1" pin="L3"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="P5" pin="8"/>
+      <node ref="P4" pin="8"/>
+      <node ref="P4" pin="9"/>
+      <node ref="P5" pin="10"/>
+      <node ref="P5" pin="11"/>
+      <node ref="P5" pin="12"/>
+      <node ref="P5" pin="9"/>
+      <node ref="P5" pin="4"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J4" pin="6"/>
+      <node ref="J4" pin="5"/>
+      <node ref="P4" pin="10"/>
+      <node ref="P4" pin="11"/>
+      <node ref="P4" pin="12"/>
+      <node ref="P4" pin="4"/>
+      <node ref="R43" pin="1"/>
+      <node ref="R44" pin="1"/>
+      <node ref="C108" pin="2"/>
+      <node ref="C107" pin="2"/>
+      <node ref="C106" pin="2"/>
+      <node ref="C105" pin="2"/>
+      <node ref="XTAL1" pin="2"/>
+      <node ref="XTAL1" pin="4"/>
+      <node ref="C89" pin="2"/>
+      <node ref="C87" pin="2"/>
+      <node ref="C86" pin="2"/>
+      <node ref="C88" pin="2"/>
+      <node ref="U8" pin="11"/>
+      <node ref="R40" pin="1"/>
+      <node ref="U8" pin="37"/>
+      <node ref="J5" pin="9"/>
+      <node ref="U1" pin="N7"/>
+      <node ref="SR2" pin="3"/>
+      <node ref="SR1" pin="3"/>
+      <node ref="J5" pin="5"/>
+      <node ref="C90" pin="2"/>
+      <node ref="C91" pin="2"/>
+      <node ref="U9" pin="12"/>
+      <node ref="U9" pin="21"/>
+      <node ref="U9" pin="3"/>
+      <node ref="C100" pin="2"/>
+      <node ref="R50" pin="2"/>
+      <node ref="J5" pin="3"/>
+      <node ref="XTAL2" pin="4"/>
+      <node ref="C99" pin="2"/>
+      <node ref="C98" pin="2"/>
+      <node ref="C97" pin="2"/>
+      <node ref="R54" pin="2"/>
+      <node ref="XTAL2" pin="2"/>
+      <node ref="C96" pin="2"/>
+      <node ref="C101" pin="2"/>
+      <node ref="R55" pin="2"/>
+      <node ref="R52" pin="1"/>
+      <node ref="C69" pin="2"/>
+      <node ref="C58" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C57" pin="2"/>
+      <node ref="C66" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="U6" pin="41"/>
+      <node ref="C48" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="C60" pin="2"/>
+      <node ref="C62" pin="2"/>
+      <node ref="C64" pin="2"/>
+      <node ref="C67" pin="2"/>
+      <node ref="C68" pin="2"/>
+      <node ref="C70" pin="2"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="C71" pin="2"/>
+      <node ref="C72" pin="2"/>
+      <node ref="C59" pin="2"/>
+      <node ref="C61" pin="2"/>
+      <node ref="C55" pin="2"/>
+      <node ref="C63" pin="2"/>
+      <node ref="C65" pin="2"/>
+      <node ref="C56" pin="2"/>
+      <node ref="P3" pin="8"/>
+      <node ref="C79" pin="2"/>
+      <node ref="C80" pin="2"/>
+      <node ref="C78" pin="2"/>
+      <node ref="C85" pin="2"/>
+      <node ref="C76" pin="2"/>
+      <node ref="C77" pin="2"/>
+      <node ref="R35" pin="1"/>
+      <node ref="P3" pin="14"/>
+      <node ref="P3" pin="13"/>
+      <node ref="C82" pin="2"/>
+      <node ref="C83" pin="2"/>
+      <node ref="C84" pin="2"/>
+      <node ref="C74" pin="2"/>
+      <node ref="C75" pin="2"/>
+      <node ref="C73" pin="2"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R39" pin="2"/>
+      <node ref="U7" pin="25"/>
+      <node ref="C81" pin="2"/>
+      <node ref="P2" pin="12"/>
+      <node ref="P2" pin="15"/>
+      <node ref="P2" pin="20"/>
+      <node ref="P2" pin="23"/>
+      <node ref="C103" pin="2"/>
+      <node ref="C104" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="C94" pin="2"/>
+      <node ref="P2" pin="7"/>
+      <node ref="P2" pin="36"/>
+      <node ref="P2" pin="28"/>
+      <node ref="J1" pin="6"/>
+      <node ref="C93" pin="2"/>
+      <node ref="C92" pin="2"/>
+      <node ref="P2" pin="4"/>
+      <node ref="U2" pin="P1"/>
+      <node ref="U2" pin="E2"/>
+      <node ref="U2" pin="E1"/>
+      <node ref="U2" pin="D1"/>
+      <node ref="U2" pin="B9"/>
+      <node ref="U2" pin="B3"/>
+      <node ref="U2" pin="D8"/>
+      <node ref="U2" pin="T9"/>
+      <node ref="U2" pin="T1"/>
+      <node ref="U2" pin="P9"/>
+      <node ref="U2" pin="E8"/>
+      <node ref="U2" pin="M1"/>
+      <node ref="U2" pin="J8"/>
+      <node ref="U2" pin="J2"/>
+      <node ref="U2" pin="G9"/>
+      <node ref="U2" pin="G8"/>
+      <node ref="U2" pin="M9"/>
+      <node ref="U2" pin="G1"/>
+      <node ref="U2" pin="F9"/>
+      <node ref="C95" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="P2" pin="31"/>
+      <node ref="P2" pin="39"/>
+      <node ref="J1" pin="11"/>
+      <node ref="J1" pin="10"/>
+      <node ref="J1" pin="12"/>
+      <node ref="J1" pin="13"/>
+      <node ref="J1" pin="14"/>
+      <node ref="P1" pin="25"/>
+      <node ref="P1" pin="30"/>
+      <node ref="P1" pin="20"/>
+      <node ref="P1" pin="9"/>
+      <node ref="P1" pin="6"/>
+      <node ref="P1" pin="39"/>
+      <node ref="P1" pin="34"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="P1" pin="14"/>
+      <node ref="U2" pin="A9"/>
+      <node ref="U2" pin="B1"/>
+    </net>
+    <net code="8" name="SD1_D2">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="B1"/>
+    </net>
+    <net code="9" name="VLDO1_1V8">
+      <node ref="U6" pin="29"/>
+      <node ref="U1" pin="F4"/>
+      <node ref="C46" pin="1"/>
+      <node ref="C52" pin="1"/>
+    </net>
+    <net code="10" name="VLDO3_3V3">
+      <node ref="C62" pin="1"/>
+      <node ref="U6" pin="12"/>
+      <node ref="U1" pin="C4"/>
+      <node ref="C47" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J6-Pad5)">
+      <node ref="J6" pin="5"/>
+      <node ref="U1" pin="D17"/>
+    </net>
+    <net code="12" name="Net-(J6-Pad6)">
+      <node ref="J6" pin="6"/>
+      <node ref="U1" pin="A15"/>
+    </net>
+    <net code="13" name="Net-(J6-Pad7)">
+      <node ref="U1" pin="A16"/>
+      <node ref="J6" pin="7"/>
+    </net>
+    <net code="14" name="Net-(J6-Pad8)">
+      <node ref="J6" pin="8"/>
+      <node ref="U1" pin="B15"/>
+    </net>
+    <net code="15" name="DCDC_3V3">
+      <node ref="R10" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C75" pin="1"/>
+      <node ref="L4" pin="1"/>
+      <node ref="R33" pin="2"/>
+      <node ref="U7" pin="9"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U3" pin="7"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U3" pin="3"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U1" pin="J13"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="L9" pin="1"/>
+      <node ref="U1" pin="E7"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U1" pin="H13"/>
+      <node ref="U1" pin="F13"/>
+      <node ref="C92" pin="1"/>
+      <node ref="C93" pin="1"/>
+      <node ref="P1" pin="17"/>
+      <node ref="C95" pin="1"/>
+      <node ref="C74" pin="1"/>
+      <node ref="C102" pin="1"/>
+      <node ref="C73" pin="1"/>
+      <node ref="U1" pin="E13"/>
+      <node ref="U5" pin="8"/>
+      <node ref="C94" pin="1"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="16" name="Net-(J6-Pad4)">
+      <node ref="U1" pin="D16"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="17" name="Net-(J6-Pad3)">
+      <node ref="J6" pin="3"/>
+      <node ref="U1" pin="B17"/>
+    </net>
+    <net code="18" name="ETH_RXER">
+      <node ref="U1" pin="D15"/>
+      <node ref="R39" pin="1"/>
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="19" name="5V">
+      <node ref="U6" pin="37"/>
+      <node ref="P1" pin="2"/>
+      <node ref="L5" pin="1"/>
+      <node ref="L6" pin="1"/>
+      <node ref="L8" pin="1"/>
+      <node ref="U9" pin="7"/>
+      <node ref="L7" pin="1"/>
+      <node ref="P1" pin="4"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="U1" pin="U12"/>
+      <node ref="U1" pin="T12"/>
+    </net>
+    <net code="20" name="Net-(U1-PadN17)">
+      <node ref="U1" pin="N17"/>
+    </net>
+    <net code="21" name="/periph1/IO5">
+      <node ref="U1" pin="M17"/>
+    </net>
+    <net code="22" name="HUB_24MHZ">
+      <node ref="U1" pin="M16"/>
+      <node ref="R45" pin="1"/>
+      <node ref="C89" pin="1"/>
+      <node ref="U8" pin="33"/>
+      <node ref="XTAL1" pin="3"/>
+    </net>
+    <net code="23" name="/periph1/UART2_TX">
+      <node ref="U1" pin="J17"/>
+    </net>
+    <net code="24" name="/periph1/UART2_RX">
+      <node ref="U1" pin="J16"/>
+    </net>
+    <net code="25" name="/periph1/UART2_CTS">
+      <node ref="U1" pin="J15"/>
+    </net>
+    <net code="26" name="DBG_CTS">
+      <node ref="U9" pin="15"/>
+      <node ref="U1" pin="J14"/>
+    </net>
+    <net code="27" name="/periph1/UART2_RTS">
+      <node ref="U1" pin="H14"/>
+    </net>
+    <net code="28" name="/periph1/UART4_TX">
+      <node ref="U1" pin="G17"/>
+    </net>
+    <net code="29" name="/periph1/UART4_RX">
+      <node ref="U1" pin="G16"/>
+    </net>
+    <net code="30" name="Net-(U1-PadM15)">
+      <node ref="U1" pin="M15"/>
+    </net>
+    <net code="31" name="/periph1/UART5_RX">
+      <node ref="U1" pin="G13"/>
+    </net>
+    <net code="32" name="/periph1/UART5_TX">
+      <node ref="U1" pin="F17"/>
+    </net>
+    <net code="33" name="ETH_RXD0">
+      <node ref="U1" pin="F16"/>
+      <node ref="R36" pin="1"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="34" name="ETH_TXEN">
+      <node ref="U7" pin="16"/>
+      <node ref="U1" pin="F15"/>
+    </net>
+    <net code="35" name="ETH_TXCK">
+      <node ref="U7" pin="5"/>
+      <node ref="U1" pin="F14"/>
+    </net>
+    <net code="36" name="ETH_RXD1">
+      <node ref="R37" pin="1"/>
+      <node ref="U7" pin="7"/>
+      <node ref="U1" pin="E17"/>
+    </net>
+    <net code="37" name="ETH_RXEN">
+      <node ref="R38" pin="1"/>
+      <node ref="U1" pin="E16"/>
+      <node ref="U7" pin="11"/>
+    </net>
+    <net code="38" name="ETH_TXD0">
+      <node ref="U1" pin="E15"/>
+      <node ref="U7" pin="17"/>
+    </net>
+    <net code="39" name="ETH_TXD1">
+      <node ref="U7" pin="18"/>
+      <node ref="U1" pin="E14"/>
+    </net>
+    <net code="40" name="Net-(P1-Pad29)">
+      <node ref="P1" pin="29"/>
+    </net>
+    <net code="41" name="Net-(P1-Pad28)">
+      <node ref="P1" pin="28"/>
+    </net>
+    <net code="42" name="Net-(P1-Pad27)">
+      <node ref="P1" pin="27"/>
+    </net>
+    <net code="43" name="Net-(P1-Pad26)">
+      <node ref="P1" pin="26"/>
+    </net>
+    <net code="44" name="Net-(P1-Pad22)">
+      <node ref="P1" pin="22"/>
+    </net>
+    <net code="45" name="Net-(P1-Pad18)">
+      <node ref="P1" pin="18"/>
+    </net>
+    <net code="46" name="Net-(P1-Pad16)">
+      <node ref="P1" pin="16"/>
+    </net>
+    <net code="47" name="Net-(P1-Pad15)">
+      <node ref="P1" pin="15"/>
+    </net>
+    <net code="48" name="/periph1/IO1">
+      <node ref="U1" pin="L15"/>
+    </net>
+    <net code="49" name="/periph1/IO2">
+      <node ref="U1" pin="L14"/>
+    </net>
+    <net code="50" name="ETH_MDIO">
+      <node ref="U7" pin="12"/>
+      <node ref="U1" pin="K17"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="51" name="/periph1/IO0">
+      <node ref="U1" pin="K13"/>
+    </net>
+    <net code="52" name="DBG_RXD">
+      <node ref="U9" pin="17"/>
+      <node ref="U1" pin="K14"/>
+    </net>
+    <net code="53" name="Net-(P1-Pad40)">
+      <node ref="P1" pin="40"/>
+    </net>
+    <net code="54" name="Net-(P1-Pad38)">
+      <node ref="P1" pin="38"/>
+    </net>
+    <net code="55" name="Net-(P1-Pad37)">
+      <node ref="P1" pin="37"/>
+    </net>
+    <net code="56" name="Net-(P1-Pad36)">
+      <node ref="P1" pin="36"/>
+    </net>
+    <net code="57" name="Net-(P1-Pad35)">
+      <node ref="P1" pin="35"/>
+    </net>
+    <net code="58" name="Net-(P1-Pad33)">
+      <node ref="P1" pin="33"/>
+    </net>
+    <net code="59" name="Net-(P1-Pad32)">
+      <node ref="P1" pin="32"/>
+    </net>
+    <net code="60" name="Net-(P1-Pad31)">
+      <node ref="P1" pin="31"/>
+    </net>
+    <net code="61" name="DBG_TXD">
+      <node ref="U9" pin="18"/>
+      <node ref="U1" pin="K16"/>
+    </net>
+    <net code="62" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="63" name="DBG_RTS">
+      <node ref="U1" pin="K15"/>
+      <node ref="U9" pin="16"/>
+    </net>
+    <net code="64" name="BOARD_SDA">
+      <node ref="U8" pin="22"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U1" pin="C16"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="65" name="A71_NRST">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="66" name="BOARD_SCL">
+      <node ref="U3" pin="1"/>
+      <node ref="U1" pin="C17"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U8" pin="24"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="67" name="/periph1/UART3_RTS">
+      <node ref="U1" pin="G14"/>
+    </net>
+    <net code="68" name="ETH_MDC">
+      <node ref="U7" pin="13"/>
+      <node ref="U1" pin="L16"/>
+    </net>
+    <net code="69" name="/periph1/UART3_CTS">
+      <node ref="U1" pin="H15"/>
+    </net>
+    <net code="70" name="/periph1/UART3_TX">
+      <node ref="U1" pin="H17"/>
+    </net>
+    <net code="71" name="/periph1/UART3_RX">
+      <node ref="U1" pin="H16"/>
+    </net>
+    <net code="72" name="CSI_DATA03">
+      <node ref="P1" pin="21"/>
+      <node ref="U1" pin="E1"/>
+    </net>
+    <net code="73" name="ETH_NRST">
+      <node ref="U7" pin="15"/>
+    </net>
+    <net code="74" name="ETH_NINT">
+      <node ref="R33" pin="1"/>
+      <node ref="U7" pin="14"/>
+    </net>
+    <net code="75" name="CSI_MCLK">
+      <node ref="P1" pin="8"/>
+      <node ref="U1" pin="F5"/>
+    </net>
+    <net code="76" name="CSI_HSYNC">
+      <node ref="P1" pin="5"/>
+      <node ref="U1" pin="F3"/>
+    </net>
+    <net code="77" name="CSI_VSYNC">
+      <node ref="P1" pin="3"/>
+      <node ref="U1" pin="F2"/>
+    </net>
+    <net code="78" name="CSI_PIXCLK">
+      <node ref="P1" pin="10"/>
+      <node ref="U1" pin="E5"/>
+    </net>
+    <net code="79" name="CSI_DATA00">
+      <node ref="P1" pin="23"/>
+      <node ref="U1" pin="E4"/>
+    </net>
+    <net code="80" name="CSI_DATA01">
+      <node ref="U1" pin="E3"/>
+      <node ref="P1" pin="24"/>
+    </net>
+    <net code="81" name="CSI_DATA02">
+      <node ref="P1" pin="19"/>
+      <node ref="U1" pin="E2"/>
+    </net>
+    <net code="82" name="CSI_DATA04">
+      <node ref="U1" pin="D4"/>
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="83" name="CSI_DATA05">
+      <node ref="U1" pin="D3"/>
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="84" name="CSI_DATA06">
+      <node ref="U1" pin="D2"/>
+      <node ref="P1" pin="11"/>
+    </net>
+    <net code="85" name="CSI_DATA07">
+      <node ref="U1" pin="D1"/>
+      <node ref="P1" pin="13"/>
+    </net>
+    <net code="86" name="/periph2/QB_D3">
+      <node ref="U5" pin="7"/>
+      <node ref="U1" pin="B6"/>
+    </net>
+    <net code="87" name="/periph2/QB_CLK">
+      <node ref="U5" pin="6"/>
+      <node ref="U1" pin="D8"/>
+    </net>
+    <net code="88" name="/periph2/QB_D0">
+      <node ref="U1" pin="A7"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="89" name="/periph2/QB_D2">
+      <node ref="U1" pin="C6"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="90" name="Net-(U1-PadD7)">
+      <node ref="U1" pin="D7"/>
+    </net>
+    <net code="91" name="Net-(U1-PadB7)">
+      <node ref="U1" pin="B7"/>
+    </net>
+    <net code="92" name="Net-(U1-PadA6)">
+      <node ref="U1" pin="A6"/>
+    </net>
+    <net code="93" name="Net-(U1-PadA5)">
+      <node ref="U1" pin="A5"/>
+    </net>
+    <net code="94" name="DBG_SUSPEND">
+      <node ref="U9" pin="14"/>
+    </net>
+    <net code="95" name="DBG_WKUP">
+      <node ref="U9" pin="13"/>
+    </net>
+    <net code="96" name="DBG_GPIO1">
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="97" name="DBG_GPIO0">
+      <node ref="U9" pin="2"/>
+    </net>
+    <net code="98" name="/periph2/QB_D1">
+      <node ref="U1" pin="D6"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="99" name="/periph2/LCD_D22">
+      <node ref="U1" pin="A14"/>
+      <node ref="P2" pin="38"/>
+    </net>
+    <net code="100" name="Net-(U1-PadB4)">
+      <node ref="U1" pin="B4"/>
+    </net>
+    <net code="101" name="/periph2/LCD_D23">
+      <node ref="P2" pin="40"/>
+      <node ref="U1" pin="B16"/>
+    </net>
+    <net code="102" name="/periph2/LCD_D21">
+      <node ref="P2" pin="37"/>
+      <node ref="U1" pin="B14"/>
+    </net>
+    <net code="103" name="/periph2/LCD_D20">
+      <node ref="U1" pin="C14"/>
+      <node ref="P2" pin="35"/>
+    </net>
+    <net code="104" name="/periph2/LCD_D19">
+      <node ref="P2" pin="33"/>
+      <node ref="U1" pin="D14"/>
+    </net>
+    <net code="105" name="/periph2/LCD_D18">
+      <node ref="U1" pin="A13"/>
+      <node ref="P2" pin="34"/>
+    </net>
+    <net code="106" name="/periph2/LCD_D17">
+      <node ref="P2" pin="32"/>
+      <node ref="U1" pin="B13"/>
+    </net>
+    <net code="107" name="/periph2/LCD_D16">
+      <node ref="U1" pin="C13"/>
+      <node ref="P2" pin="30"/>
+    </net>
+    <net code="108" name="/periph2/LCD_D15">
+      <node ref="P2" pin="29"/>
+      <node ref="U1" pin="D13"/>
+    </net>
+    <net code="109" name="/periph2/QA_CS">
+      <node ref="U4" pin="1"/>
+      <node ref="U1" pin="E6"/>
+    </net>
+    <net code="110" name="/periph2/QB_CS">
+      <node ref="U5" pin="1"/>
+      <node ref="U1" pin="C8"/>
+    </net>
+    <net code="111" name="/periph2/QA_D3">
+      <node ref="U1" pin="A4"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="112" name="/periph2/QA_CLK">
+      <node ref="U1" pin="D5"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="113" name="/periph2/QA_D0">
+      <node ref="U1" pin="A3"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="114" name="/periph2/QA_D2">
+      <node ref="U4" pin="3"/>
+      <node ref="U1" pin="B5"/>
+    </net>
+    <net code="115" name="/periph2/QA_D1">
+      <node ref="U1" pin="C5"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="116" name="OTG_D+">
+      <node ref="J4" pin="3"/>
+      <node ref="U1" pin="U15"/>
+    </net>
+    <net code="117" name="HUB_D+">
+      <node ref="U8" pin="31"/>
+      <node ref="U1" pin="U13"/>
+    </net>
+    <net code="118" name="HUB_D-">
+      <node ref="U8" pin="30"/>
+      <node ref="U1" pin="T13"/>
+    </net>
+    <net code="119" name="OTG_D-">
+      <node ref="J4" pin="2"/>
+      <node ref="U1" pin="T15"/>
+    </net>
+    <net code="120" name="Net-(U1-PadU16)">
+      <node ref="U1" pin="U16"/>
+    </net>
+    <net code="121" name="/periph2/VDDUSB">
+      <node ref="C103" pin="1"/>
+      <node ref="U1" pin="R12"/>
+      <node ref="C104" pin="1"/>
+    </net>
+    <net code="122" name="/periph2/LCD_CLK">
+      <node ref="P2" pin="3"/>
+      <node ref="U1" pin="A8"/>
+    </net>
+    <net code="123" name="/periph2/LCD_D2">
+      <node ref="U1" pin="E10"/>
+      <node ref="P2" pin="11"/>
+    </net>
+    <net code="124" name="/periph2/LCD_D3">
+      <node ref="U1" pin="D10"/>
+      <node ref="P2" pin="13"/>
+    </net>
+    <net code="125" name="/periph2/LCD_D4">
+      <node ref="U1" pin="C10"/>
+      <node ref="P2" pin="14"/>
+    </net>
+    <net code="126" name="/periph2/LCD_D5">
+      <node ref="P2" pin="16"/>
+      <node ref="U1" pin="B10"/>
+    </net>
+    <net code="127" name="/periph2/LCD_D6">
+      <node ref="U1" pin="A10"/>
+      <node ref="P2" pin="18"/>
+    </net>
+    <net code="128" name="/periph2/LCD_D7">
+      <node ref="U1" pin="D11"/>
+      <node ref="P2" pin="17"/>
+    </net>
+    <net code="129" name="/periph2/LCD_HSYNC">
+      <node ref="P2" pin="6"/>
+      <node ref="U1" pin="D9"/>
+    </net>
+    <net code="130" name="/periph2/LCD_VSYNC">
+      <node ref="U1" pin="C9"/>
+      <node ref="P2" pin="8"/>
+    </net>
+    <net code="131" name="/periph2/LCD_EN">
+      <node ref="P2" pin="5"/>
+      <node ref="U1" pin="B8"/>
+    </net>
+    <net code="132" name="/periph2/LCD_RST">
+      <node ref="U1" pin="E9"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="133" name="/periph2/LCD_D1">
+      <node ref="U1" pin="A9"/>
+      <node ref="P2" pin="9"/>
+    </net>
+    <net code="134" name="/periph2/LCD_D9">
+      <node ref="U1" pin="A11"/>
+      <node ref="P2" pin="21"/>
+    </net>
+    <net code="135" name="/periph2/LCD_D12">
+      <node ref="P2" pin="26"/>
+      <node ref="U1" pin="C12"/>
+    </net>
+    <net code="136" name="/periph2/LCD_D13">
+      <node ref="U1" pin="B12"/>
+      <node ref="P2" pin="25"/>
+    </net>
+    <net code="137" name="/periph2/LCD_D0">
+      <node ref="P2" pin="10"/>
+      <node ref="U1" pin="B9"/>
+    </net>
+    <net code="138" name="/periph2/LCD_D11">
+      <node ref="U1" pin="D12"/>
+      <node ref="P2" pin="24"/>
+    </net>
+    <net code="139" name="/periph2/LCD_D8">
+      <node ref="P2" pin="19"/>
+      <node ref="U1" pin="B11"/>
+    </net>
+    <net code="140" name="/periph2/LCD_D10">
+      <node ref="P2" pin="22"/>
+      <node ref="U1" pin="E12"/>
+    </net>
+    <net code="141" name="/periph2/LCD_D14">
+      <node ref="P2" pin="27"/>
+      <node ref="U1" pin="A12"/>
+    </net>
+    <net code="142" name="/DDR/ODT1">
+      <node ref="U2" pin="J1"/>
+      <node ref="U1" pin="F1"/>
+    </net>
+    <net code="143" name="/DDR/DQU2">
+      <node ref="U2" pin="C8"/>
+      <node ref="U1" pin="U5"/>
+    </net>
+    <net code="144" name="/DDR/DQU4">
+      <node ref="U2" pin="A7"/>
+      <node ref="U1" pin="P5"/>
+    </net>
+    <net code="145" name="/DDR/DQU6">
+      <node ref="U1" pin="R2"/>
+      <node ref="U2" pin="B8"/>
+    </net>
+    <net code="146" name="/DDR/DQU3">
+      <node ref="U2" pin="C2"/>
+      <node ref="U1" pin="R4"/>
+    </net>
+    <net code="147" name="/DDR/DQU7">
+      <node ref="U1" pin="R1"/>
+      <node ref="U2" pin="A3"/>
+    </net>
+    <net code="148" name="/DDR/DQU5">
+      <node ref="U1" pin="P3"/>
+      <node ref="U2" pin="A2"/>
+    </net>
+    <net code="149" name="/DDR/A15">
+      <node ref="U1" pin="K5"/>
+      <node ref="U2" pin="M7"/>
+    </net>
+    <net code="150" name="/DDR/CS1#">
+      <node ref="U1" pin="H5"/>
+      <node ref="U2" pin="L1"/>
+    </net>
+    <net code="151" name="VDD_HIGH_CAP">
+      <node ref="C41" pin="1"/>
+      <node ref="C42" pin="1"/>
+      <node ref="U1" pin="R14"/>
+      <node ref="U1" pin="R15"/>
+      <node ref="U1" pin="N6"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="152" name="/DDR/ZQ1">
+      <node ref="U2" pin="L9"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="153" name="/DDR/DQSU-">
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="T2"/>
+      <node ref="U2" pin="B7"/>
+    </net>
+    <net code="154" name="/DDR/ZQ">
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="L8"/>
+    </net>
+    <net code="155" name="DRAM_1V35">
+      <node ref="C26" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U2" pin="G7"/>
+      <node ref="U2" pin="N9"/>
+      <node ref="U2" pin="N1"/>
+      <node ref="U2" pin="K8"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="K2"/>
+      <node ref="U2" pin="H9"/>
+      <node ref="U2" pin="H2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U1" pin="G6"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U2" pin="D9"/>
+      <node ref="U2" pin="D2"/>
+      <node ref="U2" pin="C9"/>
+      <node ref="U2" pin="C1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U2" pin="A8"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U2" pin="A1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U2" pin="R9"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U6" pin="22"/>
+      <node ref="U2" pin="R1"/>
+      <node ref="U2" pin="F1"/>
+      <node ref="U2" pin="E9"/>
+      <node ref="U1" pin="J6"/>
+      <node ref="U1" pin="K6"/>
+      <node ref="U1" pin="H6"/>
+      <node ref="U1" pin="L6"/>
+      <node ref="U1" pin="M6"/>
+      <node ref="U2" pin="B2"/>
+      <node ref="C63" pin="1"/>
+    </net>
+    <net code="156" name="/DDR/CS0#">
+      <node ref="U1" pin="N2"/>
+      <node ref="U2" pin="L2"/>
+    </net>
+    <net code="157" name="/DDR/A0">
+      <node ref="U2" pin="N3"/>
+      <node ref="U1" pin="L5"/>
+    </net>
+    <net code="158" name="/DDR/BA0">
+      <node ref="U2" pin="M2"/>
+      <node ref="U1" pin="M1"/>
+    </net>
+    <net code="159" name="/DDR/A3">
+      <node ref="U1" pin="M2"/>
+      <node ref="U2" pin="N2"/>
+    </net>
+    <net code="160" name="/DDR/A10">
+      <node ref="U1" pin="M4"/>
+      <node ref="U2" pin="L7"/>
+    </net>
+    <net code="161" name="/DDR/RAS#">
+      <node ref="U1" pin="M5"/>
+      <node ref="U2" pin="J3"/>
+    </net>
+    <net code="162" name="/DDR/ODT0">
+      <node ref="U2" pin="K1"/>
+      <node ref="U1" pin="N1"/>
+    </net>
+    <net code="163" name="/DDR/ZQPAD">
+      <node ref="U1" pin="N4"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="164" name="VREFDDR">
+      <node ref="C14" pin="1"/>
+      <node ref="U6" pin="21"/>
+      <node ref="C64" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U1" pin="P4"/>
+      <node ref="U2" pin="H1"/>
+      <node ref="U2" pin="M8"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="165" name="/DDR/DQL3">
+      <node ref="U1" pin="U7"/>
+      <node ref="U2" pin="F8"/>
+    </net>
+    <net code="166" name="/DDR/DQL0">
+      <node ref="U2" pin="E3"/>
+      <node ref="U1" pin="T4"/>
+    </net>
+    <net code="167" name="/DDR/DQL1">
+      <node ref="U2" pin="H3"/>
+      <node ref="U1" pin="U6"/>
+    </net>
+    <net code="168" name="/DDR/DQL2">
+      <node ref="U2" pin="H7"/>
+      <node ref="U1" pin="T6"/>
+    </net>
+    <net code="169" name="/DDR/DQL4">
+      <node ref="U2" pin="F7"/>
+      <node ref="U1" pin="U8"/>
+    </net>
+    <net code="170" name="/DDR/DQL5">
+      <node ref="U1" pin="T8"/>
+      <node ref="U2" pin="H8"/>
+    </net>
+    <net code="171" name="/DDR/DQL6">
+      <node ref="U1" pin="T5"/>
+      <node ref="U2" pin="G2"/>
+    </net>
+    <net code="172" name="/DDR/DQL7">
+      <node ref="U2" pin="F2"/>
+      <node ref="U1" pin="U4"/>
+    </net>
+    <net code="173" name="/DDR/DML">
+      <node ref="U2" pin="E7"/>
+      <node ref="U1" pin="T7"/>
+    </net>
+    <net code="174" name="/DDR/DMU">
+      <node ref="U1" pin="T3"/>
+      <node ref="U2" pin="D3"/>
+    </net>
+    <net code="175" name="/DDR/DQU0">
+      <node ref="U2" pin="D7"/>
+      <node ref="U1" pin="U2"/>
+    </net>
+    <net code="176" name="/DDR/DQU1">
+      <node ref="U2" pin="C3"/>
+      <node ref="U1" pin="U3"/>
+    </net>
+    <net code="177" name="/DDR/A12">
+      <node ref="U2" pin="N7"/>
+      <node ref="U1" pin="L4"/>
+    </net>
+    <net code="178" name="/DDR/A1">
+      <node ref="U2" pin="P7"/>
+      <node ref="U1" pin="H2"/>
+    </net>
+    <net code="179" name="/DDR/A13">
+      <node ref="U1" pin="H3"/>
+      <node ref="U2" pin="T3"/>
+    </net>
+    <net code="180" name="/DDR/A7">
+      <node ref="U2" pin="R2"/>
+      <node ref="U1" pin="H4"/>
+    </net>
+    <net code="181" name="/DDR/WE#">
+      <node ref="U2" pin="L3"/>
+      <node ref="U1" pin="J1"/>
+    </net>
+    <net code="182" name="/DDR/CAS#">
+      <node ref="U1" pin="J2"/>
+      <node ref="U2" pin="K3"/>
+    </net>
+    <net code="183" name="/DDR/CKE1">
+      <node ref="U1" pin="J3"/>
+      <node ref="U2" pin="J9"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="184" name="/DDR/A8">
+      <node ref="U2" pin="T8"/>
+      <node ref="U1" pin="J4"/>
+    </net>
+    <net code="185" name="/DDR/BA1">
+      <node ref="U2" pin="N8"/>
+      <node ref="U1" pin="H1"/>
+    </net>
+    <net code="186" name="/DDR/A2">
+      <node ref="U2" pin="P3"/>
+      <node ref="U1" pin="K1"/>
+    </net>
+    <net code="187" name="/DDR/BA2">
+      <node ref="U1" pin="K2"/>
+      <node ref="U2" pin="M3"/>
+    </net>
+    <net code="188" name="/DDR/A11">
+      <node ref="U2" pin="R7"/>
+      <node ref="U1" pin="K3"/>
+    </net>
+    <net code="189" name="/DDR/A4">
+      <node ref="U1" pin="K4"/>
+      <node ref="U2" pin="P8"/>
+    </net>
+    <net code="190" name="/DDR/A5">
+      <node ref="U1" pin="L1"/>
+      <node ref="U2" pin="P2"/>
+    </net>
+    <net code="191" name="/DDR/A9">
+      <node ref="U2" pin="R3"/>
+      <node ref="U1" pin="L2"/>
+    </net>
+    <net code="192" name="/DDR/A14">
+      <node ref="U1" pin="G1"/>
+      <node ref="U2" pin="T7"/>
+    </net>
+    <net code="193" name="/DDR/A6">
+      <node ref="U1" pin="G2"/>
+      <node ref="U2" pin="R8"/>
+    </net>
+    <net code="194" name="/DDR/RESET#">
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="T2"/>
+      <node ref="U1" pin="G4"/>
+    </net>
+    <net code="195" name="/DDR/CKE0">
+      <node ref="U2" pin="K9"/>
+      <node ref="U1" pin="M3"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="196" name="/DDR/DQSU+">
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="C7"/>
+      <node ref="U1" pin="T1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="197" name="/DDR/DQSL-">
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="P7"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="G3"/>
+    </net>
+    <net code="198" name="/DDR/CK-">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="P2"/>
+      <node ref="U2" pin="K7"/>
+    </net>
+    <net code="199" name="/DDR/DQSL+">
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="F3"/>
+      <node ref="U1" pin="P6"/>
+    </net>
+    <net code="200" name="/DDR/CK+">
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="J7"/>
+      <node ref="U1" pin="P1"/>
+    </net>
+    <net code="201" name="NVCC_PLL_OUT">
+      <node ref="U1" pin="P13"/>
+      <node ref="C44" pin="1"/>
+      <node ref="C43" pin="1"/>
+    </net>
+    <net code="202" name="VDD_SOC_CAP">
+      <node ref="U1" pin="L9"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="U1" pin="K8"/>
+      <node ref="U1" pin="J8"/>
+      <node ref="U1" pin="J11"/>
+      <node ref="U1" pin="K11"/>
+      <node ref="U1" pin="L10"/>
+      <node ref="U1" pin="L11"/>
+      <node ref="U1" pin="G8"/>
+      <node ref="U1" pin="L8"/>
+      <node ref="U1" pin="H8"/>
+    </net>
+    <net code="203" name="/POWER/VDD_SNVS_CAP">
+      <node ref="C45" pin="1"/>
+      <node ref="U1" pin="N12"/>
+    </net>
+    <net code="204" name="/POWER/VDD_SNVS_IN">
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U1" pin="P12"/>
+    </net>
+    <net code="205" name="VDD_SNVS">
+      <node ref="R21" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U6" pin="30"/>
+      <node ref="C66" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="206" name="LICELL">
+      <node ref="D2" pin="2"/>
+      <node ref="U6" pin="31"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="C65" pin="1"/>
+    </net>
+    <net code="207" name="VDD_SOC_IN">
+      <node ref="C31" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="K9"/>
+      <node ref="U1" pin="J9"/>
+      <node ref="U1" pin="K10"/>
+      <node ref="U1" pin="J10"/>
+      <node ref="U1" pin="H9"/>
+      <node ref="C28" pin="1"/>
+      <node ref="U1" pin="H10"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C30" pin="1"/>
+    </net>
+    <net code="208" name="VDD_HIGH_IN">
+      <node ref="C40" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="U1" pin="N13"/>
+    </net>
+    <net code="209" name="VDD_ARM_CAP">
+      <node ref="U1" pin="H11"/>
+      <node ref="U1" pin="G10"/>
+      <node ref="U1" pin="G11"/>
+      <node ref="U1" pin="G9"/>
+      <node ref="C38" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C36" pin="1"/>
+    </net>
+    <net code="210" name="/PMIC PF1550/VDIG">
+      <node ref="C72" pin="1"/>
+      <node ref="U6" pin="23"/>
+    </net>
+    <net code="211" name="/PMIC PF1550/VCORE">
+      <node ref="U6" pin="24"/>
+      <node ref="C71" pin="1"/>
+    </net>
+    <net code="212" name="/PMIC PF1550/STANDBY">
+      <node ref="Q1" pin="3"/>
+      <node ref="U6" pin="7"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="213" name="PMIC_STBY_REQ">
+      <node ref="R24" pin="2"/>
+      <node ref="U1" pin="U9"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="214" name="PMIC_WDI">
+      <node ref="U6" pin="1"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="215" name="VLDO2_3V3">
+      <node ref="U6" pin="19"/>
+      <node ref="C60" pin="1"/>
+    </net>
+    <net code="216" name="/PMIC PF1550/SW3OUT">
+      <node ref="U6" pin="15"/>
+      <node ref="L3" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="217" name="/PMIC PF1550/SW2OUT">
+      <node ref="L2" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="U6" pin="16"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C56" pin="1"/>
+    </net>
+    <net code="218" name="/PMIC PF1550/SW1LX">
+      <node ref="U6" pin="25"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="219" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="220" name="/PMIC PF1550/SW3LX">
+      <node ref="U6" pin="13"/>
+      <node ref="L3" pin="2"/>
+    </net>
+    <net code="221" name="/PMIC PF1550/SW2LX">
+      <node ref="L2" pin="2"/>
+      <node ref="U6" pin="18"/>
+    </net>
+    <net code="222" name="Net-(C54-Pad1)">
+      <node ref="C54" pin="1"/>
+    </net>
+    <net code="223" name="Net-(C53-Pad1)">
+      <node ref="C53" pin="1"/>
+    </net>
+    <net code="224" name="/PMIC PF1550/VBATT">
+      <node ref="U6" pin="33"/>
+      <node ref="C69" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="U6" pin="34"/>
+    </net>
+    <net code="225" name="Net-(D3-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="226" name="/PMIC PF1550/SW1OUT">
+      <node ref="R8" pin="1"/>
+      <node ref="C57" pin="1"/>
+      <node ref="U6" pin="27"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C58" pin="1"/>
+    </net>
+    <net code="227" name="/PMIC PF1550/AUD_INT">
+      <node ref="R19" pin="1"/>
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="228" name="/PMIC PF1550/ON_KEY">
+      <node ref="R18" pin="1"/>
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="229" name="Net-(U6-Pad6)">
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="230" name="Net-(U6-Pad39)">
+      <node ref="U6" pin="39"/>
+    </net>
+    <net code="231" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="U6" pin="38"/>
+    </net>
+    <net code="232" name="/PMIC PF1550/POR_B">
+      <node ref="R21" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="233" name="/PMIC PF1550/VSS">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="234" name="PMIC_ON_REQ">
+      <node ref="U1" pin="T9"/>
+    </net>
+    <net code="235" name="VSYS">
+      <node ref="C49" pin="1"/>
+      <node ref="C50" pin="1"/>
+      <node ref="C51" pin="1"/>
+      <node ref="U6" pin="20"/>
+      <node ref="U6" pin="36"/>
+      <node ref="C48" pin="1"/>
+      <node ref="U6" pin="11"/>
+      <node ref="U6" pin="14"/>
+      <node ref="U6" pin="17"/>
+      <node ref="U6" pin="35"/>
+      <node ref="U6" pin="26"/>
+      <node ref="U6" pin="28"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C59" pin="1"/>
+      <node ref="C61" pin="1"/>
+      <node ref="C67" pin="1"/>
+      <node ref="C68" pin="1"/>
+      <node ref="C70" pin="1"/>
+    </net>
+    <net code="236" name="/PMIC PF1550/CHGB">
+      <node ref="R12" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U6" pin="40"/>
+    </net>
+    <net code="237" name="/PMIC PF1550/BATT_THM">
+      <node ref="R14" pin="2"/>
+      <node ref="U6" pin="32"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="238" name="/PMIC PF1550/PMIC_SDA">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="239" name="/PMIC PF1550/PMIC_SCL">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="240" name="/PMIC PF1550/VDDOTP">
+      <node ref="U6" pin="5"/>
+      <node ref="J2" pin="4"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="241" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="242" name="/ETHERNET/RXN">
+      <node ref="R30" pin="2"/>
+      <node ref="P3" pin="6"/>
+      <node ref="U7" pin="22"/>
+      <node ref="C84" pin="1"/>
+    </net>
+    <net code="243" name="Net-(P3-Pad7)">
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="244" name="/ETHERNET/ETH_AVDD">
+      <node ref="R30" pin="1"/>
+      <node ref="R29" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="R31" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="C80" pin="1"/>
+      <node ref="U7" pin="19"/>
+      <node ref="R34" pin="1"/>
+      <node ref="C78" pin="1"/>
+      <node ref="C79" pin="1"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="245" name="Net-(C85-Pad1)">
+      <node ref="C85" pin="1"/>
+      <node ref="P3" pin="4"/>
+      <node ref="P3" pin="5"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="246" name="/ETHERNET/TXP">
+      <node ref="C81" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="R27" pin="2"/>
+      <node ref="U7" pin="21"/>
+    </net>
+    <net code="247" name="/ETHERNET/RXP">
+      <node ref="U7" pin="23"/>
+      <node ref="P3" pin="3"/>
+      <node ref="R29" pin="2"/>
+      <node ref="C83" pin="1"/>
+    </net>
+    <net code="248" name="/ETHERNET/TXN">
+      <node ref="R28" pin="2"/>
+      <node ref="U7" pin="20"/>
+      <node ref="P3" pin="2"/>
+      <node ref="C82" pin="1"/>
+    </net>
+    <net code="249" name="/ETHERNET/LED1-">
+      <node ref="R32" pin="2"/>
+      <node ref="P3" pin="10"/>
+    </net>
+    <net code="250" name="/ETHERNET/LED2+">
+      <node ref="R34" pin="2"/>
+      <node ref="P3" pin="12"/>
+    </net>
+    <net code="251" name="/ETHERNET/LED1+">
+      <node ref="P3" pin="9"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="252" name="/ETHERNET/LED2-">
+      <node ref="U7" pin="2"/>
+      <node ref="P3" pin="11"/>
+    </net>
+    <net code="253" name="/ETHERNET/RBIAS">
+      <node ref="R35" pin="2"/>
+      <node ref="U7" pin="24"/>
+    </net>
+    <net code="254" name="/ETHERNET/VDDCR">
+      <node ref="C77" pin="1"/>
+      <node ref="C76" pin="1"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="255" name="USB0_D+">
+      <node ref="P4" pin="3"/>
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="256" name="USB0_D-">
+      <node ref="P4" pin="2"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="257" name="USB1_D-">
+      <node ref="P4" pin="6"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="258" name="/USB HUB/USB3_VBUS">
+      <node ref="L8" pin="2"/>
+      <node ref="P5" pin="5"/>
+      <node ref="C108" pin="1"/>
+    </net>
+    <net code="259" name="/USB HUB/USB0_VBUS">
+      <node ref="C105" pin="1"/>
+      <node ref="L5" pin="2"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="260" name="/USB HUB/USB1_VBUS">
+      <node ref="P4" pin="5"/>
+      <node ref="L6" pin="2"/>
+      <node ref="C106" pin="1"/>
+    </net>
+    <net code="261" name="/USB HUB/USB2_VBUS">
+      <node ref="C107" pin="1"/>
+      <node ref="L7" pin="2"/>
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="262" name="USB3_D-">
+      <node ref="P5" pin="6"/>
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="263" name="USB3_D+">
+      <node ref="P5" pin="7"/>
+      <node ref="U8" pin="9"/>
+    </net>
+    <net code="264" name="USB2_D-">
+      <node ref="P5" pin="2"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="265" name="USB2_D+">
+      <node ref="P5" pin="3"/>
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="266" name="USB1_D+">
+      <node ref="P4" pin="7"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="267" name="Net-(R43-Pad2)">
+      <node ref="U8" pin="25"/>
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="268" name="Net-(L9-Pad2)">
+      <node ref="U8" pin="36"/>
+      <node ref="U8" pin="15"/>
+      <node ref="U8" pin="23"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U8" pin="29"/>
+      <node ref="U8" pin="10"/>
+      <node ref="L9" pin="2"/>
+      <node ref="U8" pin="27"/>
+    </net>
+    <net code="269" name="Net-(R40-Pad2)">
+      <node ref="R40" pin="2"/>
+      <node ref="U8" pin="28"/>
+    </net>
+    <net code="270" name="Net-(R44-Pad2)">
+      <node ref="U8" pin="35"/>
+      <node ref="R44" pin="2"/>
+    </net>
+    <net code="271" name="Net-(C87-Pad1)">
+      <node ref="U8" pin="34"/>
+      <node ref="C87" pin="1"/>
+    </net>
+    <net code="272" name="Net-(C86-Pad1)">
+      <node ref="U8" pin="14"/>
+      <node ref="C86" pin="1"/>
+    </net>
+    <net code="273" name="HUB_RESET">
+      <node ref="U8" pin="26"/>
+    </net>
+    <net code="274" name="Net-(U8-Pad21)">
+      <node ref="U8" pin="21"/>
+    </net>
+    <net code="275" name="Net-(U8-Pad20)">
+      <node ref="U8" pin="20"/>
+    </net>
+    <net code="276" name="Net-(U8-Pad19)">
+      <node ref="U8" pin="19"/>
+    </net>
+    <net code="277" name="Net-(U8-Pad18)">
+      <node ref="U8" pin="18"/>
+    </net>
+    <net code="278" name="Net-(U8-Pad17)">
+      <node ref="U8" pin="17"/>
+    </net>
+    <net code="279" name="Net-(U8-Pad16)">
+      <node ref="U8" pin="16"/>
+    </net>
+    <net code="280" name="Net-(U8-Pad13)">
+      <node ref="U8" pin="13"/>
+    </net>
+    <net code="281" name="Net-(U8-Pad12)">
+      <node ref="U8" pin="12"/>
+    </net>
+    <net code="282" name="Net-(C88-Pad1)">
+      <node ref="R45" pin="2"/>
+      <node ref="C88" pin="1"/>
+      <node ref="XTAL1" pin="1"/>
+      <node ref="U8" pin="32"/>
+    </net>
+    <net code="283" name="DBG_VBUS">
+      <node ref="F1" pin="2"/>
+      <node ref="R49" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="284" name="DBG_D-">
+      <node ref="U9" pin="5"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="285" name="DBG_D+">
+      <node ref="J3" pin="3"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="286" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="287" name="OTG_VBUS">
+      <node ref="J4" pin="1"/>
+      <node ref="F2" pin="2"/>
+    </net>
+    <net code="288" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="289" name="Net-(D7-Pad2)">
+      <node ref="F1" pin="1"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="290" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="F2" pin="1"/>
+    </net>
+    <net code="291" name="POR_B">
+      <node ref="U1" pin="P8"/>
+      <node ref="J5" pin="10"/>
+    </net>
+    <net code="292" name="/Clock_Control/RTC_XTALO">
+      <node ref="Y1" pin="1"/>
+      <node ref="U1" pin="U11"/>
+      <node ref="C96" pin="1"/>
+    </net>
+    <net code="293" name="/Clock_Control/RTC_XTALI">
+      <node ref="U1" pin="T11"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="C97" pin="1"/>
+    </net>
+    <net code="294" name="/Clock_Control/IMX_XTALI">
+      <node ref="XTAL2" pin="3"/>
+      <node ref="U1" pin="T16"/>
+      <node ref="R53" pin="1"/>
+      <node ref="R55" pin="1"/>
+      <node ref="C99" pin="1"/>
+    </net>
+    <net code="295" name="/Clock_Control/JTAG_MOD">
+      <node ref="U1" pin="P15"/>
+      <node ref="R52" pin="2"/>
+    </net>
+    <net code="296" name="/Clock_Control/IMX_XTALO">
+      <node ref="U1" pin="T17"/>
+      <node ref="R54" pin="1"/>
+      <node ref="XTAL2" pin="1"/>
+      <node ref="R53" pin="2"/>
+      <node ref="C98" pin="1"/>
+    </net>
+    <net code="297" name="Net-(U1-PadR13)">
+      <node ref="U1" pin="R13"/>
+    </net>
+    <net code="298" name="VDDA">
+      <node ref="C100" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="U1" pin="M13"/>
+      <node ref="U1" pin="L13"/>
+    </net>
+    <net code="299" name="Net-(J5-Pad7)">
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="300" name="VDD_SNVS_IN">
+      <node ref="SR2" pin="1"/>
+      <node ref="SR1" pin="1"/>
+    </net>
+    <net code="301" name="/Clock_Control/BOOT0">
+      <node ref="SR2" pin="2"/>
+      <node ref="U1" pin="T10"/>
+    </net>
+    <net code="302" name="Net-(U1-PadR8)">
+      <node ref="U1" pin="R8"/>
+    </net>
+    <net code="303" name="/Clock_Control/JTAG_TRST_B">
+      <node ref="U1" pin="N14"/>
+    </net>
+    <net code="304" name="/Clock_Control/BOOT1">
+      <node ref="SR1" pin="2"/>
+      <node ref="U1" pin="U10"/>
+    </net>
+    <net code="305" name="/Clock_Control/SNVS3">
+      <node ref="U1" pin="P10"/>
+    </net>
+    <net code="306" name="/Clock_Control/SNVS1">
+      <node ref="U1" pin="R9"/>
+    </net>
+    <net code="307" name="/Clock_Control/SNVS9">
+      <node ref="U1" pin="R6"/>
+    </net>
+    <net code="308" name="/Clock_Control/SNVS0">
+      <node ref="U1" pin="R10"/>
+    </net>
+    <net code="309" name="/Clock_Control/SNVS4">
+      <node ref="U1" pin="P9"/>
+    </net>
+    <net code="310" name="Net-(U1-PadP17)">
+      <node ref="U1" pin="P17"/>
+    </net>
+    <net code="311" name="Net-(U1-PadP16)">
+      <node ref="U1" pin="P16"/>
+    </net>
+    <net code="312" name="/Clock_Control/JTAG_TMS">
+      <node ref="J5" pin="2"/>
+      <node ref="U1" pin="P14"/>
+    </net>
+    <net code="313" name="/Clock_Control/SNVS2">
+      <node ref="U1" pin="P11"/>
+    </net>
+    <net code="314" name="/Clock_Control/SNVS8">
+      <node ref="U1" pin="N9"/>
+    </net>
+    <net code="315" name="/Clock_Control/SNVS5">
+      <node ref="U1" pin="N8"/>
+    </net>
+    <net code="316" name="/Clock_Control/JTAG_TDI">
+      <node ref="U1" pin="N16"/>
+      <node ref="J5" pin="8"/>
+    </net>
+    <net code="317" name="/Clock_Control/JTAG_TDO">
+      <node ref="U1" pin="N15"/>
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="318" name="/Clock_Control/SNVS6">
+      <node ref="U1" pin="N11"/>
+    </net>
+    <net code="319" name="/Clock_Control/SNVS7">
+      <node ref="U1" pin="N10"/>
+    </net>
+    <net code="320" name="/Clock_Control/JTAG_TCK">
+      <node ref="U1" pin="M14"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="321" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="U9" pin="19"/>
+    </net>
+    <net code="322" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="U9" pin="20"/>
+    </net>
+    <net code="323" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R48" pin="2"/>
+    </net>
+    <net code="324" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R47" pin="2"/>
+    </net>
+    <net code="325" name="Net-(U9-Pad11)">
+      <node ref="U9" pin="11"/>
+    </net>
+    <net code="326" name="/USB DEBUG &amp; OTG/DBG_VDD">
+      <node ref="R46" pin="1"/>
+      <node ref="C91" pin="1"/>
+      <node ref="C90" pin="1"/>
+      <node ref="U9" pin="6"/>
+      <node ref="R47" pin="1"/>
+      <node ref="R48" pin="1"/>
+    </net>
+    <net code="327" name="Net-(R49-Pad1)">
+      <node ref="U9" pin="8"/>
+      <node ref="R50" pin="1"/>
+      <node ref="R49" pin="1"/>
+    </net>
+    <net code="328" name="Net-(R46-Pad2)">
+      <node ref="U9" pin="9"/>
+      <node ref="R46" pin="2"/>
+    </net>
+    <net code="329" name="Net-(U9-Pad10)">
+      <node ref="U9" pin="10"/>
+    </net>
+  </nets>
+</export>
