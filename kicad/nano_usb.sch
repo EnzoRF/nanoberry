@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:nano-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -332,31 +331,31 @@ $EndComp
 $Comp
 L nano-rescue:INDUCTOR_SMALL L?
 U 1 1 5C3B97A2
-P 8800 4800
+P 8800 5300
 AR Path="/5C3B97A2" Ref="L?"  Part="1" 
 AR Path="/5B867D17/5C3B97A2" Ref="L7"  Part="1" 
 AR Path="/5B9F6CF1/5C3B97A2" Ref="L?"  Part="1" 
-F 0 "L7" H 8700 4900 50  0000 C CNN
-F 1 "FB" H 8900 4900 50  0000 C CNN
-F 2 "Custom Components:L_0805_narrow" H 8800 4800 50  0001 C CNN
-F 3 "" H 8800 4800 50  0000 C CNN
-F 4 "DNP" H 8800 4800 50  0000 C CNN "DNP"
-	1    8800 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L nano-rescue:INDUCTOR_SMALL L?
-U 1 1 5C3B97A9
-P 8800 5300
-AR Path="/5C3B97A9" Ref="L?"  Part="1" 
-AR Path="/5B867D17/5C3B97A9" Ref="L8"  Part="1" 
-AR Path="/5B9F6CF1/5C3B97A9" Ref="L?"  Part="1" 
-F 0 "L8" H 8700 5400 50  0000 C CNN
+F 0 "L7" H 8700 5400 50  0000 C CNN
 F 1 "FB" H 8900 5400 50  0000 C CNN
 F 2 "Custom Components:L_0805_narrow" H 8800 5300 50  0001 C CNN
 F 3 "" H 8800 5300 50  0000 C CNN
 F 4 "DNP" H 8800 5300 50  0000 C CNN "DNP"
 	1    8800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L nano-rescue:INDUCTOR_SMALL L?
+U 1 1 5C3B97A9
+P 8800 4800
+AR Path="/5C3B97A9" Ref="L?"  Part="1" 
+AR Path="/5B867D17/5C3B97A9" Ref="L8"  Part="1" 
+AR Path="/5B9F6CF1/5C3B97A9" Ref="L?"  Part="1" 
+F 0 "L8" H 8700 4900 50  0000 C CNN
+F 1 "FB" H 8900 4900 50  0000 C CNN
+F 2 "Custom Components:L_0805_narrow" H 8800 4800 50  0001 C CNN
+F 3 "" H 8800 4800 50  0000 C CNN
+F 4 "DNP" H 8800 4800 50  0000 C CNN "DNP"
+	1    8800 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -869,18 +868,14 @@ Wire Wire Line
 Wire Wire Line
 	9100 4600 8300 4600
 Wire Wire Line
-	8300 4600 8300 4850
-Wire Wire Line
-	8300 4850 8200 4850
+	8250 4850 8200 4850
 Connection ~ 9100 4800
 Wire Wire Line
 	9100 4800 10100 4800
 Wire Wire Line
 	9100 5300 9100 5450
 Wire Wire Line
-	9100 5450 8300 5450
-Wire Wire Line
-	8300 5450 8300 5150
+	9100 5450 8250 5450
 Wire Wire Line
 	8300 5150 8200 5150
 Connection ~ 9100 5300
@@ -894,40 +889,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5C75C9D8
-P 8200 5050
+P 8550 5050
 AR Path="/5B9F6CF1/5C75C9D8" Ref="#PWR?"  Part="1" 
 AR Path="/5B867D17/5C75C9D8" Ref="#PWR078"  Part="1" 
-F 0 "#PWR078" H 8200 4800 50  0001 C CNN
-F 1 "GND" H 8205 4877 50  0000 C CNN
-F 2 "" H 8200 5050 50  0001 C CNN
-F 3 "" H 8200 5050 50  0001 C CNN
-	1    8200 5050
+F 0 "#PWR078" H 8550 4800 50  0001 C CNN
+F 1 "GND" H 8555 4877 50  0000 C CNN
+F 2 "" H 8550 5050 50  0001 C CNN
+F 3 "" H 8550 5050 50  0001 C CNN
+	1    8550 5050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7100 4950 6950 4950
-Wire Wire Line
-	6950 4950 6950 5550
-Wire Wire Line
-	6950 5550 6500 5550
-Wire Wire Line
-	7100 4850 7000 4850
-Wire Wire Line
-	7000 4850 7000 5350
-Wire Wire Line
-	7000 5350 6500 5350
-Wire Wire Line
-	7100 5050 6900 5050
-Wire Wire Line
-	6900 5050 6900 4850
-Wire Wire Line
-	6900 4850 6500 4850
-Wire Wire Line
-	7100 5150 7050 5150
-Wire Wire Line
-	7050 4650 6500 4650
-Wire Wire Line
-	7050 4650 7050 5150
 Text Label 6600 3250 0    39   ~ 0
 PORT1_PWR
 Text Label 6600 3950 0    39   ~ 0
@@ -948,4 +919,30 @@ Wire Wire Line
 	3600 2650 3850 2650
 Wire Wire Line
 	4050 2650 4250 2650
+Wire Wire Line
+	8300 4600 8300 5150
+Wire Wire Line
+	8250 4850 8250 5450
+Wire Wire Line
+	7100 4650 7100 4850
+Wire Wire Line
+	6500 4650 7100 4650
+Wire Wire Line
+	7100 4950 7050 4950
+Wire Wire Line
+	7050 4950 7050 4850
+Wire Wire Line
+	6500 4850 7050 4850
+Wire Wire Line
+	7100 5150 7100 5350
+Wire Wire Line
+	6500 5350 7100 5350
+Wire Wire Line
+	7100 5050 7050 5050
+Wire Wire Line
+	7050 5050 7050 5550
+Wire Wire Line
+	6500 5550 7050 5550
+Wire Wire Line
+	8200 5050 8550 5050
 $EndSCHEMATC
