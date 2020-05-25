@@ -57,6 +57,8 @@ You can modify this project and manufacture it, sell it for money, but you have 
  - Battery holder for RTC
  - Many I2C, SPI, I2S, UART, GPIO available through pin headers
 
+![block diagram](block-diagram.png)
+
 ## Status of the project
 
 Hardware design is 99% done and has not been tested. We have based the design around a reference design from NXP. The most critical part of the layout, that is DDR3 routing, has been copied straight away from reference design.
