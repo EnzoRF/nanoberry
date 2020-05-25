@@ -313,34 +313,8 @@ Text Label 5650 2450 2    50   ~ 0
 BOOT1
 Text Label 5650 2550 2    50   ~ 0
 BOOT0
-$Comp
-L custom_components:SR SR1
-U 1 1 5C220E96
-P 4400 2000
-F 0 "SR1" V 4035 2000 50  0000 C CNN
-F 1 "4.7k" V 4126 2000 50  0000 C CNN
-F 2 "Custom Components:SR_0402" V 4127 2000 50  0001 C CNN
-F 3 "" H 4500 2000 50  0000 C CNN
-	1    4400 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L custom_components:SR SR2
-U 1 1 5C22100D
-P 4400 2650
-F 0 "SR2" V 4035 2650 50  0000 C CNN
-F 1 "4.7k" V 4126 2650 50  0000 C CNN
-F 2 "Custom Components:SR_0402" V 4127 2650 50  0001 C CNN
-F 3 "" H 4500 2650 50  0000 C CNN
-	1    4400 2650
-	0    1    1    0   
-$EndComp
 Text GLabel 3500 1900 0    39   Input ~ 0
 VDD_SNVS_IN
-Wire Wire Line
-	4100 2100 3950 2100
-Wire Wire Line
-	4100 2750 3950 2750
 Wire Wire Line
 	5650 2550 5100 2550
 Wire Wire Line
@@ -613,9 +587,103 @@ Wire Wire Line
 	3500 1900 3600 1900
 Wire Wire Line
 	3600 1900 3600 2550
-Wire Wire Line
-	3600 2550 4100 2550
 Connection ~ 3600 1900
+$Comp
+L nano-rescue:R R?
+U 1 1 5ED52401
+P 4300 2750
+AR Path="/5ED52401" Ref="R?"  Part="1" 
+AR Path="/5B867D17/5ED52401" Ref="R?"  Part="1" 
+AR Path="/5BB88783/5ED52401" Ref="SB4"  Part="1" 
+F 0 "SB4" V 4200 2750 50  0000 C CNN
+F 1 "4.7K" V 4100 2750 50  0000 C CNN
+F 2 "Custom Components:R_0402_narrow" V 4230 2750 50  0001 C CNN
+F 3 "" H 4300 2750 50  0000 C CNN
+F 4 "0402" V 4000 2750 50  0001 C CNN "SMD Size"
+F 5 "?" V 4300 2750 50  0001 C CNN "Tolerance"
+F 6 "DNP" V 4300 2750 50  0000 C CNN "DNP"
+	1    4300 2750
+	0    1    -1   0   
+$EndComp
+$Comp
+L nano-rescue:R R?
+U 1 1 5ED55D63
+P 4300 2100
+AR Path="/5ED55D63" Ref="R?"  Part="1" 
+AR Path="/5B867D17/5ED55D63" Ref="R?"  Part="1" 
+AR Path="/5BB88783/5ED55D63" Ref="SB2"  Part="1" 
+F 0 "SB2" V 4200 2100 50  0000 C CNN
+F 1 "4.7K" V 4100 2100 50  0000 C CNN
+F 2 "Custom Components:R_0402_narrow" V 4230 2100 50  0001 C CNN
+F 3 "" H 4300 2100 50  0000 C CNN
+F 4 "0402" V 4000 2100 50  0001 C CNN "SMD Size"
+F 5 "?" V 4300 2100 50  0001 C CNN "Tolerance"
+F 6 "DNP" V 4300 2100 50  0000 C CNN "DNP"
+	1    4300 2100
+	0    1    -1   0   
+$EndComp
+$Comp
+L nano-rescue:R R?
+U 1 1 5ED59986
+P 4300 2550
+AR Path="/5ED59986" Ref="R?"  Part="1" 
+AR Path="/5B867D17/5ED59986" Ref="R?"  Part="1" 
+AR Path="/5BB88783/5ED59986" Ref="SB3"  Part="1" 
+F 0 "SB3" V 4200 2550 50  0000 C CNN
+F 1 "4.7K" V 4100 2550 50  0001 C CNN
+F 2 "Custom Components:R_0402_narrow" V 4230 2550 50  0001 C CNN
+F 3 "" H 4300 2550 50  0000 C CNN
+F 4 "0402" V 4000 2550 50  0001 C CNN "SMD Size"
+F 5 "?" V 4300 2550 50  0001 C CNN "Tolerance"
+	1    4300 2550
+	0    1    -1   0   
+$EndComp
+$Comp
+L nano-rescue:R R?
+U 1 1 5ED59993
+P 4300 1900
+AR Path="/5ED59993" Ref="R?"  Part="1" 
+AR Path="/5B867D17/5ED59993" Ref="R?"  Part="1" 
+AR Path="/5BB88783/5ED59993" Ref="SB1"  Part="1" 
+F 0 "SB1" V 4200 1900 50  0000 C CNN
+F 1 "4.7K" V 4100 1900 50  0001 C CNN
+F 2 "Custom Components:R_0402_narrow" V 4230 1900 50  0001 C CNN
+F 3 "" H 4300 1900 50  0000 C CNN
+F 4 "0402" V 4000 1900 50  0001 C CNN "SMD Size"
+F 5 "?" V 4300 1900 50  0001 C CNN "Tolerance"
+	1    4300 1900
+	0    1    -1   0   
+$EndComp
 Wire Wire Line
-	3600 1900 4100 1900
+	4450 1900 4700 1900
+Wire Wire Line
+	4700 1900 4700 2000
+Wire Wire Line
+	4700 2000 4700 2100
+Wire Wire Line
+	4700 2100 4450 2100
+Connection ~ 4700 2000
+Wire Wire Line
+	4450 2550 4700 2550
+Wire Wire Line
+	4700 2550 4700 2650
+Wire Wire Line
+	4700 2650 4700 2750
+Wire Wire Line
+	4700 2750 4450 2750
+Connection ~ 4700 2650
+Wire Wire Line
+	3600 1900 4150 1900
+Wire Wire Line
+	3950 2100 4150 2100
+Wire Wire Line
+	3600 2550 4150 2550
+Wire Wire Line
+	3950 2750 4150 2750
+NoConn ~ 7650 4350
+NoConn ~ 7650 4450
+Text Notes 7700 4350 0    39   ~ 0
+No place on PCB
+Text Notes 7700 4450 0    39   ~ 0
+No place on PCB
 $EndSCHEMATC

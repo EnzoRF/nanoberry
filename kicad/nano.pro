@@ -1,4 +1,4 @@
-update=vie 16 ago 2019 17:23:38 CEST
+update=dom 24 may 2020 20:09:13 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -29,7 +29,7 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.09999999999999999
+MinTrackWidth=0.1016
 MinViaDiameter=0.3
 MinViaDrill=0.254
 MinMicroViaDiameter=0.16
@@ -323,7 +323,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/8]
 Name=POWER
 Clearance=0.1016
-TrackWidth=0.2
+TrackWidth=0.25
 ViaDiameter=0.3
 ViaDrill=0.254
 uViaDiameter=0.16
