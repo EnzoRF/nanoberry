@@ -57,6 +57,8 @@ You can modify this project and manufacture it, sell it for money, but you have 
  - Battery holder for RTC
  - Many I2C, SPI, I2S, UART, GPIO available through pin headers
 
+## Block Diagram
+
 ![block diagram](block-diagram.png)
 
 ## Status of the project
