@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L nano-rescue:CONN_02X20 P1
 U 1 1 5B4B8A65
-P 2450 1900
-F 0 "P1" H 2450 2950 50  0000 C CNN
-F 1 "EXPANSION" V 2450 1900 50  0000 C CNN
-F 2 "Custom Components:PINHD_2X20_X" H 2450 950 50  0001 C CNN
-F 3 "" H 2450 950 50  0000 C CNN
-	1    2450 1900
+P 2650 1900
+F 0 "P1" H 2650 2950 50  0000 C CNN
+F 1 "EXPANSION" V 2650 1900 50  0000 C CNN
+F 2 "Custom Components:PINHD_2X20_X" H 2650 950 50  0001 C CNN
+F 3 "" H 2650 950 50  0000 C CNN
+	1    2650 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -36,30 +36,30 @@ F 3 "" H 2350 4200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 950  1800 950 
+	2400 950  2000 950 
 Wire Wire Line
-	2700 950  2900 950 
+	2900 950  3100 950 
 Wire Wire Line
-	2700 1050 2900 1050
+	2900 1050 3100 1050
 Wire Wire Line
-	2900 1050 2900 950 
+	3100 1050 3100 950 
 Wire Wire Line
-	2700 1150 3050 1150
-Connection ~ 2900 950 
+	2900 1150 3250 1150
+Connection ~ 3100 950 
 Wire Wire Line
-	2700 1550 3050 1550
+	2900 1550 3250 1550
 Wire Wire Line
-	2700 1850 3050 1850
+	2900 1850 3250 1850
 Wire Wire Line
-	2700 2350 3050 2350
+	2900 2350 3250 2350
 Wire Wire Line
-	2700 2550 3050 2550
+	2900 2550 3250 2550
 Wire Wire Line
-	2200 2850 2050 2850
+	2400 2850 2250 2850
 Wire Wire Line
-	2200 1350 2050 1350
+	2400 1350 2250 1350
 Wire Wire Line
-	2200 2150 2050 2150
+	2400 2150 2250 2150
 $Comp
 L custom_components:IMX6UL_BGA289 U1
 U 9 1 5B84EC9F
@@ -72,7 +72,7 @@ F 3 "" H 9650 2550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 950  3050 950 
+	3100 950  3250 950 
 $Comp
 L custom_components:IMX6UL_BGA289 U1
 U 11 1 5BA171FF
@@ -109,7 +109,7 @@ Text Notes 5550 4050 0    118  Italic 24
 ETHERNET
 Text Notes 600  3300 0    118  Italic 24
 UART
-Text Notes 600  800  0    118  Italic 24
+Text Notes 800  800  0    118  Italic 24
 EXPANSION BOARD HEADER
 Text Notes 4600 800  0    118  Italic 24
 MICRO SD
@@ -125,35 +125,35 @@ Text Label 3300 5350 0    39   ~ 0
 UART5_RX
 Text Label 3300 5450 0    39   ~ 0
 UART5_TX
-Text Notes 2150 1050 2    50   ~ 0
+Text Notes 2350 1050 2    50   ~ 0
 I2C2.SDA
-Text Notes 2150 1150 2    50   ~ 0
+Text Notes 2350 1150 2    50   ~ 0
 I2C2.SCL
-Text Notes 2750 1250 0    50   ~ 0
+Text Notes 2950 1250 0    50   ~ 0
 UART6.TX
-Text Notes 2750 1350 0    50   ~ 0
+Text Notes 2950 1350 0    50   ~ 0
 UART6.RX
-Text Notes 2150 1850 2    50   ~ 0
+Text Notes 2350 1850 2    50   ~ 0
 SPI MOSI
-Text Notes 2150 1950 2    50   ~ 0
+Text Notes 2350 1950 2    50   ~ 0
 SPI MISO
-Text Notes 2150 2050 2    50   ~ 0
+Text Notes 2350 2050 2    50   ~ 0
 SPI SCK
-Text Notes 2750 2050 0    50   ~ 0
+Text Notes 2950 2050 0    50   ~ 0
 SPI CE0
-Text Notes 2750 2150 0    50   ~ 0
+Text Notes 2950 2150 0    50   ~ 0
 SPI CE1
-Text Notes 2150 2250 2    50   ~ 0
+Text Notes 2350 2250 2    50   ~ 0
 ID_SDA
-Text Notes 2750 2250 0    50   ~ 0
+Text Notes 2950 2250 0    50   ~ 0
 ID_SCL
-Text Notes 2150 2650 2    50   ~ 0
+Text Notes 2350 2650 2    50   ~ 0
 SPI MISO
-Text Notes 2750 2650 0    50   ~ 0
+Text Notes 2950 2650 0    50   ~ 0
 SPI CE0
-Text Notes 2750 2750 0    50   ~ 0
+Text Notes 2950 2750 0    50   ~ 0
 SPI MOSI
-Text Notes 2750 2850 0    50   ~ 0
+Text Notes 2950 2850 0    50   ~ 0
 SPI SCK
 Text GLabel 4550 2750 0    39   Input ~ 0
 DCDC_3V3
@@ -180,20 +180,20 @@ Text GLabel 3200 6450 2    39   Input ~ 8
 ETH_MDIO
 Text GLabel 3200 6350 2    39   Input ~ 8
 ETH_MDC
-Text Notes 4300 6000 0    118  Italic 24
+Text Notes 4400 5550 0    118  Italic 24
 CRYPTO MEM
 $Comp
 L custom_components:A7101CH U3
 U 1 1 5BE0FC32
-P 5300 6550
-F 0 "U3" H 5300 6825 50  0000 C CNN
-F 1 "A7101CH" H 5300 6734 50  0000 C CNN
-F 2 "Custom Components:SOT909-1" H 5300 6550 50  0001 C CNN
-F 3 "" H 5300 6550 50  0001 C CNN
-	1    5300 6550
+P 5400 6100
+F 0 "U3" H 5400 6375 50  0000 C CNN
+F 1 "A7101CH" H 5400 6284 50  0000 C CNN
+F 2 "Custom Components:SOT909-1" H 5400 6100 50  0001 C CNN
+F 3 "" H 5400 6100 50  0001 C CNN
+	1    5400 6100
 	1    0    0    -1  
 $EndComp
-Text GLabel 5950 6600 2    39   Input ~ 0
+Text GLabel 6050 6150 2    39   Input ~ 0
 DCDC_3V3
 Wire Wire Line
 	3300 3550 3450 3550
@@ -209,11 +209,11 @@ Text GLabel 1000 3550 0    50   Input ~ 0
 DCDC_3V3
 Text Notes 650  6000 0    118  Italic 24
 GPIO
-Text GLabel 3050 950  2    50   Input ~ 10
+Text GLabel 3250 950  2    50   Input ~ 10
 5V
-Text GLabel 1800 950  0    50   Input ~ 10
+Text GLabel 2000 950  0    50   Input ~ 10
 DCDC_3V3
-NoConn ~ 4650 6800
+NoConn ~ 4750 6350
 Text GLabel 5050 1400 0    50   Input ~ 0
 NVCC_SD
 Text Notes 5600 800  0    50   ~ 0
@@ -260,37 +260,33 @@ Wire Notes Line
 	10700 1050 10700 1850
 Text Notes 10750 1850 0    39   ~ 0
 UART5\nCSI_D01 - RX\nCSI_D00 - TX
-Text GLabel 1800 1750 0    50   Input ~ 10
+Text GLabel 2000 1750 0    50   Input ~ 10
 DCDC_3V3
 Wire Wire Line
-	1800 1750 2200 1750
+	2000 1750 2400 1750
 Wire Wire Line
-	3350 1250 2700 1250
+	3550 1250 2900 1250
 Wire Wire Line
-	2700 1350 3350 1350
+	2900 1350 3550 1350
 Wire Wire Line
-	1800 1050 2200 1050
+	2000 1850 2400 1850
 Wire Wire Line
-	2200 1150 1800 1150
+	2400 1950 2000 1950
 Wire Wire Line
-	1800 1850 2200 1850
+	2000 2050 2400 2050
 Wire Wire Line
-	2200 1950 1800 1950
+	2900 2050 3550 2050
 Wire Wire Line
-	1800 2050 2200 2050
+	2900 1450 3550 1450
 Wire Wire Line
-	2700 2050 3350 2050
+	2000 1250 2400 1250
 Wire Wire Line
-	2700 1450 3350 1450
+	2000 1450 2400 1450
 Wire Wire Line
-	1800 1250 2200 1250
-Wire Wire Line
-	1800 1450 2200 1450
-Wire Wire Line
-	1800 1550 2200 1550
+	2000 1550 2400 1550
 Text Notes 7850 950  0    50   ~ 0
 VLDO1 = 1v8 ... 3v3
-Text Notes 5550 6000 0    39   ~ 0
+Text Notes 5650 5550 0    39   ~ 0
 IF0= Ifce activation\nIF1= I2C addr
 $Comp
 L Device:CP1 C?
@@ -602,114 +598,103 @@ Wire Wire Line
 $Comp
 L power:GND #PWR020
 U 1 1 5C67608A
-P 3050 1150
-F 0 "#PWR020" H 3050 900 50  0001 C CNN
-F 1 "GND" V 3055 1022 50  0000 R CNN
-F 2 "" H 3050 1150 50  0001 C CNN
-F 3 "" H 3050 1150 50  0001 C CNN
-	1    3050 1150
+P 3250 1150
+F 0 "#PWR020" H 3250 900 50  0001 C CNN
+F 1 "GND" V 3255 1022 50  0000 R CNN
+F 2 "" H 3250 1150 50  0001 C CNN
+F 3 "" H 3250 1150 50  0001 C CNN
+	1    3250 1150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR022
 U 1 1 5C6760E0
-P 3050 1550
-F 0 "#PWR022" H 3050 1300 50  0001 C CNN
-F 1 "GND" V 3055 1422 50  0000 R CNN
-F 2 "" H 3050 1550 50  0001 C CNN
-F 3 "" H 3050 1550 50  0001 C CNN
-	1    3050 1550
+P 3250 1550
+F 0 "#PWR022" H 3250 1300 50  0001 C CNN
+F 1 "GND" V 3255 1422 50  0000 R CNN
+F 2 "" H 3250 1550 50  0001 C CNN
+F 3 "" H 3250 1550 50  0001 C CNN
+	1    3250 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR024
 U 1 1 5C676109
-P 3050 1850
-F 0 "#PWR024" H 3050 1600 50  0001 C CNN
-F 1 "GND" V 3055 1722 50  0000 R CNN
-F 2 "" H 3050 1850 50  0001 C CNN
-F 3 "" H 3050 1850 50  0001 C CNN
-	1    3050 1850
+P 3250 1850
+F 0 "#PWR024" H 3250 1600 50  0001 C CNN
+F 1 "GND" V 3255 1722 50  0000 R CNN
+F 2 "" H 3250 1850 50  0001 C CNN
+F 3 "" H 3250 1850 50  0001 C CNN
+	1    3250 1850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR027
 U 1 1 5C676132
-P 3050 2350
-F 0 "#PWR027" H 3050 2100 50  0001 C CNN
-F 1 "GND" V 3055 2222 50  0000 R CNN
-F 2 "" H 3050 2350 50  0001 C CNN
-F 3 "" H 3050 2350 50  0001 C CNN
-	1    3050 2350
+P 3250 2350
+F 0 "#PWR027" H 3250 2100 50  0001 C CNN
+F 1 "GND" V 3255 2222 50  0000 R CNN
+F 2 "" H 3250 2350 50  0001 C CNN
+F 3 "" H 3250 2350 50  0001 C CNN
+	1    3250 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR028
 U 1 1 5C67615B
-P 3050 2550
-F 0 "#PWR028" H 3050 2300 50  0001 C CNN
-F 1 "GND" V 3055 2422 50  0000 R CNN
-F 2 "" H 3050 2550 50  0001 C CNN
-F 3 "" H 3050 2550 50  0001 C CNN
-	1    3050 2550
+P 3250 2550
+F 0 "#PWR028" H 3250 2300 50  0001 C CNN
+F 1 "GND" V 3255 2422 50  0000 R CNN
+F 2 "" H 3250 2550 50  0001 C CNN
+F 3 "" H 3250 2550 50  0001 C CNN
+	1    3250 2550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR029
 U 1 1 5C676184
-P 2050 2850
-F 0 "#PWR029" H 2050 2600 50  0001 C CNN
-F 1 "GND" V 2055 2722 50  0000 R CNN
-F 2 "" H 2050 2850 50  0001 C CNN
-F 3 "" H 2050 2850 50  0001 C CNN
-	1    2050 2850
+P 2250 2850
+F 0 "#PWR029" H 2250 2600 50  0001 C CNN
+F 1 "GND" V 2255 2722 50  0000 R CNN
+F 2 "" H 2250 2850 50  0001 C CNN
+F 3 "" H 2250 2850 50  0001 C CNN
+	1    2250 2850
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR026
 U 1 1 5C6761CB
-P 2050 2150
-F 0 "#PWR026" H 2050 1900 50  0001 C CNN
-F 1 "GND" V 2055 2022 50  0000 R CNN
-F 2 "" H 2050 2150 50  0001 C CNN
-F 3 "" H 2050 2150 50  0001 C CNN
-	1    2050 2150
+P 2250 2150
+F 0 "#PWR026" H 2250 1900 50  0001 C CNN
+F 1 "GND" V 2255 2022 50  0000 R CNN
+F 2 "" H 2250 2150 50  0001 C CNN
+F 3 "" H 2250 2150 50  0001 C CNN
+	1    2250 2150
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR021
-U 1 1 5C6761F4
-P 2050 1350
-F 0 "#PWR021" H 2050 1100 50  0001 C CNN
-F 1 "GND" V 2055 1222 50  0000 R CNN
-F 2 "" H 2050 1350 50  0001 C CNN
-F 3 "" H 2050 1350 50  0001 C CNN
-	1    2050 1350
-	0    1    1    0   
-$EndComp
-Text GLabel 1800 1850 0    50   Input ~ 0
+Text GLabel 2000 1850 0    50   Input ~ 0
 CSI_DATA02
-Text GLabel 1800 1950 0    50   Input ~ 0
+Text GLabel 2000 1950 0    50   Input ~ 0
 CSI_DATA03
-Text GLabel 1800 2050 0    50   Input ~ 0
+Text GLabel 2000 2050 0    50   Input ~ 0
 CSI_DATA00
-Text GLabel 1800 1550 0    50   Input ~ 0
+Text GLabel 2000 1550 0    50   Input ~ 0
 CSI_DATA07
-Text GLabel 1800 1450 0    50   Input ~ 0
+Text GLabel 2000 1250 0    50   Input ~ 0
 CSI_DATA06
-Text GLabel 1800 1250 0    50   Input ~ 0
+Text GLabel 2000 1450 0    50   Input ~ 0
 CSI_DATA04
-Text GLabel 1800 1150 0    50   Input ~ 0
+Text GLabel 2000 1150 0    50   Input ~ 0
 CSI_HSYNC
-Text GLabel 1800 1050 0    50   Input ~ 0
+Text GLabel 2000 1050 0    50   Input ~ 0
 CSI_VSYNC
-Text GLabel 3350 1250 2    50   Input ~ 0
+Text GLabel 3550 1250 2    50   Input ~ 0
 CSI_MCLK
-Text GLabel 3350 1350 2    50   Input ~ 0
+Text GLabel 3550 1350 2    50   Input ~ 0
 CSI_PIXCLK
-Text GLabel 3350 1450 2    50   Input ~ 0
+Text GLabel 3550 1450 2    50   Input ~ 0
 CSI_DATA05
-Text GLabel 3350 2050 2    50   Input ~ 0
+Text GLabel 3550 2050 2    50   Input ~ 0
 CSI_DATA01
 Text GLabel 6800 1500 2    39   Input ~ 0
 SD1_D2
@@ -747,29 +732,27 @@ Text GLabel 10100 1500 2    50   Input ~ 0
 CSI_DATA03
 Text GLabel 10100 1800 2    50   Input ~ 0
 CSI_DATA00
-Text GLabel 5950 6700 2    39   Input ~ 0
+Text GLabel 6050 6250 2    39   Input ~ 0
 A71_NRST
-Text GLabel 5950 6500 2    39   Input ~ 0
+Text GLabel 6050 6050 2    39   Input ~ 0
 BOARD_SDA
-Text GLabel 4650 6500 0    39   Input ~ 0
+Text GLabel 4750 6050 0    39   Input ~ 0
 BOARD_SCL
 $Comp
 L power:GND #PWR033
 U 1 1 5C69B82C
-P 4200 6600
-F 0 "#PWR033" H 4200 6350 50  0001 C CNN
-F 1 "GND" V 4200 6400 50  0000 C CNN
-F 2 "" H 4200 6600 50  0001 C CNN
-F 3 "" H 4200 6600 50  0001 C CNN
-	1    4200 6600
+P 4300 6150
+F 0 "#PWR033" H 4300 5900 50  0001 C CNN
+F 1 "GND" V 4300 5950 50  0000 C CNN
+F 2 "" H 4300 6150 50  0001 C CNN
+F 3 "" H 4300 6150 50  0001 C CNN
+	1    4300 6150
 	0    1    1    0   
 $EndComp
 Text GLabel 9550 5300 2    39   Input ~ 0
 BOARD_SDA
 Text GLabel 9550 5400 2    39   Input ~ 0
 BOARD_SCL
-Text Notes 650  1000 0    50   ~ 0
-Maybe NVCC_CSI?
 Text Notes 9300 4900 0    39   ~ 0
 i2c4.sda
 Text Notes 9300 5200 0    39   ~ 0
@@ -811,24 +794,24 @@ $EndComp
 $Comp
 L power:GND #PWR034
 U 1 1 5C35172D
-P 6300 6850
-F 0 "#PWR034" H 6300 6600 50  0001 C CNN
-F 1 "GND" H 6305 6677 50  0000 C CNN
-F 2 "" H 6300 6850 50  0001 C CNN
-F 3 "" H 6300 6850 50  0001 C CNN
-	1    6300 6850
+P 6400 6400
+F 0 "#PWR034" H 6400 6150 50  0001 C CNN
+F 1 "GND" H 6405 6227 50  0000 C CNN
+F 2 "" H 6400 6400 50  0001 C CNN
+F 3 "" H 6400 6400 50  0001 C CNN
+	1    6400 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 6800 6300 6850
+	6400 6350 6400 6400
 Wire Wire Line
-	5950 6800 6300 6800
+	6050 6350 6400 6350
 Wire Wire Line
-	4200 6600 4650 6600
-Text GLabel 4600 6700 0    39   Input ~ 0
+	4300 6150 4750 6150
+Text GLabel 4700 6250 0    39   Input ~ 0
 DCDC_3V3
 Wire Wire Line
-	4600 6700 4650 6700
+	4700 6250 4750 6250
 Wire Wire Line
 	9300 4700 10400 4700
 Wire Wire Line
@@ -857,22 +840,22 @@ Wire Wire Line
 	3300 4250 3450 4250
 Wire Wire Line
 	3450 4350 3300 4350
-Text GLabel 3350 2650 2    50   Input ~ 0
+Text GLabel 3550 2650 2    50   Input ~ 0
 UART2_TXD
 Wire Wire Line
-	3350 2650 2700 2650
-Text GLabel 3350 2850 2    50   Input ~ 0
+	3550 2650 2900 2650
+Text GLabel 3550 2850 2    50   Input ~ 0
 UART2_RXD
 Wire Wire Line
-	3350 2850 2700 2850
-Text GLabel 3350 2750 2    50   Input ~ 0
+	3550 2850 2900 2850
+Text GLabel 3550 2750 2    50   Input ~ 0
 UART2_CTS
 Wire Wire Line
-	3350 2750 2700 2750
-Text GLabel 1800 2650 0    50   Input ~ 0
+	3550 2750 2900 2750
+Text GLabel 2000 2650 0    50   Input ~ 0
 UART2_RTS
 Wire Wire Line
-	1800 2650 2200 2650
+	2000 2650 2400 2650
 Wire Wire Line
 	3200 6150 3150 6150
 Wire Wire Line
@@ -887,14 +870,14 @@ Wire Wire Line
 	3300 5050 3450 5050
 Wire Wire Line
 	3450 5150 3300 5150
-Text GLabel 1800 2250 0    50   Input ~ 0
+Text GLabel 2000 2250 0    50   Input ~ 0
 UART4_RXD
-Text GLabel 3350 2250 2    50   Input ~ 0
+Text GLabel 3550 2250 2    50   Input ~ 0
 UART4_TXD
 Wire Wire Line
-	3350 2250 2700 2250
+	3550 2250 2900 2250
 Wire Wire Line
-	2200 2250 1800 2250
+	2400 2250 2000 2250
 Text Label 10050 4900 0    39   ~ 0
 TOUCH_SDA
 Text Label 10050 5200 0    39   ~ 0
@@ -915,9 +898,9 @@ Text Notes 9300 5000 0    39   ~ 0
 ecspi4.miso
 Text Notes 9300 5100 0    39   ~ 0
 ecspi4.ss0
-Text GLabel 3200 6950 2    39   Input ~ 0
+Text GLabel 3450 6950 2    39   Input ~ 0
 DBG_GPIO0
-Text GLabel 3200 7050 2    39   Input ~ 0
+Text GLabel 3450 7050 2    39   Input ~ 0
 DBG_GPIO1
 Text GLabel 3200 6550 2    39   Input ~ 0
 DBG_WKUP
@@ -927,21 +910,17 @@ Wire Wire Line
 	3200 6550 3150 6550
 Wire Wire Line
 	3150 6850 3200 6850
-Wire Wire Line
-	3200 6950 3150 6950
-Wire Wire Line
-	3150 7050 3200 7050
-Text Label 3100 2450 0    39   ~ 0
+Text Label 3300 2450 0    39   ~ 0
 UART3_CTS
-Text Label 2200 2750 2    39   ~ 0
+Text Label 2400 2750 2    39   ~ 0
 UART3_RTS
-Text Label 2200 2550 2    39   ~ 0
+Text Label 2400 2550 2    39   ~ 0
 UART3_RX
-Text Label 2200 2450 2    39   ~ 0
+Text Label 2400 2450 2    39   ~ 0
 UART3_TX
-Text Label 2200 2350 2    39   ~ 0
+Text Label 2400 2350 2    39   ~ 0
 UART5_RX
-Text Label 3100 2150 0    39   ~ 0
+Text Label 3300 2150 0    39   ~ 0
 UART5_TX
 Text Notes 6000 5150 0    39   ~ 0
 R.D. Caps outside imx
@@ -952,24 +931,119 @@ Wire Wire Line
 Connection ~ 1300 6150
 Wire Wire Line
 	1300 6150 1300 6400
-Text GLabel 3350 1650 2    50   Input ~ 0
+Text GLabel 3550 1650 2    50   Input ~ 0
 SNVS3
-Text GLabel 3350 1750 2    50   Input ~ 0
+Text GLabel 3550 1750 2    50   Input ~ 0
 SNVS1
-Text GLabel 1800 1650 0    50   Input ~ 0
+Text GLabel 2000 1650 0    50   Input ~ 0
 SNVS0
-Text GLabel 3350 1950 2    50   Input ~ 0
+Text GLabel 3550 1950 2    50   Input ~ 0
 SNVS4
 Wire Wire Line
-	3350 1650 2700 1650
+	3550 1650 2900 1650
 Wire Wire Line
-	2700 1750 3350 1750
+	2900 1750 3550 1750
 Wire Wire Line
-	3350 1950 2700 1950
+	3550 1950 2900 1950
 Wire Wire Line
-	2200 1650 1800 1650
+	2400 1650 2000 1650
 Wire Wire Line
-	3100 2150 2700 2150
+	3300 2150 2900 2150
 Wire Wire Line
-	2700 2450 3100 2450
+	2900 2450 3300 2450
+Wire Wire Line
+	3150 6950 3450 6950
+Wire Wire Line
+	3450 7050 3150 7050
+Text GLabel 1050 1200 0    39   Input ~ 0
+BOARD_SCL
+Text GLabel 1050 1100 0    39   Input ~ 0
+BOARD_SDA
+$Comp
+L nano-rescue:R SB?
+U 1 1 5F032FDC
+P 1350 1100
+AR Path="/5F032FDC" Ref="SB?"  Part="1" 
+AR Path="/5B867D17/5F032FDC" Ref="SB?"  Part="1" 
+AR Path="/5BB88783/5F032FDC" Ref="SB?"  Part="1" 
+AR Path="/5B4B8A5A/5F032FDC" Ref="SB5"  Part="1" 
+F 0 "SB5" V 1400 1300 50  0000 C CNN
+F 1 "0" V 1350 1100 50  0000 C CNN
+F 2 "Custom Components:R_0402_narrow" V 1280 1100 50  0001 C CNN
+F 3 "" H 1350 1100 50  0000 C CNN
+F 4 "0402" V 1050 1100 50  0001 C CNN "SMD Size"
+F 5 "?" V 1350 1100 50  0001 C CNN "Tolerance"
+	1    1350 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L nano-rescue:R SB?
+U 1 1 5F032FE4
+P 1350 1200
+AR Path="/5F032FE4" Ref="SB?"  Part="1" 
+AR Path="/5B867D17/5F032FE4" Ref="SB?"  Part="1" 
+AR Path="/5BB88783/5F032FE4" Ref="SB?"  Part="1" 
+AR Path="/5B4B8A5A/5F032FE4" Ref="SB6"  Part="1" 
+F 0 "SB6" V 1400 1400 50  0000 C CNN
+F 1 "0" V 1350 1200 50  0000 C CNN
+F 2 "Custom Components:R_0402_narrow" V 1280 1200 50  0001 C CNN
+F 3 "" H 1350 1200 50  0000 C CNN
+F 4 "0402" V 1050 1200 50  0001 C CNN "SMD Size"
+F 5 "?" V 1350 1200 50  0001 C CNN "Tolerance"
+	1    1350 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 1100 1050 1100
+Wire Wire Line
+	1050 1200 1200 1200
+Wire Wire Line
+	2150 1100 1500 1100
+Wire Wire Line
+	2250 1200 1500 1200
+Text Notes 1350 1000 2    50   ~ 0
+i.MX6 ULZ: Close
+$Comp
+L power:GND #PWR021
+U 1 1 5C6761F4
+P 2250 1350
+F 0 "#PWR021" H 2250 1100 50  0001 C CNN
+F 1 "GND" V 2255 1222 50  0000 R CNN
+F 2 "" H 2250 1350 50  0001 C CNN
+F 3 "" H 2250 1350 50  0001 C CNN
+	1    2250 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 1150 2250 1150
+Wire Wire Line
+	2000 1050 2150 1050
+Wire Wire Line
+	2150 1100 2150 1050
+Connection ~ 2150 1050
+Wire Wire Line
+	2150 1050 2400 1050
+Wire Wire Line
+	2250 1200 2250 1150
+Connection ~ 2250 1150
+Wire Wire Line
+	2250 1150 2400 1150
+Text Notes 9900 5550 2    50   ~ 0
+i.MX6 ULZ: Open
+Wire Notes Line
+	9100 5200 10000 5200
+Wire Notes Line
+	10000 5200 10000 5600
+Wire Notes Line
+	10000 5600 9100 5600
+Wire Notes Line
+	9100 5600 9100 5200
+Wire Notes Line
+	1500 850  1500 1300
+Wire Notes Line
+	1500 1300 600  1300
+Wire Notes Line
+	600  1300 600  850 
+Wire Notes Line
+	600  850  1500 850 
 $EndSCHEMATC
