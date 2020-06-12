@@ -303,8 +303,6 @@ ONOFF - Not connected (controlled by PMIC)\nIMX6ULLRM Fig.51-2
 Text Notes 3850 3050 0    39   ~ 0
 POR_B - Open drain input controlled by PMIC
 NoConn ~ 5650 3400
-Text Label 7650 3850 0    50   ~ 0
-SNVS2
 Text Label 7650 3250 0    50   ~ 0
 SNVS8
 Text Label 5650 2450 2    50   ~ 0
@@ -312,7 +310,7 @@ BOOT1
 Text Label 5650 2550 2    50   ~ 0
 BOOT0
 Text GLabel 3500 1900 0    39   Input ~ 0
-VDD_SNVS_IN
+VDD_SNVS
 Wire Wire Line
 	5650 2550 5100 2550
 Wire Wire Line
@@ -686,6 +684,8 @@ Text Notes 7700 4450 0    39   ~ 0
 No place on PCB
 Wire Wire Line
 	7650 3350 8000 3350
-Text GLabel 8000 3350 2    39   Input ~ 0
+Text GLabel 8000 3850 2    39   Input ~ 0
 PMIC_INT
+Text GLabel 8000 3350 2    39   Input ~ 0
+PMIC_WDI
 $EndSCHEMATC

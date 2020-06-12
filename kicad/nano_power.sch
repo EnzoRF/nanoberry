@@ -352,7 +352,7 @@ F 3 "" H 5500 -700 60  0001 C CNN
 $EndComp
 Text GLabel 2650 3000 0    50   Input ~ 0
 VDD_HIGH_IN
-Text GLabel 2900 3950 0    50   Input ~ 0
+Text GLabel 3350 4150 0    50   Input ~ 0
 VDD_SNVS
 Text GLabel 2200 1200 0    50   Input ~ 0
 VDD_SOC_IN
@@ -762,47 +762,8 @@ F 5 "0402" H 7565 4214 50  0000 L CNN "SMD size"
 $EndComp
 Wire Wire Line
 	7450 4500 7450 4550
-Text GLabel 2900 4350 0    50   Input ~ 0
-LICELL
-$Comp
-L Device:D_Schottky_ALT D1
-U 1 1 5C318A68
-P 3250 3950
-F 0 "D1" H 3250 3734 50  0000 C CNN
-F 1 "D_Schottky_ALT" H 3250 3825 50  0000 C CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 3250 3950 50  0001 C CNN
-F 3 "~" H 3250 3950 50  0001 C CNN
-	1    3250 3950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Schottky_ALT D2
-U 1 1 5C318B1E
-P 3250 4350
-F 0 "D2" H 3250 4134 50  0000 C CNN
-F 1 "D_Schottky_ALT" H 3250 4225 50  0000 C CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 3250 4350 50  0001 C CNN
-F 3 "~" H 3250 4350 50  0001 C CNN
-	1    3250 4350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2900 3950 3100 3950
-Wire Wire Line
-	2900 4350 3100 4350
-Wire Wire Line
-	3400 3950 3550 3950
-Wire Wire Line
-	3550 3950 3550 4150
-Wire Wire Line
-	3550 4350 3400 4350
-Connection ~ 3550 4150
-Wire Wire Line
-	3550 4150 3550 4350
-Wire Wire Line
-	3550 4150 4000 4150
-Text Notes 2950 4550 0    50   ~ 0
-Q: Diodes required?
+Text Notes 2350 4300 0    50   ~ 0
+Removed diodes from reference design
 Wire Wire Line
 	7850 2300 7850 2400
 Wire Wire Line
@@ -966,8 +927,6 @@ Wire Wire Line
 	4000 4600 4000 4650
 Wire Wire Line
 	2650 3000 3000 3000
-Text GLabel 4000 3800 0    39   Input ~ 0
-VDD_SNVS_IN
 Wire Wire Line
-	4000 3800 4000 4150
+	3350 4150 4000 4150
 $EndSCHEMATC
