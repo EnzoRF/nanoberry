@@ -180,20 +180,20 @@ Text GLabel 3200 6450 2    39   Input ~ 8
 ETH_MDIO
 Text GLabel 3200 6350 2    39   Input ~ 8
 ETH_MDC
-Text Notes 4400 5550 0    118  Italic 24
+Text Notes 4350 6000 0    118  Italic 24
 CRYPTO MEM
 $Comp
 L custom_components:A7101CH U3
 U 1 1 5BE0FC32
-P 5400 6100
-F 0 "U3" H 5400 6375 50  0000 C CNN
-F 1 "A7101CH" H 5400 6284 50  0000 C CNN
-F 2 "Custom Components:SOT909-1" H 5400 6100 50  0001 C CNN
-F 3 "" H 5400 6100 50  0001 C CNN
-	1    5400 6100
+P 5350 6550
+F 0 "U3" H 5350 6825 50  0000 C CNN
+F 1 "A7101CH" H 5350 6734 50  0000 C CNN
+F 2 "Custom Components:SOT909-1" H 5350 6550 50  0001 C CNN
+F 3 "" H 5350 6550 50  0001 C CNN
+	1    5350 6550
 	1    0    0    -1  
 $EndComp
-Text GLabel 6050 6150 2    39   Input ~ 0
+Text GLabel 6000 6600 2    39   Input ~ 0
 DCDC_3V3
 Wire Wire Line
 	3300 3550 3450 3550
@@ -213,7 +213,7 @@ Text GLabel 3250 950  2    50   Input ~ 10
 5V
 Text GLabel 2000 950  0    50   Input ~ 10
 DCDC_3V3
-NoConn ~ 4750 6350
+NoConn ~ 4700 6800
 Text GLabel 5050 1400 0    50   Input ~ 0
 NVCC_SD
 Text Notes 5600 800  0    50   ~ 0
@@ -286,7 +286,7 @@ Wire Wire Line
 	2000 1550 2400 1550
 Text Notes 7850 950  0    50   ~ 0
 VLDO1 = 1v8 ... 3v3
-Text Notes 5650 5550 0    39   ~ 0
+Text Notes 5600 6000 0    39   ~ 0
 IF0= Ifce activation\nIF1= I2C addr
 $Comp
 L Device:CP1 C?
@@ -732,21 +732,21 @@ Text GLabel 10100 1500 2    50   Input ~ 0
 CSI_DATA03
 Text GLabel 10100 1800 2    50   Input ~ 0
 CSI_DATA00
-Text GLabel 6050 6250 2    39   Input ~ 0
+Text GLabel 6000 6700 2    39   Input ~ 0
 A71_NRST
-Text GLabel 6050 6050 2    39   Input ~ 0
+Text GLabel 6000 6500 2    39   Input ~ 0
 BOARD_SDA
-Text GLabel 4750 6050 0    39   Input ~ 0
+Text GLabel 4700 6500 0    39   Input ~ 0
 BOARD_SCL
 $Comp
 L power:GND #PWR033
 U 1 1 5C69B82C
-P 4300 6150
-F 0 "#PWR033" H 4300 5900 50  0001 C CNN
-F 1 "GND" V 4300 5950 50  0000 C CNN
-F 2 "" H 4300 6150 50  0001 C CNN
-F 3 "" H 4300 6150 50  0001 C CNN
-	1    4300 6150
+P 4250 6600
+F 0 "#PWR033" H 4250 6350 50  0001 C CNN
+F 1 "GND" V 4250 6400 50  0000 C CNN
+F 2 "" H 4250 6600 50  0001 C CNN
+F 3 "" H 4250 6600 50  0001 C CNN
+	1    4250 6600
 	0    1    1    0   
 $EndComp
 Text GLabel 9550 5300 2    39   Input ~ 0
@@ -794,24 +794,24 @@ $EndComp
 $Comp
 L power:GND #PWR034
 U 1 1 5C35172D
-P 6400 6400
-F 0 "#PWR034" H 6400 6150 50  0001 C CNN
-F 1 "GND" H 6405 6227 50  0000 C CNN
-F 2 "" H 6400 6400 50  0001 C CNN
-F 3 "" H 6400 6400 50  0001 C CNN
-	1    6400 6400
+P 6350 6850
+F 0 "#PWR034" H 6350 6600 50  0001 C CNN
+F 1 "GND" H 6355 6677 50  0000 C CNN
+F 2 "" H 6350 6850 50  0001 C CNN
+F 3 "" H 6350 6850 50  0001 C CNN
+	1    6350 6850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 6350 6400 6400
+	6350 6800 6350 6850
 Wire Wire Line
-	6050 6350 6400 6350
+	6000 6800 6350 6800
 Wire Wire Line
-	4300 6150 4750 6150
-Text GLabel 4700 6250 0    39   Input ~ 0
+	4250 6600 4700 6600
+Text GLabel 4650 6700 0    39   Input ~ 0
 DCDC_3V3
 Wire Wire Line
-	4700 6250 4750 6250
+	4650 6700 4700 6700
 Wire Wire Line
 	9300 4700 10400 4700
 Wire Wire Line

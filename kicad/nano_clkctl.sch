@@ -305,8 +305,6 @@ POR_B - Open drain input controlled by PMIC
 NoConn ~ 5650 3400
 Text Label 7650 3850 0    50   ~ 0
 SNVS2
-Text Label 7650 3350 0    50   ~ 0
-SNVS7
 Text Label 7650 3250 0    50   ~ 0
 SNVS8
 Text Label 5650 2450 2    50   ~ 0
@@ -686,4 +684,8 @@ Text Notes 7700 4350 0    39   ~ 0
 No place on PCB
 Text Notes 7700 4450 0    39   ~ 0
 No place on PCB
+Wire Wire Line
+	7650 3350 8000 3350
+Text GLabel 8000 3350 2    39   Input ~ 0
+PMIC_INT
 $EndSCHEMATC
